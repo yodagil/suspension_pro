@@ -1,0 +1,22 @@
+{
+  "status": "split_into_two_nonoverlapping_job_id_ranges",
+  "global_total": 1050,
+  "first": {
+    "start_id": 1,
+    "end_id": 525,
+    "shard_name": "first_0001_0525",
+    "branch": "main",
+    "control": "shards/first_0001_0525"
+  },
+  "second": {
+    "start_id": 526,
+    "end_id": 1050,
+    "shard_name": "second_0526_1050",
+    "branch": "stable-region-526-1050",
+    "control": "shards/second_0526_1050"
+  },
+  "physical_model_changed": false,
+  "old_controlled_stop_preserved_complete_results": 43,
+  "partial_case_0040_checkpoint_reused": true,
+  "updated_utc": "2026-11-14T16:24:54.886509+00:00"
+}

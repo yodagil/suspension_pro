@@ -6,6 +6,9 @@ preparation_errors/
 quarantine/
 .runner.lock
 .artifact_audit_cache.json
+*.lock
+shards/*/logs/
+shards/*/quarantine/
 *.pid
 *.tmp
 __pycache__/

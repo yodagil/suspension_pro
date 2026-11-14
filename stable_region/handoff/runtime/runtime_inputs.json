@@ -1,0 +1,11 @@
+{
+  "runtime": "GNU Octave10.3.0, original Linuxx86_64 MEX binaries",
+  "platform": "linux-64; x86-64-v4/IceLake lock",
+  "micromamba_version": "2.10.0",
+  "sha256": {
+    "environment-explicit.txt": "7cc74dc79c80f26b968ea5af46f7522716b4c2a20fb29a9a530fc987b6acabaa",
+    "micromamba_linux64.tar.bz2": "9a97976244929bbae28fb1fae504e74a3e7e6d1932870e3a03321f01b7fbd07b"
+  },
+  "conda_standalone_url": "https://conda.anaconda.org/conda-forge/linux-64/conda-standalone-26.9.4.post1-h643be8f_0.conda",
+  "conda_standalone_sha256": "16ca154943dee985b84294c20baa81bce1e935eb0896be51e2d15ea5a45ac66b"
+}

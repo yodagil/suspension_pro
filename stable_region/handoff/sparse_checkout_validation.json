@@ -1,0 +1,25 @@
+{
+  "sparse_checkout_test": "pass",
+  "required_paths": 7,
+  "original_result_trajectory_files_downloaded": 0,
+  "patterns": [
+    "/*",
+    "!/*/",
+    "/data/",
+    "/result/run_configuration.mat",
+    "/stable_region/code/",
+    "/stable_region/physics_binding.json",
+    "/stable_region/README.md",
+    "/stable_region/METHODS.md",
+    "/stable_region/comparison/reference_core/Qref_0.mat",
+    "/stable_region/comparison/validation/binary_binding.json",
+    "/stable_region/carsim_fullcar_1050/batch_configuration.mat",
+    "/stable_region/carsim_fullcar_1050/case_index.json",
+    "/stable_region/carsim_fullcar_1050/case_index.csv",
+    "/stable_region/carsim_fullcar_1050/regions/",
+    "/stable_region/carsim_fullcar_1050/images/",
+    "/stable_region/carsim_fullcar_1050/shards/",
+    "/stable_region/handoff/runtime/",
+    "/stable_region/handoff/HANDOFF_PROMPT.md"
+  ]
+}

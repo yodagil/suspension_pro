@@ -1,0 +1,9 @@
+첨부 ZIP과 HANDOFF_PROMPT.md를 읽고 https://github.com/yodagil/suspension_pro의 carsim_fullcar 안정영역을 이어서 계산해 줘.
+
+기존 대화는 원래 조건 ID1~525를 맡고 있으므로, 너는 ID526~1050의525조건만 맡아. 원래 result/를 만든34상태 모델·보정·검증된 엔진·61×121격자·0.0005초 RK4·0.001초 관측·10초 안정영역 판정을 유지하고, 각 후보 셀의 중심도 따로 적분해. 이미지도 생성해.
+
+별도 clone/작업 디렉터리와 stable-region-526-1050 브랜치를 사용해. 기존 대화의 프로세스나1~525번 결과를 건드리지 마. 범위 실행 옵션은 --start-id 526 --end-id 1050 --shard-name second_0526_1050 --publish-branch stable-region-526-1050 --publish-every 25이고, 런타임·해시·명령은 ZIP의 인계 문서대로 검증해.
+
+계산만 하지 말고, 매25조건과 범위 완료 시 MAT·PNG·이미지 JSON·자기 shard 진행률을 GitHub 브랜치에 커밋/push해. stage 목록과 원격 SHA를 확인하고 credentials/PID/로그/체크포인트는 올리지 마. 공용 진행률과 다른 절반의 파일을 덮어쓰지 마. 인증 토큰이나 비밀번호는 채팅에 요구하지 마.
+
+후반부525개가 전부 검증되면 브랜치와 PR/compare 링크를 알려 줘. 두 절반1~1050의 누락·중복·조건/서명 호환성을 검증한 뒤에만 전체 LUT·QC CSV를 최종화해. 누락된 결과를0으로 채우거나525개 완료를1050개 완료라고 표시하면 안 돼.

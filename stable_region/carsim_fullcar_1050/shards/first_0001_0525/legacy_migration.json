@@ -1,0 +1,8 @@
+{
+  "legacy_binding_sha256": "89088e677df31e6dbb7af7a0a810a1862f05f666bf29ea03ed1135176df827ae",
+  "verified_at": "2026-11-14T16:27:15+00:00",
+  "allowed_changed_file": "stable_region/code/run_region_batch.py",
+  "all_other_frozen_files_equal": true,
+  "old_controller_sha256": "715a3853997b50396f06067ec7559b41a23a302368fc497b50d8f222cee2e9d5",
+  "new_controller_sha256": "123b8b2ab7a65da0877d38f0dee47a39e2926784c55dbece0c7a05167936dd2e"
+}

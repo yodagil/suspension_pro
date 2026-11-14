@@ -1,5 +1,9 @@
 # carsim_fullcar 전체1,050조건 안정영역
 
+현재 작업은 원래 **조건 ID1~525**와 **526~1050**으로 분할했습니다. 이 대화는1~525만 계산하고525에서 종료합니다. 후반부는 별도 작업 디렉터리와 `stable-region-526-1050` 브랜치에서 계산합니다. 분담은 [work_split.json](work_split.json), 전반부 실제 진행률은 [shards/first_0001_0525/progress.json](shards/first_0001_0525/progress.json)을 확인하세요. 기존 최상위 실행 상태·진행률은 분할 전 기록입니다.
+
+후반부의 [인계 ZIP과 상세 프롬프트](../handoff/HANDOFF_PROMPT.md)를 제공합니다. 범위별 완료는525/525로 표시하며 전체1,050조건 완료와 구분합니다.
+
 기존 `result/` 1,050회를 생성한 **원래 34상태 full-car 모델**을 사용합니다. 영역 계산은 GNU Octave와 검증된 C++ MEX에서 실행하며, 원래 모델·물리 데이터·보정·의존 소스 8개의 SHA-256을 확인합니다.
 
 | 항목 | 조건 |
@@ -10,7 +14,7 @@
 | 마모 | [0,0,0,0], [25,25,0,0], [50,50,25,25], [0,0,25,25], [25,25,50,50] |
 | 전체 | 5 × 6 × 5 × 7 = **1,050조건**, 마모별 **210조건** |
 
-`case_index.csv`와 `case_index.json`의 상태는 **평형점·입력 준비 상태**입니다. 실제 안정영역 완료 수는 `progress.json`의 `completed`와 `progress`를 확인해야 합니다. `runner_state.json`은 계산 프로세스의 최근 상태를 기록합니다. GitHub 파일은 일정 조건 수마다 갱신되는 계산 스냅샷이며, 실시간 프로세스와 시차가 있을 수 있습니다.
+`case_index.csv`와 `case_index.json`의 상태는 **평형점·입력 준비 상태**입니다. 분할 후 실제 안정영역 완료 수는 각 `shards/<이름>/progress.json`을 확인하고, 실행 상태는 같은 shard의 `runner_state.json`에서 확인합니다. GitHub 파일은 일정 조건 수마다 갱신되는 계산 스냅샷이며, 실시간 프로세스와 시차가 있을 수 있습니다.
 
 ## 계산 기준
 
@@ -37,7 +41,9 @@
 원래 `hmc_mex`와 `stable_region/code/hmc_region_mex`를 현재 플랫폼용으로 준비한 뒤, 저장소 루트에서 실행합니다.
 
 ```sh
-python stable_region/code/run_region_batch.py --octave octave-cli --publish-every 25
+python stable_region/code/run_region_batch.py --octave octave-cli \
+  --start-id 1 --end-id 525 --shard-name first_0001_0525 \
+  --publish-branch main --publish-every 25
 ```
 
 관리형 환경에서 실행 중인 명령은 로컬 Octave 런타임 래퍼를 추가로 사용합니다.
@@ -45,7 +51,9 @@ python stable_region/code/run_region_batch.py --octave octave-cli --publish-ever
 ```sh
 python stable_region/code/run_region_batch.py \
   --runtime-wrapper /workspace/work/octave-runtime/run-in-env.sh \
-  --octave octave-cli --skip-prepare --priority 302,305,307 --publish-every 25
+  --octave octave-cli --skip-prepare --priority 302,305,307 \
+  --start-id 1 --end-id 525 --shard-name first_0001_0525 \
+  --publish-branch main --publish-every 25
 ```
 
 `--skip-prepare`는 전체 입력 준비를 완료했을 때만 사용합니다. 동일 명령을 다시 실행하면 검증된 완료 결과와 부분 체크포인트를 재사용합니다. 코드·바이너리·설정이 고정된 서명과 다르면 이어 계산하지 않습니다. 동시에 두 writer가 실행되지 않도록 잠금을 사용하며, 프로세스 종료 후에는 명령을 다시 실행해 재개할 수 있습니다. 실행 환경이 종료된 동안에는 계산이 진행되지 않습니다.

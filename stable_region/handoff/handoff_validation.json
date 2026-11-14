@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-11-14T16:31:00.928667+00:00",
+  "scope": [
+    526,
+    1050
+  ],
+  "prepared_context_count": 525,
+  "frozen_controller_sha256": "123b8b2ab7a65da0877d38f0dee47a39e2926784c55dbece0c7a05167936dd2e",
+  "full_second_half_trajectories_executed": 0,
+  "isolated_startup_status": "paused_by_limit",
+  "assigned_total": 525,
+  "native_rhs_and_observations_bitwise_equal": true,
+  "reference_H_nodes_checked": 7381,
+  "native_MEX_bytes_preserved": true,
+  "portable_wrapper_existing_exact_environment": "passed",
+  "fresh_full_environment_download_repeated": false,
+  "first_half_controller_scope": [
+    1,
+    525
+  ],
+  "first_half_restarted": true,
+  "original_trajectory_files_in_archive": 0
+}

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "tests": [
+    "bash-n setup/run scripts",
+    "Python syntax verification/extractor",
+    "bundled micromamba2.10.0 archive SHA256",
+    "public explicitlock SHA256",
+    "Linuxx86_64-v4/AVX512 host check",
+    "setup existing exact prefix reuse",
+    "relocated project original twoMEX load",
+    "context526 bitwise RHS/observation comparison",
+    "two-point lift and zero tyre restart",
+    "all7381 referenceH mask recomputation",
+    "verified .conda selective extraction yields original conda-standalone binary bytes"
+  ],
+  "fresh_environment_install_repeated": false,
+  "full_region_rollouts": 0,
+  "tested_octave_version": "10.3.0",
+  "tested_existing_prefix": "/workspace/work/octave-runtime/env",
+  "frozen_region_mex_sha256": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+  "source_sha256": {
+    "README.md": "68aa872c231f91df74b788ae46abea6dd9c2a9b79e1e634a185e743968bd7ba4",
+    "environment-explicit.txt": "7cc74dc79c80f26b968ea5af46f7522716b4c2a20fb29a9a530fc987b6acabaa",
+    "extract_conda_standalone.py": "4145caf4b9f7918b8efc8b89fb248efeccea44c341b7740a0af83ced3d7299dc",
+    "micromamba_linux64.tar.bz2": "9a97976244929bbae28fb1fae504e74a3e7e6d1932870e3a03321f01b7fbd07b",
+    "run_octave.sh": "2348bcf0410f28f086753aa1c5d305bec7810af4f3aa5de66f61f9452bde53dd",
+    "runtime_inputs.json": "24252461878355a7f8444baa189d44870fe6eb3c080099cc625546bf3329db74",
+    "setup_octave.sh": "af51df1d5a8db9382ca983f65f9c2567f319baa169242840d1a2533383a26f3a",
+    "smoke_runtime.m": "e130db6ab40c48580c30994373e2abd7e4f820790f590fdbf863910860993500",
+    "verify_runtime_inputs.py": "d48e5d52caa2bb7f4d7ea1647345a4ed76986adea6f6b0eca6d1eb81a18a0a93"
+  }
+}

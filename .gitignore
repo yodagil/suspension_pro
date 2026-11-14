@@ -30,3 +30,5 @@ __pycache__/
 # Simulation outputs are intentionally versioned, including the execution log.
 !result/
 !result/**
+# Local locked Octave environment for the portable handoff.
+.runtime/

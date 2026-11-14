@@ -1,53 +1,6 @@
 {
-  "schema": "carsim_fullcar_1050_runner_v1",
-  "model": "carsim_fullcar",
-  "pid": 37651,
-  "invocation_started_at": "2026-11-14T12:40:18+00:00",
-  "status": "running",
-  "total": 1050,
-  "active_job_id": 39,
-  "newly_completed": 40,
-  "command": [
-    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
-    "/workspace/work/suspension_pro/stable_region/code/run_region_batch.py",
-    "--runtime-wrapper",
-    "/workspace/work/octave-runtime/run-in-env.sh",
-    "--octave",
-    "octave-cli",
-    "--skip-prepare",
-    "--priority",
-    "302,305,307",
-    "--publish-every",
-    "25"
-  ],
-  "reference_mode": "model_actual_front_trim",
-  "threads": 4,
-  "images_required": true,
-  "environment_lifetime_guaranteed": false,
-  "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
-  "resumed": 3,
-  "last_heartbeat_at": "2026-11-14T16:09:27+00:00",
-  "completed": 43,
-  "progress_text": "43/1050",
-  "attempt": 1,
-  "condition_id": 39,
-  "wear_case_id": 1,
-  "active_command": [
-    "/workspace/work/octave-runtime/run-in-env.sh",
-    "octave-cli",
-    "--quiet",
-    "--no-init-file",
-    "--no-site-file",
-    "--no-history",
-    "--eval",
-    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(39);"
-  ],
-  "active_log": "logs/case_0039.log",
-  "child_pid": null,
-  "last_completed_job_id": 39,
-  "last_publish_error": {
-    "type": "CalledProcessError",
-    "message": "Git publication failed; local computation continues",
-    "at": "2026-11-14T15:59:35+00:00"
-  }
+  "status": "superseded_by_split",
+  "active_control": "shards/first_0001_0525/runner_state.json",
+  "assignments": "work_split.json",
+  "note": "Read per-shard state; this legacy global supervisor has stopped."
 }
