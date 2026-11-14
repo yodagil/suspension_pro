@@ -1,0 +1,32 @@
+[
+  {
+    "job_id": 302,
+    "trim_bitwise_equal": true,
+    "calibrated_data_equal": true,
+    "physical_configuration_equal": true,
+    "calibration_equal": true,
+    "nonreference_policy_equal": true,
+    "old_H_nodes": 522,
+    "own_H_nodes": 523
+  },
+  {
+    "job_id": 305,
+    "trim_bitwise_equal": true,
+    "calibrated_data_equal": true,
+    "physical_configuration_equal": true,
+    "calibration_equal": true,
+    "nonreference_policy_equal": true,
+    "old_H_nodes": 517,
+    "own_H_nodes": 517
+  },
+  {
+    "job_id": 307,
+    "trim_bitwise_equal": true,
+    "calibrated_data_equal": true,
+    "physical_configuration_equal": true,
+    "calibration_equal": true,
+    "nonreference_policy_equal": true,
+    "old_H_nodes": 512,
+    "own_H_nodes": 513
+  }
+]

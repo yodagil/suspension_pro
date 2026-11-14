@@ -1,0 +1,12 @@
+# Recomputable per-condition contexts and partial trajectory checkpoints.
+context/
+checkpoints/
+logs/
+preparation_errors/
+quarantine/
+.runner.lock
+.artifact_audit_cache.json
+*.pid
+*.tmp
+__pycache__/
+matplotlib-cache/

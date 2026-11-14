@@ -1,0 +1,81 @@
+{
+  "updated_utc": "2026-11-14T12:40:18.884306+00:00",
+  "total": 1050,
+  "completed": 3,
+  "failed": 0,
+  "pending": 1047,
+  "progress": "3/1050",
+  "wear_progress": [
+    {
+      "wear_case_id": 1,
+      "wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "completed": 1,
+      "total": 210,
+      "progress": "1/210",
+      "failed": 0
+    },
+    {
+      "wear_case_id": 2,
+      "wear": [
+        25.0,
+        25.0,
+        0.0,
+        0.0
+      ],
+      "completed": 2,
+      "total": 210,
+      "progress": "2/210",
+      "failed": 0
+    },
+    {
+      "wear_case_id": 3,
+      "wear": [
+        50.0,
+        50.0,
+        25.0,
+        25.0
+      ],
+      "completed": 0,
+      "total": 210,
+      "progress": "0/210",
+      "failed": 0
+    },
+    {
+      "wear_case_id": 4,
+      "wear": [
+        0.0,
+        0.0,
+        25.0,
+        25.0
+      ],
+      "completed": 0,
+      "total": 210,
+      "progress": "0/210",
+      "failed": 0
+    },
+    {
+      "wear_case_id": 5,
+      "wear": [
+        25.0,
+        25.0,
+        50.0,
+        50.0
+      ],
+      "completed": 0,
+      "total": 210,
+      "progress": "0/210",
+      "failed": 0
+    }
+  ],
+  "status": "in_progress",
+  "images": 3,
+  "known_empty_by_trim_policy": 1,
+  "invalid_results": {},
+  "aggregate_complete": false,
+  "unexpected_result_ids": []
+}
