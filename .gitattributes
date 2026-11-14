@@ -1,4 +1,4 @@
-*.mat binary
+*.mat binary -delta
 *.png binary
 *.zip binary
 # Preserve uploaded CSV bytes, including their recorded Windows line endings.

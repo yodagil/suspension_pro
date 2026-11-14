@@ -4,14 +4,14 @@
   "wear_case_count": 5,
   "conditions_per_wear_case": 210,
   "requested": 1050,
-  "succeeded": 0,
-  "processed": 0,
+  "succeeded": 407,
+  "processed": 407,
   "failed": 0,
-  "pending": 1050,
+  "pending": 643,
   "not_requested": 0,
-  "progress_label": "0/1050",
-  "processed_label": "0/1050",
-  "state": "waiting",
+  "progress_label": "407/1050",
+  "processed_label": "407/1050",
+  "state": "in_progress",
   "note": "Only completed/resumed cases count as successful.",
   "wear_cases": [
     {
@@ -24,14 +24,14 @@
       ],
       "total": 210,
       "requested": 210,
-      "succeeded": 0,
-      "processed": 0,
+      "succeeded": 104,
+      "processed": 104,
       "failed": 0,
-      "pending": 210,
+      "pending": 106,
       "not_requested": 0,
-      "progress_label": "0/210",
-      "processed_label": "0/210",
-      "state": "waiting"
+      "progress_label": "104/210",
+      "processed_label": "104/210",
+      "state": "in_progress"
     },
     {
       "wear_case_id": 2,
@@ -43,14 +43,14 @@
       ],
       "total": 210,
       "requested": 210,
-      "succeeded": 0,
-      "processed": 0,
+      "succeeded": 100,
+      "processed": 100,
       "failed": 0,
-      "pending": 210,
+      "pending": 110,
       "not_requested": 0,
-      "progress_label": "0/210",
-      "processed_label": "0/210",
-      "state": "waiting"
+      "progress_label": "100/210",
+      "processed_label": "100/210",
+      "state": "in_progress"
     },
     {
       "wear_case_id": 3,
@@ -62,14 +62,14 @@
       ],
       "total": 210,
       "requested": 210,
-      "succeeded": 0,
-      "processed": 0,
+      "succeeded": 101,
+      "processed": 101,
       "failed": 0,
-      "pending": 210,
+      "pending": 109,
       "not_requested": 0,
-      "progress_label": "0/210",
-      "processed_label": "0/210",
-      "state": "waiting"
+      "progress_label": "101/210",
+      "processed_label": "101/210",
+      "state": "in_progress"
     },
     {
       "wear_case_id": 4,
@@ -81,14 +81,14 @@
       ],
       "total": 210,
       "requested": 210,
-      "succeeded": 0,
-      "processed": 0,
+      "succeeded": 52,
+      "processed": 52,
       "failed": 0,
-      "pending": 210,
+      "pending": 158,
       "not_requested": 0,
-      "progress_label": "0/210",
-      "processed_label": "0/210",
-      "state": "waiting"
+      "progress_label": "52/210",
+      "processed_label": "52/210",
+      "state": "in_progress"
     },
     {
       "wear_case_id": 5,
@@ -100,14 +100,14 @@
       ],
       "total": 210,
       "requested": 210,
-      "succeeded": 0,
-      "processed": 0,
+      "succeeded": 50,
+      "processed": 50,
       "failed": 0,
-      "pending": 210,
+      "pending": 160,
       "not_requested": 0,
-      "progress_label": "0/210",
-      "processed_label": "0/210",
-      "state": "waiting"
+      "progress_label": "50/210",
+      "processed_label": "50/210",
+      "state": "in_progress"
     }
   ],
   "cases": [
@@ -126,8 +126,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0001_v50_mu0.900_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -146,8 +146,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0002_v50_mu0.900_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -166,8 +166,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0003_v50_mu0.900_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -186,8 +186,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0004_v50_mu0.900_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -206,8 +206,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0005_v50_mu0.900_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -226,8 +226,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0006_v50_mu0.900_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -246,8 +246,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0007_v50_mu0.900_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -266,8 +266,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0008_v50_mu0.800_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -286,8 +286,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0009_v50_mu0.800_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -306,8 +306,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0010_v50_mu0.800_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -326,8 +326,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0011_v50_mu0.800_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -346,8 +346,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0012_v50_mu0.800_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -366,8 +366,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0013_v50_mu0.800_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -386,8 +386,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0014_v50_mu0.800_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -406,8 +406,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0015_v50_mu0.700_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -426,8 +426,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0016_v50_mu0.700_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -446,8 +446,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0017_v50_mu0.700_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -466,8 +466,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0018_v50_mu0.700_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -486,8 +486,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0019_v50_mu0.700_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -506,8 +506,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0020_v50_mu0.700_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -526,8 +526,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0021_v50_mu0.700_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -546,8 +546,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0022_v50_mu0.600_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -566,8 +566,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0023_v50_mu0.600_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -586,8 +586,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0024_v50_mu0.600_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -606,8 +606,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0025_v50_mu0.600_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -626,8 +626,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0026_v50_mu0.600_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -646,8 +646,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0027_v50_mu0.600_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -666,8 +666,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0028_v50_mu0.600_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -686,8 +686,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0029_v50_mu0.500_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -706,8 +706,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0030_v50_mu0.500_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -726,8 +726,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0031_v50_mu0.500_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -746,8 +746,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0032_v50_mu0.500_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -766,8 +766,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0033_v50_mu0.500_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -786,8 +786,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0034_v50_mu0.500_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -806,8 +806,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0035_v50_mu0.500_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -826,8 +826,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0036_v60_mu0.900_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -846,8 +846,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0037_v60_mu0.900_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -866,8 +866,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0038_v60_mu0.900_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -886,8 +886,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0039_v60_mu0.900_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -906,8 +906,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0040_v60_mu0.900_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -926,8 +926,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0041_v60_mu0.900_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -946,8 +946,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0042_v60_mu0.900_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -966,8 +966,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0043_v60_mu0.800_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -986,8 +986,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0044_v60_mu0.800_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1006,8 +1006,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0045_v60_mu0.800_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1026,8 +1026,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0046_v60_mu0.800_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1046,8 +1046,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0047_v60_mu0.800_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1066,8 +1066,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0048_v60_mu0.800_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1086,8 +1086,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0049_v60_mu0.800_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1106,8 +1106,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0050_v60_mu0.700_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1126,8 +1126,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0051_v60_mu0.700_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1146,8 +1146,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0052_v60_mu0.700_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1166,8 +1166,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0053_v60_mu0.700_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1186,8 +1186,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0054_v60_mu0.700_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1206,8 +1206,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0055_v60_mu0.700_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1226,8 +1226,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0056_v60_mu0.700_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1246,8 +1246,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0057_v60_mu0.600_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1266,8 +1266,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0058_v60_mu0.600_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1286,8 +1286,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0059_v60_mu0.600_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1306,8 +1306,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0060_v60_mu0.600_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1326,8 +1326,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0061_v60_mu0.600_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1346,8 +1346,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0062_v60_mu0.600_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1366,8 +1366,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0063_v60_mu0.600_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1386,8 +1386,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0064_v60_mu0.500_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1406,8 +1406,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0065_v60_mu0.500_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1426,8 +1426,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0066_v60_mu0.500_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1446,8 +1446,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0067_v60_mu0.500_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1466,8 +1466,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0068_v60_mu0.500_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1486,8 +1486,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0069_v60_mu0.500_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1506,8 +1506,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0070_v60_mu0.500_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1526,8 +1526,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0071_v70_mu0.900_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1546,8 +1546,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0072_v70_mu0.900_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1566,8 +1566,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0073_v70_mu0.900_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1586,8 +1586,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0074_v70_mu0.900_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1606,8 +1606,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0075_v70_mu0.900_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1626,8 +1626,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0076_v70_mu0.900_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1646,8 +1646,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0077_v70_mu0.900_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1666,8 +1666,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0078_v70_mu0.800_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1686,8 +1686,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0079_v70_mu0.800_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1706,8 +1706,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0080_v70_mu0.800_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1726,8 +1726,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0081_v70_mu0.800_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1746,8 +1746,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0082_v70_mu0.800_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1766,8 +1766,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0083_v70_mu0.800_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1786,8 +1786,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0084_v70_mu0.800_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1806,8 +1806,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0085_v70_mu0.700_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1826,8 +1826,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0086_v70_mu0.700_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1846,8 +1846,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0087_v70_mu0.700_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1866,8 +1866,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0088_v70_mu0.700_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1886,8 +1886,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0089_v70_mu0.700_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1906,8 +1906,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0090_v70_mu0.700_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1926,8 +1926,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0091_v70_mu0.700_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1946,8 +1946,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0092_v70_mu0.600_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1966,8 +1966,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0093_v70_mu0.600_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -1986,8 +1986,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0094_v70_mu0.600_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2006,8 +2006,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0095_v70_mu0.600_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2026,8 +2026,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0096_v70_mu0.600_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2046,8 +2046,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0097_v70_mu0.600_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2066,8 +2066,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0098_v70_mu0.600_delta3.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2086,8 +2086,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0099_v70_mu0.500_delta0.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2106,8 +2106,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0100_v70_mu0.500_delta0.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2126,8 +2126,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0101_v70_mu0.500_delta1.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2146,8 +2146,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0102_v70_mu0.500_delta1.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2166,8 +2166,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0103_v70_mu0.500_delta2.000_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -2186,8 +2186,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0104_v70_mu0.500_delta2.500_w01.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5386,8 +5386,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0264_v60_mu0.700_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5406,8 +5406,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0265_v60_mu0.700_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5426,8 +5426,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0266_v60_mu0.700_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5446,8 +5446,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0267_v60_mu0.600_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5466,8 +5466,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0268_v60_mu0.600_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5486,8 +5486,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0269_v60_mu0.600_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5506,8 +5506,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0270_v60_mu0.600_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5526,8 +5526,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0271_v60_mu0.600_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5546,8 +5546,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0272_v60_mu0.600_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5566,8 +5566,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0273_v60_mu0.600_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5586,8 +5586,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0274_v60_mu0.500_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5606,8 +5606,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0275_v60_mu0.500_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5626,8 +5626,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0276_v60_mu0.500_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5646,8 +5646,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0277_v60_mu0.500_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5666,8 +5666,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0278_v60_mu0.500_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5686,8 +5686,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0279_v60_mu0.500_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5706,8 +5706,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0280_v60_mu0.500_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5726,8 +5726,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0281_v70_mu0.900_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5746,8 +5746,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0282_v70_mu0.900_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5766,8 +5766,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0283_v70_mu0.900_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5786,8 +5786,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0284_v70_mu0.900_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5806,8 +5806,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0285_v70_mu0.900_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5826,8 +5826,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0286_v70_mu0.900_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5846,8 +5846,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0287_v70_mu0.900_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5866,8 +5866,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0288_v70_mu0.800_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5886,8 +5886,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0289_v70_mu0.800_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5906,8 +5906,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0290_v70_mu0.800_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5926,8 +5926,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0291_v70_mu0.800_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5946,8 +5946,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0292_v70_mu0.800_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5966,8 +5966,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0293_v70_mu0.800_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -5986,8 +5986,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0294_v70_mu0.800_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6006,8 +6006,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0295_v70_mu0.700_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6026,8 +6026,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0296_v70_mu0.700_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6046,8 +6046,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0297_v70_mu0.700_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6066,8 +6066,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0298_v70_mu0.700_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6086,8 +6086,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0299_v70_mu0.700_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6106,8 +6106,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0300_v70_mu0.700_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6126,8 +6126,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0301_v70_mu0.700_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6146,8 +6146,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0302_v70_mu0.600_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6166,8 +6166,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0303_v70_mu0.600_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6186,8 +6186,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0304_v70_mu0.600_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6206,8 +6206,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0305_v70_mu0.600_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6226,8 +6226,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0306_v70_mu0.600_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6246,8 +6246,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0307_v70_mu0.600_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6266,8 +6266,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0308_v70_mu0.600_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6286,8 +6286,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0309_v70_mu0.500_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6306,8 +6306,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0310_v70_mu0.500_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6326,8 +6326,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0311_v70_mu0.500_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6346,8 +6346,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0312_v70_mu0.500_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6366,8 +6366,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0313_v70_mu0.500_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6386,8 +6386,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0314_v70_mu0.500_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6406,8 +6406,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0315_v70_mu0.500_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6426,8 +6426,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0316_v80_mu0.900_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6446,8 +6446,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0317_v80_mu0.900_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6466,8 +6466,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0318_v80_mu0.900_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6486,8 +6486,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0319_v80_mu0.900_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6506,8 +6506,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0320_v80_mu0.900_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6526,8 +6526,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0321_v80_mu0.900_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6546,8 +6546,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0322_v80_mu0.900_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6566,8 +6566,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0323_v80_mu0.800_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6586,8 +6586,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0324_v80_mu0.800_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6606,8 +6606,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0325_v80_mu0.800_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6626,8 +6626,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0326_v80_mu0.800_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6646,8 +6646,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0327_v80_mu0.800_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6666,8 +6666,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0328_v80_mu0.800_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6686,8 +6686,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0329_v80_mu0.800_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6706,8 +6706,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0330_v80_mu0.700_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6726,8 +6726,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0331_v80_mu0.700_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6746,8 +6746,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0332_v80_mu0.700_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6766,8 +6766,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0333_v80_mu0.700_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6786,8 +6786,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0334_v80_mu0.700_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6806,8 +6806,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0335_v80_mu0.700_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6826,8 +6826,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0336_v80_mu0.700_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6846,8 +6846,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0337_v80_mu0.600_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6866,8 +6866,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0338_v80_mu0.600_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6886,8 +6886,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0339_v80_mu0.600_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6906,8 +6906,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0340_v80_mu0.600_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6926,8 +6926,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0341_v80_mu0.600_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6946,8 +6946,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0342_v80_mu0.600_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6966,8 +6966,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0343_v80_mu0.600_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -6986,8 +6986,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0344_v80_mu0.500_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7006,8 +7006,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0345_v80_mu0.500_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7026,8 +7026,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0346_v80_mu0.500_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7046,8 +7046,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0347_v80_mu0.500_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7066,8 +7066,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0348_v80_mu0.500_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7086,8 +7086,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0349_v80_mu0.500_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7106,8 +7106,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0350_v80_mu0.500_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7126,8 +7126,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0351_v90_mu0.900_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7146,8 +7146,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0352_v90_mu0.900_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7166,8 +7166,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0353_v90_mu0.900_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7186,8 +7186,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0354_v90_mu0.900_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7206,8 +7206,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0355_v90_mu0.900_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7226,8 +7226,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0356_v90_mu0.900_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7246,8 +7246,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0357_v90_mu0.900_delta3.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7266,8 +7266,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0358_v90_mu0.800_delta0.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7286,8 +7286,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0359_v90_mu0.800_delta0.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7306,8 +7306,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0360_v90_mu0.800_delta1.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7326,8 +7326,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0361_v90_mu0.800_delta1.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7346,8 +7346,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0362_v90_mu0.800_delta2.000_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -7366,8 +7366,8 @@
         0,
         0
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0363_v90_mu0.800_delta2.500_w02.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10646,8 +10646,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0527_v80_mu0.900_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10666,8 +10666,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0528_v80_mu0.900_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10686,8 +10686,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0529_v80_mu0.900_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10706,8 +10706,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0530_v80_mu0.900_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10726,8 +10726,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0531_v80_mu0.900_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10746,8 +10746,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0532_v80_mu0.900_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10766,8 +10766,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0533_v80_mu0.800_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10786,8 +10786,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0534_v80_mu0.800_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10806,8 +10806,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0535_v80_mu0.800_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10826,8 +10826,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0536_v80_mu0.800_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10846,8 +10846,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0537_v80_mu0.800_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10866,8 +10866,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0538_v80_mu0.800_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10886,8 +10886,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0539_v80_mu0.800_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10906,8 +10906,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0540_v80_mu0.700_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10926,8 +10926,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0541_v80_mu0.700_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10946,8 +10946,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0542_v80_mu0.700_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10966,8 +10966,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0543_v80_mu0.700_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -10986,8 +10986,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0544_v80_mu0.700_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11006,8 +11006,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0545_v80_mu0.700_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11026,8 +11026,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0546_v80_mu0.700_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11046,8 +11046,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0547_v80_mu0.600_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11066,8 +11066,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0548_v80_mu0.600_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11086,8 +11086,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0549_v80_mu0.600_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11106,8 +11106,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0550_v80_mu0.600_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11126,8 +11126,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0551_v80_mu0.600_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11146,8 +11146,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0552_v80_mu0.600_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11166,8 +11166,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0553_v80_mu0.600_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11186,8 +11186,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0554_v80_mu0.500_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11206,8 +11206,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0555_v80_mu0.500_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11226,8 +11226,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0556_v80_mu0.500_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11246,8 +11246,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0557_v80_mu0.500_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11266,8 +11266,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0558_v80_mu0.500_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11286,8 +11286,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0559_v80_mu0.500_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11306,8 +11306,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0560_v80_mu0.500_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11326,8 +11326,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0561_v90_mu0.900_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11346,8 +11346,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0562_v90_mu0.900_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11366,8 +11366,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0563_v90_mu0.900_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11386,8 +11386,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0564_v90_mu0.900_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11406,8 +11406,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0565_v90_mu0.900_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11426,8 +11426,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0566_v90_mu0.900_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11446,8 +11446,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0567_v90_mu0.900_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11466,8 +11466,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0568_v90_mu0.800_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11486,8 +11486,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0569_v90_mu0.800_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11506,8 +11506,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0570_v90_mu0.800_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11526,8 +11526,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0571_v90_mu0.800_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11546,8 +11546,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0572_v90_mu0.800_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11566,8 +11566,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0573_v90_mu0.800_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11586,8 +11586,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0574_v90_mu0.800_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11606,8 +11606,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0575_v90_mu0.700_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11626,8 +11626,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0576_v90_mu0.700_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11646,8 +11646,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0577_v90_mu0.700_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11666,8 +11666,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0578_v90_mu0.700_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11686,8 +11686,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0579_v90_mu0.700_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11706,8 +11706,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0580_v90_mu0.700_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11726,8 +11726,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0581_v90_mu0.700_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11746,8 +11746,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0582_v90_mu0.600_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11766,8 +11766,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0583_v90_mu0.600_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11786,8 +11786,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0584_v90_mu0.600_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11806,8 +11806,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0585_v90_mu0.600_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11826,8 +11826,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0586_v90_mu0.600_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11846,8 +11846,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0587_v90_mu0.600_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11866,8 +11866,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0588_v90_mu0.600_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11886,8 +11886,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0589_v90_mu0.500_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11906,8 +11906,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0590_v90_mu0.500_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11926,8 +11926,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0591_v90_mu0.500_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11946,8 +11946,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0592_v90_mu0.500_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11966,8 +11966,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0593_v90_mu0.500_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -11986,8 +11986,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0594_v90_mu0.500_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12006,8 +12006,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0595_v90_mu0.500_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12026,8 +12026,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0596_v100_mu0.900_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12046,8 +12046,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0597_v100_mu0.900_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12066,8 +12066,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0598_v100_mu0.900_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12086,8 +12086,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0599_v100_mu0.900_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12106,8 +12106,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0600_v100_mu0.900_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12126,8 +12126,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0601_v100_mu0.900_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12146,8 +12146,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0602_v100_mu0.900_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12166,8 +12166,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0603_v100_mu0.800_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12186,8 +12186,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0604_v100_mu0.800_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12206,8 +12206,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0605_v100_mu0.800_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12226,8 +12226,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0606_v100_mu0.800_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12246,8 +12246,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0607_v100_mu0.800_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12266,8 +12266,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0608_v100_mu0.800_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12286,8 +12286,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0609_v100_mu0.800_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12306,8 +12306,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0610_v100_mu0.700_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12326,8 +12326,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0611_v100_mu0.700_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12346,8 +12346,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0612_v100_mu0.700_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12366,8 +12366,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0613_v100_mu0.700_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12386,8 +12386,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0614_v100_mu0.700_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12406,8 +12406,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0615_v100_mu0.700_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12426,8 +12426,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0616_v100_mu0.700_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12446,8 +12446,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0617_v100_mu0.600_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12466,8 +12466,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0618_v100_mu0.600_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12486,8 +12486,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0619_v100_mu0.600_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12506,8 +12506,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0620_v100_mu0.600_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12526,8 +12526,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0621_v100_mu0.600_delta2.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12546,8 +12546,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0622_v100_mu0.600_delta2.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12566,8 +12566,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0623_v100_mu0.600_delta3.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12586,8 +12586,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0624_v100_mu0.500_delta0.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12606,8 +12606,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0625_v100_mu0.500_delta0.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12626,8 +12626,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0626_v100_mu0.500_delta1.000_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -12646,8 +12646,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0627_v100_mu0.500_delta1.500_w03.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -15886,8 +15886,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0789_v90_mu0.700_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -15906,8 +15906,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0790_v90_mu0.700_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -15926,8 +15926,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0791_v90_mu0.700_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -15946,8 +15946,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0792_v90_mu0.600_delta0.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -15966,8 +15966,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0793_v90_mu0.600_delta0.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -15986,8 +15986,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0794_v90_mu0.600_delta1.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16006,8 +16006,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0795_v90_mu0.600_delta1.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16026,8 +16026,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0796_v90_mu0.600_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16046,8 +16046,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0797_v90_mu0.600_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16066,8 +16066,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0798_v90_mu0.600_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16086,8 +16086,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0799_v90_mu0.500_delta0.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16106,8 +16106,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0800_v90_mu0.500_delta0.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16126,8 +16126,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0801_v90_mu0.500_delta1.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16146,8 +16146,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0802_v90_mu0.500_delta1.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16166,8 +16166,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0803_v90_mu0.500_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16186,8 +16186,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0804_v90_mu0.500_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16206,8 +16206,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0805_v90_mu0.500_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16226,8 +16226,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0806_v100_mu0.900_delta0.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16246,8 +16246,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0807_v100_mu0.900_delta0.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16266,8 +16266,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0808_v100_mu0.900_delta1.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16286,8 +16286,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0809_v100_mu0.900_delta1.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16306,8 +16306,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0810_v100_mu0.900_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16326,8 +16326,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0811_v100_mu0.900_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16346,8 +16346,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0812_v100_mu0.900_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16366,8 +16366,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0813_v100_mu0.800_delta0.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16386,8 +16386,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0814_v100_mu0.800_delta0.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16406,8 +16406,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0815_v100_mu0.800_delta1.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16426,8 +16426,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0816_v100_mu0.800_delta1.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16446,8 +16446,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0817_v100_mu0.800_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16466,8 +16466,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0818_v100_mu0.800_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16486,8 +16486,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0819_v100_mu0.800_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16506,8 +16506,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0820_v100_mu0.700_delta0.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16526,8 +16526,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0821_v100_mu0.700_delta0.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16546,8 +16546,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0822_v100_mu0.700_delta1.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16566,8 +16566,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0823_v100_mu0.700_delta1.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16586,8 +16586,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0824_v100_mu0.700_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16606,8 +16606,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0825_v100_mu0.700_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16626,8 +16626,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0826_v100_mu0.700_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16646,8 +16646,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0827_v100_mu0.600_delta0.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16666,8 +16666,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0828_v100_mu0.600_delta0.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16686,8 +16686,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0829_v100_mu0.600_delta1.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16706,8 +16706,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0830_v100_mu0.600_delta1.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16726,8 +16726,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0831_v100_mu0.600_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16746,8 +16746,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0832_v100_mu0.600_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16766,8 +16766,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0833_v100_mu0.600_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16786,8 +16786,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0834_v100_mu0.500_delta0.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16806,8 +16806,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0835_v100_mu0.500_delta0.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16826,8 +16826,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0836_v100_mu0.500_delta1.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16846,8 +16846,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0837_v100_mu0.500_delta1.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16866,8 +16866,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0838_v100_mu0.500_delta2.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16886,8 +16886,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0839_v100_mu0.500_delta2.500_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16906,8 +16906,8 @@
         25,
         25
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0840_v100_mu0.500_delta3.000_w04.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16926,8 +16926,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0841_v50_mu0.900_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16946,8 +16946,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0842_v50_mu0.900_delta0.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16966,8 +16966,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0843_v50_mu0.900_delta1.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -16986,8 +16986,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0844_v50_mu0.900_delta1.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17006,8 +17006,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0845_v50_mu0.900_delta2.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17026,8 +17026,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0846_v50_mu0.900_delta2.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17046,8 +17046,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0847_v50_mu0.900_delta3.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17066,8 +17066,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0848_v50_mu0.800_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17086,8 +17086,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0849_v50_mu0.800_delta0.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17106,8 +17106,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0850_v50_mu0.800_delta1.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17126,8 +17126,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0851_v50_mu0.800_delta1.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17146,8 +17146,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0852_v50_mu0.800_delta2.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17166,8 +17166,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0853_v50_mu0.800_delta2.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17186,8 +17186,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0854_v50_mu0.800_delta3.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17206,8 +17206,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0855_v50_mu0.700_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17226,8 +17226,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0856_v50_mu0.700_delta0.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17246,8 +17246,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0857_v50_mu0.700_delta1.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17266,8 +17266,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0858_v50_mu0.700_delta1.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17286,8 +17286,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0859_v50_mu0.700_delta2.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17306,8 +17306,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0860_v50_mu0.700_delta2.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17326,8 +17326,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0861_v50_mu0.700_delta3.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17346,8 +17346,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0862_v50_mu0.600_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17366,8 +17366,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0863_v50_mu0.600_delta0.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17386,8 +17386,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0864_v50_mu0.600_delta1.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17406,8 +17406,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0865_v50_mu0.600_delta1.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17426,8 +17426,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0866_v50_mu0.600_delta2.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17446,8 +17446,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0867_v50_mu0.600_delta2.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17466,8 +17466,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0868_v50_mu0.600_delta3.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17486,8 +17486,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0869_v50_mu0.500_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17506,8 +17506,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0870_v50_mu0.500_delta0.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17526,8 +17526,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0871_v50_mu0.500_delta1.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17546,8 +17546,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0872_v50_mu0.500_delta1.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17566,8 +17566,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0873_v50_mu0.500_delta2.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17586,8 +17586,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0874_v50_mu0.500_delta2.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17606,8 +17606,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0875_v50_mu0.500_delta3.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17626,8 +17626,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0876_v60_mu0.900_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17646,8 +17646,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0877_v60_mu0.900_delta0.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17666,8 +17666,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0878_v60_mu0.900_delta1.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17686,8 +17686,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0879_v60_mu0.900_delta1.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17706,8 +17706,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0880_v60_mu0.900_delta2.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17726,8 +17726,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0881_v60_mu0.900_delta2.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17746,8 +17746,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0882_v60_mu0.900_delta3.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17766,8 +17766,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0883_v60_mu0.800_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17786,8 +17786,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0884_v60_mu0.800_delta0.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17806,8 +17806,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0885_v60_mu0.800_delta1.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17826,8 +17826,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0886_v60_mu0.800_delta1.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17846,8 +17846,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0887_v60_mu0.800_delta2.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17866,8 +17866,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0888_v60_mu0.800_delta2.500_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17886,8 +17886,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0889_v60_mu0.800_delta3.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
@@ -17906,8 +17906,8 @@
         50,
         50
       ],
-      "status": "pending",
-      "result_file": "",
+      "status": "completed",
+      "result_file": "case_0890_v60_mu0.700_delta0.000_w05.mat",
       "error_id": "",
       "error_message": ""
     },
