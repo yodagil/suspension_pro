@@ -1,0 +1,13 @@
+{
+  "publish_every_completed_conditions": 1,
+  "range": [
+    1,
+    525
+  ],
+  "branch": "main",
+  "images_included": true,
+  "requested_by_user": true,
+  "effective_from_next_completion": true,
+  "updated_at_kst": "2026-11-15T03:59:06.360716+09:00",
+  "numeric_model_and_checkpoint_policy_changed": false
+}

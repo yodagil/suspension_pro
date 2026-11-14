@@ -1,8 +1,8 @@
 {
   "schema": "carsim_fullcar_1050_shard_runner_v1",
   "model": "carsim_fullcar",
-  "pid": 50405,
-  "invocation_started_at": "2026-11-14T16:27:15+00:00",
+  "pid": 57745,
+  "invocation_started_at": "2026-11-14T18:59:06+00:00",
   "status": "running",
   "total": 525,
   "global_total": 1050,
@@ -10,8 +10,8 @@
   "end_id": 525,
   "shard_name": "first_0001_0525",
   "scope": "assigned_inclusive_job_id_range",
-  "active_job_id": 52,
-  "newly_completed": 12,
+  "active_job_id": 61,
+  "newly_completed": 0,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
     "/workspace/work/suspension_pro/stable_region/code/run_region_batch.py",
@@ -31,7 +31,7 @@
     "--priority",
     "302,305,307",
     "--publish-every",
-    "25"
+    "1"
   ],
   "reference_mode": "model_actual_front_trim",
   "threads": 4,
@@ -39,14 +39,14 @@
   "publish_branch": "main",
   "environment_lifetime_guaranteed": false,
   "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
-  "resumed": 43,
-  "last_heartbeat_at": "2026-11-14T18:05:12+00:00",
-  "completed": 55,
-  "completed_in_range": 55,
-  "progress_text": "55/525",
+  "resumed": 64,
+  "last_heartbeat_at": "2026-11-14T18:59:37+00:00",
+  "completed": 64,
+  "completed_in_range": 64,
+  "progress_text": "64/525",
   "ignored_out_of_range_priority_ids": [],
   "attempt": 1,
-  "condition_id": 52,
+  "condition_id": 61,
   "wear_case_id": 1,
   "active_command": [
     "/workspace/work/octave-runtime/run-in-env.sh",
@@ -56,9 +56,8 @@
     "--no-site-file",
     "--no-history",
     "--eval",
-    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(52);"
+    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(61);"
   ],
-  "active_log": "shards/first_0001_0525/logs/case_0052.log",
-  "child_pid": 54844,
-  "last_completed_job_id": 51
+  "active_log": "shards/first_0001_0525/logs/case_0061.log",
+  "child_pid": 57753
 }
