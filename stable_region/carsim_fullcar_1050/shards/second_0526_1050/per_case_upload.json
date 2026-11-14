@@ -6,7 +6,7 @@
   "assigned_total": 525,
   "upload_every_completed_case": 1,
   "computed_cases": 36,
-  "uploaded_cases": 29,
+  "uploaded_cases": 30,
   "uploaded_job_ids": [
     526,
     527,
@@ -36,10 +36,11 @@
     551,
     552,
     553,
-    554
+    554,
+    555
   ],
-  "latest_uploaded_job_id": 554,
-  "updated_utc": "2026-11-14T19:09:42+00:00",
+  "latest_uploaded_job_id": 555,
+  "updated_utc": "2026-11-14T19:09:47+00:00",
   "numerical_calculation_stopped": false,
   "global_1050_complete_claimed": false
 }
