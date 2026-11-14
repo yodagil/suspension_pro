@@ -1,0 +1,20 @@
+{
+  "scope": "IDs526..1050 only,525cases",
+  "model": "carsim_fullcar",
+  "runtime": "GNU Octave10.3.0",
+  "runtime_smoke_passed": true,
+  "prepared_contexts": 525,
+  "handoff_manifest_files_checked": 592,
+  "original_physics_sources_unchanged": true,
+  "runtime_RHS_observations_bitwise_equal": true,
+  "runtime_H_grid_nodes_checked": 7381,
+  "region_mex_sha256": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+  "original_mex_sha256": "da8175679e57d47086f23a645806272eb613c9cc3695f8684572deea1b99a955",
+  "RK4_dt_s": 0.0005,
+  "observation_dt_s": 0.001,
+  "horizons_s": [
+    5,
+    10
+  ],
+  "global_1050_complete_claimed": false
+}
