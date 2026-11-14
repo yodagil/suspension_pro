@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-11-14T15:59:35.301583+00:00",
+  "updated_utc": "2026-11-14T16:09:27.038088+00:00",
   "total": 1050,
-  "completed": 42,
+  "completed": 43,
   "failed": 0,
-  "pending": 1008,
-  "progress": "42/1050",
+  "pending": 1007,
+  "progress": "43/1050",
   "wear_progress": [
     {
       "wear_case_id": 1,
@@ -14,9 +14,9 @@
         0.0,
         0.0
       ],
-      "completed": 39,
+      "completed": 40,
       "total": 210,
-      "progress": "39/210",
+      "progress": "40/210",
       "failed": 0
     },
     {
@@ -73,7 +73,7 @@
     }
   ],
   "status": "in_progress",
-  "images": 42,
+  "images": 43,
   "known_empty_by_trim_policy": 1,
   "invalid_results": {},
   "aggregate_complete": false,

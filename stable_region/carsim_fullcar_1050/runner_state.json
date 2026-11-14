@@ -6,7 +6,7 @@
   "status": "running",
   "total": 1050,
   "active_job_id": 39,
-  "newly_completed": 39,
+  "newly_completed": 40,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
     "/workspace/work/suspension_pro/stable_region/code/run_region_batch.py",
@@ -26,9 +26,9 @@
   "environment_lifetime_guaranteed": false,
   "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
   "resumed": 3,
-  "last_heartbeat_at": "2026-11-14T16:04:20+00:00",
-  "completed": 42,
-  "progress_text": "42/1050",
+  "last_heartbeat_at": "2026-11-14T16:09:27+00:00",
+  "completed": 43,
+  "progress_text": "43/1050",
   "attempt": 1,
   "condition_id": 39,
   "wear_case_id": 1,
@@ -43,8 +43,8 @@
     "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(39);"
   ],
   "active_log": "logs/case_0039.log",
-  "child_pid": 47937,
-  "last_completed_job_id": 38,
+  "child_pid": null,
+  "last_completed_job_id": 39,
   "last_publish_error": {
     "type": "CalledProcessError",
     "message": "Git publication failed; local computation continues",
