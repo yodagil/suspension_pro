@@ -1,0 +1,105 @@
+{
+  "assigned_range": [
+    526,
+    1050
+  ],
+  "completed_snapshot": 10,
+  "total_assigned": 525,
+  "job_ids": [
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535
+  ],
+  "verified_results": [
+    {
+      "job_id": 526,
+      "MAT_sha256": "d5e9af9eafb83880a7df991c387ed7e54221a324e705080819f8f02247366686",
+      "PNG_sha256": "e9ee953544418f66627094df299de583faffff2f1cc42ebed7f38396e90e43ce",
+      "accepted_cells": 736,
+      "cell_area": 1.8399999999999999,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 527,
+      "MAT_sha256": "6ceff088a705be67237d303ab0a037ecc2f4aebc7cd80d1fa387d2c3d5c1a07a",
+      "PNG_sha256": "33ad5009fe16aa936c65c64e3a1be1e9d6e1ee339f1124c2a23bb6bc8d4f661b",
+      "accepted_cells": 734,
+      "cell_area": 1.835,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 528,
+      "MAT_sha256": "d1f9b92ee1b3fef0ba13126c308d3e0ed4e7c6f1c19e7d97f221bbbadc52ba02",
+      "PNG_sha256": "595aadcaaec1e64e03bbce04ac4829e3de2c1bf53557f73bf01e3ad590d9a30a",
+      "accepted_cells": 730,
+      "cell_area": 1.8250000000000002,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 529,
+      "MAT_sha256": "804eab33ad24fc6e633a4ffd041da012a5b050115c971e661221b84dffee0e0c",
+      "PNG_sha256": "bbb4f67341745707db17df6f17c72a9c05a05d7bf026888edb76fb00cf0e1acf",
+      "accepted_cells": 721,
+      "cell_area": 1.8025,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 530,
+      "MAT_sha256": "275d07a7e982ecd93dfff7b73c0d941e80e6a6744b51c326ca24b2cc84550c41",
+      "PNG_sha256": "aed4cd8e119d75eca01151ddbd8a86d0192b0f1fd711c8563a756344e864d39f",
+      "accepted_cells": 709,
+      "cell_area": 1.7725,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 531,
+      "MAT_sha256": "1984bd015e1a893ac1832ddd55b0b156b27d54cbc1ece9ab9c9dea9cb56d6396",
+      "PNG_sha256": "5bf2a552d6b34f2bd4e1395d57e7d2fb2e9223914e94c7f9795fc5d02e2ec766",
+      "accepted_cells": 692,
+      "cell_area": 1.7300000000000002,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 532,
+      "MAT_sha256": "70fbce9051d99af7e55f5e34bc6e97c44addcce5196405e14e3957eb5df7ca78",
+      "PNG_sha256": "55eef1f6c07e88ee0f669647c9ac7f2837393ff904250236837a70059342a70a",
+      "accepted_cells": 674,
+      "cell_area": 1.685,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 533,
+      "MAT_sha256": "e9659a6ccef693c55685a8c4de0276a65bc09cac32bfed462dc7ac9d78daaedc",
+      "PNG_sha256": "d7e5cee6251cb1652fea79bdd35cb8d944f18c2fa705b2fc99fc5bc1fa5416a3",
+      "accepted_cells": 574,
+      "cell_area": 1.435,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 534,
+      "MAT_sha256": "b51e345fadfc3beddb007c9741a04d4976d71698ff3592b403922823bff4a91d",
+      "PNG_sha256": "0a1dc6919a5927d46eaa75e779825e1bb3e06011587f1aa3c9a3b3a7b01ccaa5",
+      "accepted_cells": 574,
+      "cell_area": 1.435,
+      "completion_kind": "integrated"
+    },
+    {
+      "job_id": 535,
+      "MAT_sha256": "792df5eb7a4a3d5ad25b4a3684c4d21594d42193894acf8ddf652aae295b710a",
+      "PNG_sha256": "2fabb6b1d174f3a45316809a4d743b8634c00257dbfb6e70a8b1f258c17cbb5e",
+      "accepted_cells": 566,
+      "cell_area": 1.415,
+      "completion_kind": "integrated"
+    }
+  ],
+  "verified_utc": "2026-11-14T18:01:42.831490+00:00",
+  "computation_stopped": false,
+  "global_1050_complete_claimed": false
+}
