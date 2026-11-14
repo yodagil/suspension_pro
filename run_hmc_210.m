@@ -5,9 +5,10 @@ function Summary = run_hmc_210(cfg)
 %   Summary = run_hmc_210(cfg);
 %
 %   Defaults: speeds 50:10:100 km/h, mu [.9 .8 .7 .6 .5], and commanded
-%   wheel steer 0:.5:3 deg. 6*5*7=210 operating conditions for ONE wear case.
-%   cfg.wear_cases=[0 0 0 0;25 25 0 0;50 50 25 25;0 0 25 25;25 25 50 50]
-%   requests 1050 trajectories. Corner order is always FL FR RL RR.
+%   wheel steer 0:.5:3 deg. 6*5*7=210 operating conditions per wear case.
+%   The default five wear cases are
+%   [0 0 0 0;25 25 0 0;50 50 25 25;0 0 25 25;25 25 50 50],
+%   requesting 1050 trajectories. Corner order is always FL FR RL RR.
 %   This is one physical initial state per operating condition, not an
 %   initial-state/phase-plane basin sweep. No reference trace drives the model.
 %
@@ -26,7 +27,8 @@ cfg=default_field(cfg,'output_dir',fullfile(here,'result'));
 cfg=default_field(cfg,'speeds_kmh',50:10:100);
 cfg=default_field(cfg,'mus',[.9 .8 .7 .6 .5]);
 cfg=default_field(cfg,'steers_deg',0:.5:3);
-cfg=default_field(cfg,'wear_cases',[0 0 0 0]);
+cfg=default_field(cfg,'wear_cases', ...
+    [0 0 0 0;25 25 0 0;50 50 25 25;0 0 25 25;25 25 50 50]);
 cfg=default_field(cfg,'case_ids',[]);
 cfg=default_field(cfg,'options',struct());
 cfg=default_field(cfg,'resume',true);
@@ -95,7 +97,7 @@ Signature=struct('schema','HMC_210_RUN_2','model_function',char(cfg.model_functi
     'dependencies',dependencies);
 Config=cfg; %#ok<NASGU>
 save(fullfile(cfg.output_dir,'run_configuration.mat'),'Config','Signature','-v7');
-writetable(Summary,fullfile(cfg.output_dir,'manifest_210.csv'));
+writetable(Summary,fullfile(cfg.output_dir,sprintf('manifest_%d.csv',nJob)));
 update_progress(Summary,cfg.output_dir);
 
 for ii=1:numel(selected)
@@ -106,8 +108,10 @@ for ii=1:numel(selected)
     CaseSpec=rmfield(spec,{'Status','Seconds','ResultFile','RootResidual', ...
         'ReferenceCompared','ErrorID','ErrorMessage'});
     ticCase=tic;
-    fprintf('[%d/%d] job %d: %g km/h, mu %.3g, command %.3g deg, wear [%g %g %g %g]\n', ...
-        ii,numel(selected),k,spec.Speed_kmh,spec.RoadMu,spec.SteerCommand_deg, ...
+    fprintf(['[%d/%d] wear %d/%d, condition %d/210 (selected %d/%d): ', ...
+        '%g km/h, mu %.3g, command %.3g deg, wear [%g %g %g %g]\n'], ...
+        k,nJob,spec.WearCaseID,nWear,spec.ConditionID,ii,numel(selected), ...
+        spec.Speed_kmh,spec.RoadMu,spec.SteerCommand_deg, ...
         spec.Wear_FL,spec.Wear_FR,spec.Wear_RL,spec.Wear_RR);
     try
         reuse=false;
@@ -138,6 +142,13 @@ for ii=1:numel(selected)
             opts.reference_file=''; opts.reference_files={}; opts.progress_stride=0;
             Result=feval(char(cfg.model_function),'run',opts);
             validate_result(Result,CaseSpec,core);
+            if exist('OCTAVE_VERSION','builtin')~=0
+                Result.execution_environment=struct('runtime','GNU Octave', ...
+                    'version',OCTAVE_VERSION,'platform',computer());
+            else
+                Result.execution_environment=struct('runtime','MATLAB', ...
+                    'version',version,'platform',computer());
+            end
             CompletedHostTime=datestr(now,'yyyy-mm-ddTHH:MM:SS'); %#ok<NASGU>
             % This timestamp uses the MATLAB host clock; it has no asserted offset.
             partial=[tempname(cfg.output_dir) '.mat'];
@@ -157,12 +168,19 @@ for ii=1:numel(selected)
     rows(k).Seconds=toc(ticCase);
     Summary=struct2table(rows);
     writetable(Summary,fullfile(cfg.output_dir,'run_status.csv'));
-    save(fullfile(cfg.output_dir,'run_status.mat'),'Summary','Signature','-v7');
+    save_status_snapshot(fullfile(cfg.output_dir,'run_status.mat'),Summary,Signature);
     update_progress(Summary,cfg.output_dir);
 end
 fprintf('Finished: %d completed, %d resumed, %d failed, %d not requested.\n', ...
     sum(strcmp(Summary.Status,'completed')),sum(strcmp(Summary.Status,'resumed')), ...
     sum(strcmp(Summary.Status,'failed')),sum(strcmp(Summary.Status,'not_requested')));
+end
+
+function save_status_snapshot(path,Summary,Signature)
+% Octave table class objects are not portable MATLAB MAT-file values.
+% Preserve the runtime table; store plain rows for an Octave status snapshot.
+if exist('OCTAVE_VERSION','builtin')~=0, Summary=table2struct(Summary); end
+save(path,'Summary','Signature','-v7');
 end
 
 function update_progress(Summary,outputDir)

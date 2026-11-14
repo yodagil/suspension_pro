@@ -1,4 +1,4 @@
-%% HMC final model-only package: run 210 independent conditions.
+%% HMC final model-only package: 210 conditions x 5 wear cases = 1050 runs.
 % Change only the controls in this section for the usual workflows.
 % 'batch'   : run the selected batch conditions only.
 % 'smoke'   : independent equilibrium + 5 ms integration at 50/70/90.
@@ -9,9 +9,8 @@ HMC_BUILD_MEX = false;       % true only after configuring mex -setup C++.
 HMC_ENGINE = 'auto';         % 'auto', 'mcode', or 'native'.
 HMC_CALIBRATION_ENABLED = true;
 HMC_CASE_IDS = [];           % [] = all; e.g. 1:3 = three selected JobIDs.
-HMC_WEAR_CASES = [0 0 0 0]; % FL FR RL RR: 0=NEW, 25=25K, 50=50K.
-% To run all five wear patterns, use the following matrix (1050 trajectories):
-% HMC_WEAR_CASES = [0 0 0 0;25 25 0 0;50 50 25 25;0 0 25 25;25 25 50 50];
+% Five wear patterns; corner order FL FR RL RR: 0=NEW, 25=25K, 50=50K.
+HMC_WEAR_CASES = [0 0 0 0;25 25 0 0;50 50 25 25;0 0 25 25;25 25 50 50];
 HMC_RESUME = true;
 HMC_OVERWRITE = false;       % Different signatures require a new output folder
                             % or an explicit true value here.

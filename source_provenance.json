@@ -2,15 +2,15 @@
   "archive": "HMC_Model_Only.zip",
   "archive_sha256": "f45dd14bcb6ec3c9defff9fb22dbdb26ab61b5f6844c01c7013a233b0cd6ed85",
   "simulation_executed": false,
-  "reason": "MATLAB license authentication is pending.",
+  "reason": "GNU Octave compatibility verification pending; licensed MATLAB has not executed.",
   "files": {
     "HMC_FullCar_Revised.m": {
       "source_sha256": "3c0413d48659fab2e6d3a9171e15706c9c6a4ea30802a096787188f51fb59a02",
-      "repository_sha256": "3c0413d48659fab2e6d3a9171e15706c9c6a4ea30802a096787188f51fb59a02"
+      "repository_sha256": "816f8777ede4e1e7fa754f5bf28635f45f4c2d84a8337ed69b75407ee520d421"
     },
     "RUN_HMC_PROJECT.m": {
       "source_sha256": "e26c43795521c774ed7315865647894143281deacdb6c8a7d3589836db2e052c",
-      "repository_sha256": "7b97ad5f81ca1c8aba42321a1417666e29d4c2bbfda2cf8cc7b6bc752ad809b3"
+      "repository_sha256": "69f21211fef1b1deea6a5f430fb936c2845f93ca0750210c44f3b6021532210f"
     },
     "build_hmc_mex.m": {
       "source_sha256": "f377c3990426b909bfaf95defe8516e0022d6a6c25958458511ee57448dcb77b",
@@ -50,7 +50,7 @@
     },
     "run_hmc_210.m": {
       "source_sha256": "f51d67450c85f4c0bd3a3102b792823d771dacbbc7decf2d0defdba5abfb9599",
-      "repository_sha256": "02ff395d517d677fc9b1bce1e2343f9538c233243d210c0d16aa7dd788dd3bb5"
+      "repository_sha256": "183b2eed2815ef79224e756d9761db2aff18032c12d1a361023848166dde1eed"
     },
     "tire_fields.inc": {
       "source_sha256": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651",
@@ -60,5 +60,45 @@
       "source_sha256": "525f6beb4b60f355e4356ba6af7f2b26f81bb96e415380114a69e9d4fad0fa22",
       "repository_sha256": "525f6beb4b60f355e4356ba6af7f2b26f81bb96e415380114a69e9d4fad0fa22"
     }
-  }
+  },
+  "requested_trajectories": 1050,
+  "wear_patterns": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      25,
+      25,
+      0,
+      0
+    ],
+    [
+      50,
+      50,
+      25,
+      25
+    ],
+    [
+      0,
+      0,
+      25,
+      25
+    ],
+    [
+      25,
+      25,
+      50,
+      50
+    ]
+  ],
+  "source_corrections": [
+    {
+      "file": "HMC_FullCar_Revised.m",
+      "description": "Rename the total lateral-force variable to Fy_total so diagnostics preserve the four wheel forces. Physical arithmetic and evaluation order are unchanged.",
+      "verification": "Original and corrected 34-state derivatives were bitwise identical at three sampled baseline states."
+    }
+  ]
 }

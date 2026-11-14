@@ -5,12 +5,14 @@ function Summary = run_suspension_pro(cfg)
 %   run_suspension_pro(struct('options',struct('engine','mcode')));
 %   run_suspension_pro(struct('dry_run',true));
 % cfg has the same fields as run_hmc_210, plus optional build_mex (default
-% true). Numerical defaults below match the uploaded RUN_HMC_PROJECT.m.
+% true). Physical/numerical defaults match the uploaded RUN_HMC_PROJECT.m;
+% all five wear patterns documented in that package are selected by default.
 
 if nargin<1 || isempty(cfg), cfg=struct(); end
 assert(isstruct(cfg)&&isscalar(cfg),'cfg must be a scalar structure.');
 root=fileparts(mfilename('fullpath'));
 addpath(root);
+isOctave=exist('OCTAVE_VERSION','builtin')~=0;
 options=struct('engine','auto','variant','revised', ...
     'data_file',fullfile(root,'data','hmc_data.mat'), ...
     'calibration_file',fullfile(root,'calibration_active.json'), ...
@@ -26,7 +28,8 @@ end
 cfg=default_field(cfg,'model_function','HMC_FullCar_Revised');
 cfg=default_field(cfg,'data_file',options.data_file);
 cfg=default_field(cfg,'output_dir',fullfile(root,'result'));
-cfg=default_field(cfg,'wear_cases',[0 0 0 0]);
+cfg=default_field(cfg,'wear_cases',[0 0 0 0;25 25 0 0;50 50 25 25; ...
+    0 0 25 25;25 25 50 50]);
 cfg=default_field(cfg,'case_ids',[]);
 cfg=default_field(cfg,'resume',true);
 cfg=default_field(cfg,'overwrite',false);
@@ -42,7 +45,7 @@ if ~cfg.dry_run
     options.engine='mcode';
     if ~strcmp(requestedEngine,'mcode')
         try
-            if exist('hmc_mex','file')~=3 && cfg.build_mex
+            if exist('hmc_mex','file')~=3 && cfg.build_mex && ~isOctave
                 compiler=mex.getCompilerConfigurations('C++','Selected');
                 if ~isempty(compiler)
                     build_hmc_mex;
@@ -50,6 +53,9 @@ if ~cfg.dry_run
                     fprintf(['No supported C++ compiler is selected; ', ...
                         'run mex -setup C++ to enable the optional accelerator.\n']);
                 end
+            elseif exist('hmc_mex','file')~=3 && cfg.build_mex && isOctave
+                fprintf(['GNU Octave: no prebuilt hmc_mex was found. ', ...
+                    'Build it with mkoctfile --mex to enable native execution.\n']);
             end
             if exist('hmc_mex','file')==3
                 verifyOptions=options;
@@ -57,11 +63,15 @@ if ~cfg.dry_run
                 Verification=verify_hmc_runtime(verifyOptions);
                 assert(Verification.passed,'HMC:NativeNotVerified', ...
                     'Native implementation equivalence was not verified.');
+                if isOctave, Verification.execution_runtime='GNU Octave';
+                else, Verification.execution_runtime='MATLAB'; end
+                Verification.execution_version=version;
                 if exist(cfg.output_dir,'dir')~=7, mkdir(cfg.output_dir); end
                 save(fullfile(cfg.output_dir,'runtime_verification.mat'), ...
                     'Verification','-v7');
                 options.engine='native';
-                fprintf('Using the native MEX after MATLAB/native verification passed.\n');
+                fprintf('Using the native MEX after m-code/native verification passed in %s.\n', ...
+                    Verification.execution_runtime);
             elseif strcmp(requestedEngine,'native')
                 error('HMC:NativeMissing', ...
                     'Native engine requested, but no compiled hmc_mex is available.');
@@ -74,7 +84,11 @@ if ~cfg.dry_run
         end
     end
     if strcmp(options.engine,'mcode')
-        fprintf('Using the pure MATLAB evaluator (mcode); no accelerator is used.\n');
+        if isOctave
+            fprintf('Using the original m-code evaluator in GNU Octave; no accelerator is used.\n');
+        else
+            fprintf('Using the pure MATLAB evaluator (mcode); no accelerator is used.\n');
+        end
     end
 end
 cfg.options=options;

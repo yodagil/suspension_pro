@@ -1,0 +1,54 @@
+{
+  "runtime": "GNU Octave; MATLAB-compatible execution, not MATLAB",
+  "prefix": "/workspace/work/octave-runtime/env",
+  "wrapper": "/workspace/work/octave-runtime/run-in-env.sh",
+  "installation": "conda-standalone 26.9.4.post1, conda-forge, register_envs=false",
+  "packages": {
+    "octave": {
+      "version": "10.3.0",
+      "build": "pl5321hd0fbda6_4",
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "url": "https://conda.anaconda.org/conda-forge/linux-64/octave-10.3.0-pl5321hd0fbda6_4.conda",
+      "sha256": "8707d21fe143f818414ffe2e1e8e5401a6447aa5084837cc5aed8fb28d9c0234"
+    },
+    "gxx_impl_linux-64": {
+      "version": "16.2.0",
+      "build": "h0d273dc_7",
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx_impl_linux-64-16.2.0-h0d273dc_7.conda",
+      "sha256": "f873532a86ce9073a7255dec909472c2a271a57db938f383b630a3caa0b47709"
+    },
+    "gxx_linux-64": {
+      "version": "16.2.0",
+      "build": "h23aca61_2",
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "url": "https://conda.anaconda.org/conda-forge/linux-64/gxx_linux-64-16.2.0-h23aca61_2.conda",
+      "sha256": "b3dfa09210788fff127a5b7f3aa0ab1f9a83627ae7bd45e8aa5bb6dcf9039bef"
+    },
+    "gcc_linux-64": {
+      "version": "16.2.0",
+      "build": "h0ab548f_2",
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "url": "https://conda.anaconda.org/conda-forge/linux-64/gcc_linux-64-16.2.0-h0ab548f_2.conda",
+      "sha256": "b9817e310019a9c8b79e46335c87e478c7646d2fcc727cc53bb5a3e8ce276c1d"
+    },
+    "libstdcxx": {
+      "version": "16.2.0",
+      "build": "h934c35e_7",
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "url": "https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-16.2.0-h934c35e_7.conda",
+      "sha256": "fa7018298629fc429971fffd6ecba3d27a7b02e4e890d6a93ea01ffebe8cb745"
+    }
+  },
+  "basic_validation": {
+    "linear_solve": "passed",
+    "infinity_norm_error": 4.440892098500626e-16,
+    "mkoctfile_CXX": "x86_64-conda-linux-gnu-c++"
+  },
+  "mex_build": "not attempted by installation agent; root builds project MEX",
+  "notes": [
+    "HOME was not reassigned.",
+    "Package and application cache paths are inside the task folder.",
+    "Conda emitted a non-fatal verification warning attempting to open the read-only default environment-registry path; no home file was created."
+  ]
+}

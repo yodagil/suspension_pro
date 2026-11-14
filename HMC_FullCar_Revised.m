@@ -458,9 +458,9 @@ if Q.coupled_sprung_reference
  zrel=Q.wheel_center_height_m(:)-Q.h_cg_sprung+jounce-Q.jounce0;
  Az=sum(Q.mu_u.*zrel,1);Ax=sum(Q.mu_u.*xw,1);Ay=sum(Q.mu_u.*yw,1);
  Z2=sum(Q.mu_u.*zrel.^2,1);Zx=sum(Q.mu_u.*zrel.*xw,1);Zy=sum(Q.mu_u.*zrel.*yw,1);
- Fy=sum(Fyb,1);fy_rhs=Fy+Ay.*frame_yaw.^2;
+ Fy_total=sum(Fyb,1);fy_rhs=Fy_total+Ay.*frame_yaw.^2;
  lever=yw.*cos(X(4,:))-zrel.*sin(X(4,:));
- Mr=sum(lever.*support-Q.yw.*Q.Fs0,1)+(Q.h_cg_sprung+X(3,:)).*Fy;
+ Mr=sum(lever.*support-Q.yw.*Q.Fs0,1)+(Q.h_cg_sprung+X(3,:)).*Fy_total;
  Mr=Mr+sum((Mx+(Q.wheel_center_height_m(:)+X(6:9,:)).*tan(gamma).*Fz).*cos(delta)-My.*sin(delta),1)-Zy.*frame_yaw.^2;
  Mz_total=sum(xw.*Fyb-yw.*Fxb+Mz-(Q.wheel_center_height_m(:)+X(6:9,:)).*tan(gamma).*Fx,1);
  if strcmp(Q.angular_model,'euler_gyro')
