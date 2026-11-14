@@ -1,0 +1,30 @@
+# MATLAB editor and generated caches
+*.asv
+*.m~
+*.autosave
+*.slxc
+slprj/
+codegen/
+
+# Platform-specific compiled accelerators and build intermediates
+*.mex*
+*.so
+*.dll
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+
+# Local environment, temporary files, and logs
+.env
+.env.*
+.matlab/
+.DS_Store
+*.tmp
+*.log
+*~
+
+# Simulation outputs are intentionally versioned, including the execution log.
+!result/
+!result/**

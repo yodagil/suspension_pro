@@ -1,0 +1,64 @@
+{
+  "archive": "HMC_Model_Only.zip",
+  "archive_sha256": "f45dd14bcb6ec3c9defff9fb22dbdb26ab61b5f6844c01c7013a233b0cd6ed85",
+  "simulation_executed": false,
+  "reason": "MATLAB license authentication is pending.",
+  "files": {
+    "HMC_FullCar_Revised.m": {
+      "source_sha256": "3c0413d48659fab2e6d3a9171e15706c9c6a4ea30802a096787188f51fb59a02",
+      "repository_sha256": "3c0413d48659fab2e6d3a9171e15706c9c6a4ea30802a096787188f51fb59a02"
+    },
+    "RUN_HMC_PROJECT.m": {
+      "source_sha256": "e26c43795521c774ed7315865647894143281deacdb6c8a7d3589836db2e052c",
+      "repository_sha256": "7b97ad5f81ca1c8aba42321a1417666e29d4c2bbfda2cf8cc7b6bc752ad809b3"
+    },
+    "build_hmc_mex.m": {
+      "source_sha256": "f377c3990426b909bfaf95defe8516e0022d6a6c25958458511ee57448dcb77b",
+      "repository_sha256": "f377c3990426b909bfaf95defe8516e0022d6a6c25958458511ee57448dcb77b"
+    },
+    "calibration_active.json": {
+      "source_sha256": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913",
+      "repository_sha256": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913"
+    },
+    "data/hmc_data.mat": {
+      "source_sha256": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a",
+      "repository_sha256": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a"
+    },
+    "hmc_apply_calibration.m": {
+      "source_sha256": "a4dc652de68dcd5c46347d45f613156a60279b9ee5244c5fffeb2b01c0bf38b1",
+      "repository_sha256": "a4dc652de68dcd5c46347d45f613156a60279b9ee5244c5fffeb2b01c0bf38b1"
+    },
+    "hmc_mex.cpp": {
+      "source_sha256": "7d4925cf6dc6a09a22d47f983e77c5826de71d25834bc208ad393543f7acf6ad",
+      "repository_sha256": "7d4925cf6dc6a09a22d47f983e77c5826de71d25834bc208ad393543f7acf6ad"
+    },
+    "hmc_native.cpp": {
+      "source_sha256": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062",
+      "repository_sha256": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062"
+    },
+    "hmc_native_run.m": {
+      "source_sha256": "2b2a535f0f057426f251312f9695a5b1772487f63fff834a5229268270519ab4",
+      "repository_sha256": "2b2a535f0f057426f251312f9695a5b1772487f63fff834a5229268270519ab4"
+    },
+    "hmc_read_damper_xlsx.m": {
+      "source_sha256": "b6d9fff5fac4f93641cb6f37158842779a0fc625ab7b0c2f3e893e3e8af0fff3",
+      "repository_sha256": "b6d9fff5fac4f93641cb6f37158842779a0fc625ab7b0c2f3e893e3e8af0fff3"
+    },
+    "read_carsim_reference.m": {
+      "source_sha256": "c682508c2fd364967728ec17ad161542ecbb7bdf609d55d90f331dd2e1a7d555",
+      "repository_sha256": "c682508c2fd364967728ec17ad161542ecbb7bdf609d55d90f331dd2e1a7d555"
+    },
+    "run_hmc_210.m": {
+      "source_sha256": "f51d67450c85f4c0bd3a3102b792823d771dacbbc7decf2d0defdba5abfb9599",
+      "repository_sha256": "02ff395d517d677fc9b1bce1e2343f9538c233243d210c0d16aa7dd788dd3bb5"
+    },
+    "tire_fields.inc": {
+      "source_sha256": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651",
+      "repository_sha256": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651"
+    },
+    "verify_hmc_runtime.m": {
+      "source_sha256": "525f6beb4b60f355e4356ba6af7f2b26f81bb96e415380114a69e9d4fad0fa22",
+      "repository_sha256": "525f6beb4b60f355e4356ba6af7f2b26f81bb96e415380114a69e9d4fad0fa22"
+    }
+  }
+}

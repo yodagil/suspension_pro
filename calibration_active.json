@@ -1,0 +1,661 @@
+{
+  "schema": "HMC_COMMON_PARAMETER_CANDIDATE_V1",
+  "parameter_names": [
+    "Ixx",
+    "Iyy",
+    "Iz",
+    "LKY_front",
+    "LKY_rear",
+    "Cfy_front",
+    "Cfy_rear",
+    "Cfx_front",
+    "Cfx_rear",
+    "Karb_front",
+    "Karb_rear",
+    "speed_KP",
+    "speed_KI",
+    "extra_roll_damping_scaled",
+    "extra_pitch_damping_scaled"
+  ],
+  "factors": [
+    0.9339225351023993,
+    0.9847999588830972,
+    1.0009913236871204,
+    0.9952372312560065,
+    0.9983026109879739,
+    0.9384765684506253,
+    0.9879790358401617,
+    1.0113835624176253,
+    1.0037270863233763,
+    0.9799025514195563,
+    0.9699148725479064,
+    1.0243391517348779,
+    0.9919797738029644,
+    1.0618228326227213,
+    1.019680922710692
+  ],
+  "parameter_bounds": {
+    "Ixx": [
+      0.85,
+      1.15
+    ],
+    "Iyy": [
+      0.85,
+      1.15
+    ],
+    "Iz": [
+      0.97,
+      1.03
+    ],
+    "LKY_front": [
+      0.95,
+      1.05
+    ],
+    "LKY_rear": [
+      0.95,
+      1.05
+    ],
+    "Cfy_front": [
+      0.6,
+      1.4
+    ],
+    "Cfy_rear": [
+      0.6,
+      1.4
+    ],
+    "Cfx_front": [
+      0.6,
+      1.4
+    ],
+    "Cfx_rear": [
+      0.6,
+      1.4
+    ],
+    "Karb_front": [
+      0.9,
+      1.1
+    ],
+    "Karb_rear": [
+      0.9,
+      1.1
+    ],
+    "speed_KP": [
+      0.9,
+      1.1
+    ],
+    "speed_KI": [
+      0.9,
+      1.1
+    ],
+    "extra_roll_damping_scaled": [
+      1.0,
+      1.25
+    ],
+    "extra_pitch_damping_scaled": [
+      1.0,
+      1.25
+    ]
+  },
+  "source_conditions": [
+    50,
+    70,
+    90
+  ],
+  "options": {
+    "mf62_zero_camber_trail": true,
+    "corrected_cc_fx_sign": true,
+    "coupled_pitch_reference": false,
+    "support_force_projection": false,
+    "wheel_spin_gyro": false
+  },
+  "initial_velocity_coordinate_correction": true,
+  "effective_extra_roll_damping_Nms": 1236.4566524544252,
+  "effective_extra_pitch_damping_Nms": 393.61845421383987,
+  "common_parameter_vector_for_all_conditions": true,
+  "output_amplitude_time_or_offset_adjustment": false,
+  "optimizer": {
+    "message": "`xtol` termination condition is satisfied.",
+    "status": 3,
+    "success": true,
+    "nfev": 23,
+    "objective_calls": 23,
+    "finite_difference_evaluations": 180
+  },
+  "objective": 14.165645903937984,
+  "objective_scoring_dt_s": 0.01,
+  "integration_dt_s": 0.001,
+  "objective_normalization": "Each signal divided by original baseline full 1 ms RMSE.",
+  "minimax_exceedance_penalty": 25.0,
+  "minimax_target_rmse_ratio": 0.9,
+  "log_parameter_regularization": 0.04,
+  "objective_sampled_rmse_ratios": [
+    0.9430441963117749,
+    0.6221429748461729,
+    0.814836384428276,
+    0.9042858526875464,
+    0.915372945594046,
+    0.7305973247578996,
+    0.9062692465070822,
+    0.7761064153560941,
+    0.3613116055644736,
+    0.8979781826659469,
+    0.9213430625379355,
+    0.9055262038108989,
+    0.36322092789621996,
+    0.9053956333113011,
+    0.8854569225250302,
+    0.809929871645761,
+    0.8438105048891148,
+    0.9247795729483467
+  ],
+  "baseline_metrics": {
+    "50": {
+      "vy_mps": {
+        "rmse": 0.003124769672360382,
+        "max_abs": 0.021522576179065365,
+        "rmse_0_2": 0.006985790349376071,
+        "rmse_2_10": 5.96197178202467e-06,
+        "final_error": -7.691271758404616e-07,
+        "unit": "m/s"
+      },
+      "rollrate_degps": {
+        "rmse": 0.11082769442648377,
+        "max_abs": 0.7722547407963392,
+        "rmse_0_2": 0.24776835717856407,
+        "rmse_2_10": 0.0002105053456905028,
+        "final_error": -7.363172657261473e-08,
+        "unit": "deg/s"
+      },
+      "r_radps": {
+        "rmse": 0.0006371819520936609,
+        "max_abs": 0.0037786200380667823,
+        "rmse_0_2": 0.0014244942337938143,
+        "rmse_2_10": 1.4821240329481527e-06,
+        "final_error": 1.1131405724887225e-06,
+        "unit": "rad/s"
+      },
+      "vx_mps": {
+        "rmse": 4.0837789974053934e-05,
+        "max_abs": 0.000351124960022986,
+        "rmse_0_2": 8.338722616688136e-05,
+        "rmse_2_10": 1.8591349532908827e-05,
+        "final_error": -5.3691087131824133e-08,
+        "unit": "m/s"
+      },
+      "pitchrate_degps": {
+        "rmse": 0.0020284862197239156,
+        "max_abs": 0.014622624460834266,
+        "rmse_0_2": 0.004533653645293768,
+        "rmse_2_10": 5.372781646339309e-05,
+        "final_error": 4.987870316347414e-07,
+        "unit": "deg/s"
+      },
+      "roll_deg": {
+        "rmse": 0.008278262324918562,
+        "max_abs": 0.04911087385295576,
+        "rmse_0_2": 0.01850699380461083,
+        "rmse_2_10": 2.411597315493507e-05,
+        "final_error": -1.800981282631519e-05,
+        "unit": "deg"
+      }
+    },
+    "70": {
+      "vy_mps": {
+        "rmse": 0.007048127254136685,
+        "max_abs": 0.01335240839451969,
+        "rmse_0_2": 0.008170538686687776,
+        "rmse_2_10": 0.006738216487312127,
+        "final_error": -0.00674237907687518,
+        "unit": "m/s"
+      },
+      "rollrate_degps": {
+        "rmse": 0.06742685601701488,
+        "max_abs": 0.4905022419435294,
+        "rmse_0_2": 0.15072941347686736,
+        "rmse_2_10": 0.0009303207818372744,
+        "final_error": -0.0008218140593579115,
+        "unit": "deg/s"
+      },
+      "r_radps": {
+        "rmse": 0.0013837297196048442,
+        "max_abs": 0.0038321711689238702,
+        "rmse_0_2": 0.0016854364737050377,
+        "rmse_2_10": 0.0012973415687096675,
+        "final_error": 0.0012994235373670615,
+        "unit": "rad/s"
+      },
+      "vx_mps": {
+        "rmse": 9.862814273898936e-05,
+        "max_abs": 0.0004021043802566737,
+        "rmse_0_2": 0.00019874837875276128,
+        "rmse_2_10": 4.7753921148170905e-05,
+        "final_error": 1.8971435622461286e-06,
+        "unit": "m/s"
+      },
+      "pitchrate_degps": {
+        "rmse": 0.006869576049434685,
+        "max_abs": 0.050184074745786456,
+        "rmse_0_2": 0.015345985283701688,
+        "rmse_2_10": 0.0003008143416752753,
+        "final_error": -0.00023620022582526712,
+        "unit": "deg/s"
+      },
+      "roll_deg": {
+        "rmse": 0.015759223380636674,
+        "max_abs": 0.06442230253769887,
+        "rmse_0_2": 0.020613419279466104,
+        "rmse_2_10": 0.014289544022173587,
+        "final_error": -0.01429347120472757,
+        "unit": "deg"
+      }
+    },
+    "90": {
+      "vy_mps": {
+        "rmse": 0.009235849891786338,
+        "max_abs": 0.031023462624971132,
+        "rmse_0_2": 0.01608145982603567,
+        "rmse_2_10": 0.0064769709310794525,
+        "final_error": -0.006326775764561976,
+        "unit": "m/s"
+      },
+      "rollrate_degps": {
+        "rmse": 0.08235003179982228,
+        "max_abs": 0.6356109111705965,
+        "rmse_0_2": 0.1827879394133379,
+        "rmse_2_10": 0.010987412578216964,
+        "final_error": -0.0014892368344839764,
+        "unit": "deg/s"
+      },
+      "r_radps": {
+        "rmse": 0.0009030428538392279,
+        "max_abs": 0.0034063167101486547,
+        "rmse_0_2": 0.0018939594865772552,
+        "rmse_2_10": 0.0003496296771171043,
+        "final_error": 0.00026243039286244496,
+        "unit": "rad/s"
+      },
+      "vx_mps": {
+        "rmse": 0.0005374912749506139,
+        "max_abs": 0.0016118977812062951,
+        "rmse_0_2": 0.0009661129519724602,
+        "rmse_2_10": 0.00035734712766040974,
+        "final_error": 2.652709769535022e-05,
+        "unit": "m/s"
+      },
+      "pitchrate_degps": {
+        "rmse": 0.011466598665689125,
+        "max_abs": 0.05956745116866502,
+        "rmse_0_2": 0.025492165244913965,
+        "rmse_2_10": 0.0013513652470706846,
+        "final_error": 0.0005466875011312933,
+        "unit": "deg/s"
+      },
+      "roll_deg": {
+        "rmse": 0.0160562478637761,
+        "max_abs": 0.06791617085723178,
+        "rmse_0_2": 0.035673678981286594,
+        "rmse_2_10": 0.0019935333654648216,
+        "final_error": -0.0006837365354495084,
+        "unit": "deg"
+      }
+    }
+  },
+  "metrics": {
+    "50": {
+      "vy_mps": {
+        "rmse": 0.002950086503028496,
+        "max_abs": 0.020741067226735976,
+        "rmse_0_2": 0.006595250698950755,
+        "rmse_2_10": 8.985182813201209e-06,
+        "final_error": -6.221720147012166e-06,
+        "unit": "m/s"
+      },
+      "rollrate_degps": {
+        "rmse": 0.0689824545927807,
+        "max_abs": 0.44275134410297207,
+        "rmse_0_2": 0.15421788591046598,
+        "rmse_2_10": 0.00023800466656635611,
+        "final_error": -3.371664275569379e-08,
+        "unit": "deg/s"
+      },
+      "r_radps": {
+        "rmse": 0.0005194520631394685,
+        "max_abs": 0.002760561030229697,
+        "rmse_0_2": 0.0011612933932781257,
+        "rmse_2_10": 1.6200523249831859e-06,
+        "final_error": -7.39250669461297e-07,
+        "unit": "rad/s"
+      },
+      "vx_mps": {
+        "rmse": 3.762544125130261e-05,
+        "max_abs": 0.0003510334087195588,
+        "rmse_0_2": 7.987654040717042e-05,
+        "rmse_2_10": 1.3187353273295224e-05,
+        "final_error": 1.103194122720197e-06,
+        "unit": "m/s"
+      },
+      "pitchrate_degps": {
+        "rmse": 0.0018599223185866505,
+        "max_abs": 0.014722116006931232,
+        "rmse_0_2": 0.00415574942197146,
+        "rmse_2_10": 6.963552712888939e-05,
+        "final_error": 1.1994796024710495e-06,
+        "unit": "deg/s"
+      },
+      "roll_deg": {
+        "rmse": 0.006050797587624221,
+        "max_abs": 0.04090377804623835,
+        "rmse_0_2": 0.013527189005109607,
+        "rmse_2_10": 2.6117554299990948e-05,
+        "final_error": -1.9470124852862154e-05,
+        "unit": "deg"
+      }
+    },
+    "70": {
+      "vy_mps": {
+        "rmse": 0.006390808459629866,
+        "max_abs": 0.015278974519132404,
+        "rmse_0_2": 0.007521398811353105,
+        "rmse_2_10": 0.0060752131496619845,
+        "final_error": -0.006081644746317241,
+        "unit": "m/s"
+      },
+      "rollrate_degps": {
+        "rmse": 0.05262617225795639,
+        "max_abs": 0.5485774805564132,
+        "rmse_0_2": 0.1176347835033465,
+        "rmse_2_10": 0.0010116235218224283,
+        "final_error": -0.0008579950720375325,
+        "unit": "deg/s"
+      },
+      "r_radps": {
+        "rmse": 0.000500152828853296,
+        "max_abs": 0.002354589277670127,
+        "rmse_0_2": 0.0009730889828567307,
+        "rmse_2_10": 0.0002754603954448132,
+        "final_error": 0.0002783929827701037,
+        "unit": "rad/s"
+      },
+      "vx_mps": {
+        "rmse": 8.879549331513574e-05,
+        "max_abs": 0.00040719124176291643,
+        "rmse_0_2": 0.0001281275051755475,
+        "rmse_2_10": 7.583250387186704e-05,
+        "final_error": 5.180970049423195e-06,
+        "unit": "m/s"
+      },
+      "pitchrate_degps": {
+        "rmse": 0.006320665165985344,
+        "max_abs": 0.04742470321727332,
+        "rmse_0_2": 0.013495117635629413,
+        "rmse_2_10": 0.002095516464209786,
+        "final_error": -0.0020316138072807854,
+        "unit": "deg/s"
+      },
+      "roll_deg": {
+        "rmse": 0.014271585019709267,
+        "max_abs": 0.04921670911935849,
+        "rmse_0_2": 0.018364526230526163,
+        "rmse_2_10": 0.013048640564824349,
+        "final_error": -0.013046390409702902,
+        "unit": "deg"
+      }
+    },
+    "90": {
+      "vy_mps": {
+        "rmse": 0.0033612442823694848,
+        "max_abs": 0.01628651854119678,
+        "rmse_0_2": 0.005462500891226082,
+        "rmse_2_10": 0.0025807764900186328,
+        "final_error": -0.0025173841774148165,
+        "unit": "m/s"
+      },
+      "rollrate_degps": {
+        "rmse": 0.07490349235292125,
+        "max_abs": 0.6926078409309335,
+        "rmse_0_2": 0.16672587587363424,
+        "rmse_2_10": 0.0078111243625771576,
+        "final_error": -0.001561766385197727,
+        "unit": "deg/s"
+      },
+      "r_radps": {
+        "rmse": 0.0007998393048803446,
+        "max_abs": 0.0025523373908604707,
+        "rmse_0_2": 0.0011718201095772024,
+        "rmse_2_10": 0.0006754971297533484,
+        "final_error": -0.0006748466304704881,
+        "unit": "rad/s"
+      },
+      "vx_mps": {
+        "rmse": 0.00043554372297023136,
+        "max_abs": 0.0011051469483867038,
+        "rmse_0_2": 0.00061721290561427,
+        "rmse_2_10": 0.0003766444860604358,
+        "final_error": 3.587296232510084e-05,
+        "unit": "m/s"
+      },
+      "pitchrate_degps": {
+        "rmse": 0.00966600707037816,
+        "max_abs": 0.05951609491782939,
+        "rmse_0_2": 0.021292287510254155,
+        "rmse_2_10": 0.001845060371391037,
+        "final_error": -0.001436104884296907,
+        "unit": "deg/s"
+      },
+      "roll_deg": {
+        "rmse": 0.01485508947405872,
+        "max_abs": 0.05196346796601947,
+        "rmse_0_2": 0.03290454141488438,
+        "rmse_2_10": 0.002248808190263728,
+        "final_error": 0.0014303203752872307,
+        "unit": "deg"
+      }
+    }
+  },
+  "full_1ms_checks": [
+    {
+      "speed_kmh": 50,
+      "signal": "vy_mps",
+      "unit": "m/s",
+      "baseline_rmse": 0.003124769672360382,
+      "candidate_rmse": 0.002950086503028496,
+      "rmse_ratio": 0.9440972655114338,
+      "improved": true
+    },
+    {
+      "speed_kmh": 50,
+      "signal": "rollrate_degps",
+      "unit": "deg/s",
+      "baseline_rmse": 0.11082769442648377,
+      "candidate_rmse": 0.0689824545927807,
+      "rmse_ratio": 0.6224297541309892,
+      "improved": true
+    },
+    {
+      "speed_kmh": 50,
+      "signal": "r_radps",
+      "unit": "rad/s",
+      "baseline_rmse": 0.0006371819520936609,
+      "candidate_rmse": 0.0005194520631394685,
+      "rmse_ratio": 0.8152334846155733,
+      "improved": true
+    },
+    {
+      "speed_kmh": 50,
+      "signal": "vx_mps",
+      "unit": "m/s",
+      "baseline_rmse": 4.0837789974053934e-05,
+      "candidate_rmse": 3.762544125130261e-05,
+      "rmse_ratio": 0.9213388206170738,
+      "improved": true
+    },
+    {
+      "speed_kmh": 50,
+      "signal": "pitchrate_degps",
+      "unit": "deg/s",
+      "baseline_rmse": 0.0020284862197239156,
+      "candidate_rmse": 0.0018599223185866505,
+      "rmse_ratio": 0.9169016286636607,
+      "improved": true
+    },
+    {
+      "speed_kmh": 50,
+      "signal": "roll_deg",
+      "unit": "deg",
+      "baseline_rmse": 0.008278262324918562,
+      "candidate_rmse": 0.006050797587624221,
+      "rmse_ratio": 0.7309260506773981,
+      "improved": true
+    },
+    {
+      "speed_kmh": 70,
+      "signal": "vy_mps",
+      "unit": "m/s",
+      "baseline_rmse": 0.007048127254136685,
+      "candidate_rmse": 0.006390808459629866,
+      "rmse_ratio": 0.9067385177926482,
+      "improved": true
+    },
+    {
+      "speed_kmh": 70,
+      "signal": "rollrate_degps",
+      "unit": "deg/s",
+      "baseline_rmse": 0.06742685601701488,
+      "candidate_rmse": 0.05262617225795639,
+      "rmse_ratio": 0.7804927497238845,
+      "improved": true
+    },
+    {
+      "speed_kmh": 70,
+      "signal": "r_radps",
+      "unit": "rad/s",
+      "baseline_rmse": 0.0013837297196048442,
+      "candidate_rmse": 0.000500152828853296,
+      "rmse_ratio": 0.36145268961638416,
+      "improved": true
+    },
+    {
+      "speed_kmh": 70,
+      "signal": "vx_mps",
+      "unit": "m/s",
+      "baseline_rmse": 9.862814273898936e-05,
+      "candidate_rmse": 8.879549331513574e-05,
+      "rmse_ratio": 0.9003058442469625,
+      "improved": true
+    },
+    {
+      "speed_kmh": 70,
+      "signal": "pitchrate_degps",
+      "unit": "deg/s",
+      "baseline_rmse": 0.006869576049434685,
+      "candidate_rmse": 0.006320665165985344,
+      "rmse_ratio": 0.9200953771383734,
+      "improved": true
+    },
+    {
+      "speed_kmh": 70,
+      "signal": "roll_deg",
+      "unit": "deg",
+      "baseline_rmse": 0.015759223380636674,
+      "candidate_rmse": 0.014271585019709267,
+      "rmse_ratio": 0.9056020512562017,
+      "improved": true
+    },
+    {
+      "speed_kmh": 90,
+      "signal": "vy_mps",
+      "unit": "m/s",
+      "baseline_rmse": 0.009235849891786338,
+      "candidate_rmse": 0.0033612442823694848,
+      "rmse_ratio": 0.3639344859165283,
+      "improved": true
+    },
+    {
+      "speed_kmh": 90,
+      "signal": "rollrate_degps",
+      "unit": "deg/s",
+      "baseline_rmse": 0.08235003179982228,
+      "candidate_rmse": 0.07490349235292125,
+      "rmse_ratio": 0.909574540723892,
+      "improved": true
+    },
+    {
+      "speed_kmh": 90,
+      "signal": "r_radps",
+      "unit": "rad/s",
+      "baseline_rmse": 0.0009030428538392279,
+      "candidate_rmse": 0.0007998393048803446,
+      "rmse_ratio": 0.8857157791348217,
+      "improved": true
+    },
+    {
+      "speed_kmh": 90,
+      "signal": "vx_mps",
+      "unit": "m/s",
+      "baseline_rmse": 0.0005374912749506139,
+      "candidate_rmse": 0.00043554372297023136,
+      "rmse_ratio": 0.8103270569559483,
+      "improved": true
+    },
+    {
+      "speed_kmh": 90,
+      "signal": "pitchrate_degps",
+      "unit": "deg/s",
+      "baseline_rmse": 0.011466598665689125,
+      "candidate_rmse": 0.00966600707037816,
+      "rmse_ratio": 0.8429707319661605,
+      "improved": true
+    },
+    {
+      "speed_kmh": 90,
+      "signal": "roll_deg",
+      "unit": "deg",
+      "baseline_rmse": 0.0160562478637761,
+      "candidate_rmse": 0.01485508947405872,
+      "rmse_ratio": 0.9251905924778809,
+      "improved": true
+    }
+  ],
+  "full_1ms_sample_count_per_condition": 10001,
+  "full_1ms_required_rmse_checks": 18,
+  "full_1ms_improved_rmse_checks": 18,
+  "all_requested_full_1ms_rmse_improved": true,
+  "all_three_speed_goal_confirmed": true,
+  "candidate_status": "passes_requested_rmse_gate",
+  "promoted_to_active_profile": true,
+  "interpretation": "Calibration agreement on selected runs; not independent validation.",
+  "actual_MATLAB_execution": false,
+  "elapsed_seconds": 222.94923852199827,
+  "provenance": {
+    "start_profile": "history/calibration_50_70_before_90.json",
+    "start_profile_sha256": "a7398b6540d9de56b20834e8de81805f8f8bd07119015251dc059c9099161410",
+    "data_sha256": "8385acc64d028695c19d4547816613a2ab876f33cf13bec48145e31fcd53ab5f",
+    "native_binary_sha256": "2066171addcce99137350f1797c36323a402fc26c5c7e59cfd2c2920bda12273",
+    "native_source_sha256": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062",
+    "reference_sha256": {
+      "50": "a6e302e1d21d0c3480d5ec15ceba983d4175dee579602ecce5485681bba781de",
+      "70": "0c3c05df5fdaea58aba7db1e17fd96cd6beee68632622bdda6177248fffcc2d1",
+      "90": "1d51bb658b564086b4bcec055954c62c85ca92f9c95b52181dc5ab59c3bf658c"
+    },
+    "reference_files": {
+      "50": "data/CarSim_reference_050.mat",
+      "70": "data/CarSim_reference_070.mat",
+      "90": "data/CarSim_reference_090.mat"
+    }
+  },
+  "profile_schema": "HMC_COMMON_EFFECTIVE_PARAMETERS_2",
+  "training_tire_wear": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "independent_validation_of_updated_profile": false,
+  "notes": [
+    "This common profile uses numeric reference data at50,70,90km/h for calibration.",
+    "Frozen first90holdout result before this refit is preserved in history/heldout90_before_refit.json.",
+    "All18 full1ms requested-signal RMSE values are smaller than the original-code baseline; this does not mean all errors are lower than the previous50/70-specific fit.",
+    "No output time shift, amplitude rescaling or offset removal is used.",
+    "Other speeds/friction/steering/wear remain model predictions until reference data are supplied."
+  ]
+}
