@@ -1,0 +1,15 @@
+{
+  "model": "carsim_fullcar",
+  "steer_target_deg": 2.5,
+  "reference_nodes": 512,
+  "final_nodes": [
+    361,
+    361
+  ],
+  "accepted_cells": 307,
+  "area": 0.7674999999999986,
+  "candidate_centers": 307,
+  "elapsed_seconds": 258.4591999053955,
+  "trim_in_reference": true,
+  "result_file": "comparison/carsim_fullcar/carsim_fullcar_region_2p5_core.mat"
+}

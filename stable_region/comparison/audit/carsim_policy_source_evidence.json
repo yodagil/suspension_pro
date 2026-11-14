@@ -1,0 +1,17 @@
+{
+  "repository": "yodagil/suspension",
+  "commit": "eed311e4edfe3d70228363465bd96217ff120adb",
+  "policy_url": "https://github.com/yodagil/suspension/blob/eed311e4edfe3d70228363465bd96217ff120adb/hmc_standalone/hmc_classify.m",
+  "handling_url": "https://github.com/yodagil/suspension/blob/eed311e4edfe3d70228363465bd96217ff120adb/hmc_standalone/hmc_handling_reference.m",
+  "evidence_status": "Later matching CarSim-policy port found; original CarSim_1050_Run/cs_classify producer source not found in repository main tree.",
+  "last_window": "dt >= horizon - lastWindow - 1e-8 and dt <= horizon + 1e-8; inclusive 9 s in a 10 s run.",
+  "physical_policy": "finite observed channels and ay/fz; all Fz>0; absolute total/front/rear LTR<1; abs(roll)<40deg; vx>0",
+  "main_policy": "all physical and all 7 observed terminal errors within tolerance throughout last window; all trajectory in H; trim in H unless allowTrimOutsideH",
+  "guarded_policy": "main policy and all yaw-policy and ay-policy samples pass",
+  "derivative_criterion": false,
+  "window_sample_count_guard": "At least 3 tail samples, max observed path time >= horizon - .03 s, first elapsed sample within .03 s; exact files contain no actual sample times to independently check.",
+  "source_sha256": {
+    "hmc_classify_upstream.m": "ec95f171bf6d3250f544483f802feede52ad02eb7ca32e29eaf95177fd6a21c5",
+    "hmc_handling_reference_upstream.m": "a4f9e95520ca312e4bc2e3b40b16765ea1098e4260a7701c0428cd5b4103a557"
+  }
+}

@@ -1,0 +1,2 @@
+# Matplotlib emits trailing spaces in generated SVG path data.
+comparison/images/*.svg -whitespace

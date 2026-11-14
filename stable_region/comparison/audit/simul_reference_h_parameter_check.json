@@ -1,0 +1,38 @@
+[
+  {
+    "steer_command": 0.0,
+    "steer_actual_carsim": -0.0072287707649889045,
+    "CarSim_H_count": 522,
+    "simul_H_count": 521,
+    "predicted_nominal_count": 521,
+    "predicted_actual_count": 522,
+    "nominal_vs_CarSim_disagreements": 1,
+    "actual_vs_CarSim_disagreements": 0,
+    "nominal_vs_simul_disagreements": 0,
+    "actual_vs_simul_disagreements": 1
+  },
+  {
+    "steer_command": 1.5,
+    "steer_actual_carsim": 1.3076631615654044,
+    "CarSim_H_count": 517,
+    "simul_H_count": 517,
+    "predicted_nominal_count": 517,
+    "predicted_actual_count": 517,
+    "nominal_vs_CarSim_disagreements": 54,
+    "actual_vs_CarSim_disagreements": 0,
+    "nominal_vs_simul_disagreements": 0,
+    "actual_vs_simul_disagreements": 54
+  },
+  {
+    "steer_command": 2.5,
+    "steer_actual_carsim": 2.2059404396530846,
+    "CarSim_H_count": 512,
+    "simul_H_count": 515,
+    "predicted_nominal_count": 515,
+    "predicted_actual_count": 512,
+    "nominal_vs_CarSim_disagreements": 79,
+    "actual_vs_CarSim_disagreements": 0,
+    "nominal_vs_simul_disagreements": 0,
+    "actual_vs_simul_disagreements": 79
+  }
+]

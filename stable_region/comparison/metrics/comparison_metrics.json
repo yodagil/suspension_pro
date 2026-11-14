@@ -1,0 +1,426 @@
+{
+  "schema": "STABLE_REGION_THREE_MODEL_COMPARISON_V1",
+  "conditions": [
+    {
+      "speed_kmh": 70,
+      "mu": 0.6,
+      "wear": [
+        25,
+        25,
+        0,
+        0
+      ],
+      "steer_command_deg": 0.0,
+      "models": {
+        "carsim": {
+          "source_file": "/workspace/work/carsim-region-audit/core/CarSim_region_0_core.mat",
+          "source_sha256": "057e978148618cb9a0ec3b4de3a9f8344926569862a371ed68556d3fcddfdbb5",
+          "area": 0.8574999999999995,
+          "accepted_cells": 343,
+          "final_points": 401,
+          "reference_points": 522
+        },
+        "simul_fullcar": {
+          "source_file": "/workspace/work/simul-lut-audit/simul_fullcar_region_0_core.mat",
+          "source_sha256": "f807ee02290b7446fa9aef54d70fa6344364a81e142e45946c82e8817c070a6b",
+          "area": 0.8875000000000002,
+          "accepted_cells": 355,
+          "final_points": 415,
+          "reference_points": 521
+        },
+        "carsim_fullcar": {
+          "source_file": "/workspace/work/stable-region-computation/results/carsim_fullcar_region_0_core.mat",
+          "source_sha256": "5fd4673d9aaddf4421103114dcf69bb2338da8fc6c667783eb85469c69a1fe03",
+          "area": 0.8549999999999995,
+          "accepted_cells": 342,
+          "final_points": 400,
+          "reference_points": 522
+        }
+      },
+      "pairwise": [
+        {
+          "models": [
+            "carsim",
+            "carsim_fullcar"
+          ],
+          "accepted_cells": [
+            343,
+            342
+          ],
+          "cell_intersection": 342,
+          "cell_union": 343,
+          "cell_iou": 0.9970845481049563,
+          "cell_dice": 0.9985401459854014,
+          "cell_disagreement": 1,
+          "areas": [
+            0.8574999999999995,
+            0.8549999999999995
+          ],
+          "signed_area_difference_b_minus_a": -0.0024999999999999467,
+          "area_difference_pct_of_a": -0.29154518950436714,
+          "reference_mask_disagreement": 0,
+          "common_reference_points": 522,
+          "point_agreement_on_common_reference": 0.9980842911877394,
+          "point_iou_on_common_reference": 0.9975062344139651,
+          "grid_axis_max_difference": {
+            "vc": 0.0,
+            "r": 0.0
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": true,
+          "recovery_test_scope": "same observed-seven-signal comparison criterion"
+        },
+        {
+          "models": [
+            "carsim",
+            "simul_fullcar"
+          ],
+          "accepted_cells": [
+            343,
+            355
+          ],
+          "cell_intersection": 296,
+          "cell_union": 402,
+          "cell_iou": 0.736318407960199,
+          "cell_dice": 0.8481375358166189,
+          "cell_disagreement": 106,
+          "areas": [
+            0.8574999999999995,
+            0.8875000000000002
+          ],
+          "signed_area_difference_b_minus_a": 0.030000000000000693,
+          "area_difference_pct_of_a": 3.498542274052561,
+          "reference_mask_disagreement": 1,
+          "common_reference_points": 521,
+          "point_agreement_on_common_reference": 0.7677543186180422,
+          "point_iou_on_common_reference": 0.7414529914529915,
+          "grid_axis_max_difference": {
+            "vc": 8.881784197001252e-16,
+            "r": 4.440892098500626e-16
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": false,
+          "recovery_test_scope": "exact recovery-criterion equivalence of the supplied simul_fullcar LUT is not established"
+        },
+        {
+          "models": [
+            "carsim_fullcar",
+            "simul_fullcar"
+          ],
+          "accepted_cells": [
+            342,
+            355
+          ],
+          "cell_intersection": 295,
+          "cell_union": 402,
+          "cell_iou": 0.7338308457711443,
+          "cell_dice": 0.8464849354375896,
+          "cell_disagreement": 107,
+          "areas": [
+            0.8549999999999995,
+            0.8875000000000002
+          ],
+          "signed_area_difference_b_minus_a": 0.03250000000000064,
+          "area_difference_pct_of_a": 3.801169590643352,
+          "reference_mask_disagreement": 1,
+          "common_reference_points": 521,
+          "point_agreement_on_common_reference": 0.7658349328214972,
+          "point_iou_on_common_reference": 0.7393162393162394,
+          "grid_axis_max_difference": {
+            "vc": 8.881784197001252e-16,
+            "r": 4.440892098500626e-16
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": false,
+          "recovery_test_scope": "exact recovery-criterion equivalence of the supplied simul_fullcar LUT is not established"
+        }
+      ]
+    },
+    {
+      "speed_kmh": 70,
+      "mu": 0.6,
+      "wear": [
+        25,
+        25,
+        0,
+        0
+      ],
+      "steer_command_deg": 1.5,
+      "models": {
+        "carsim": {
+          "source_file": "/workspace/work/carsim-region-audit/core/CarSim_region_1p5_core.mat",
+          "source_sha256": "95050fc8d1e896fdb0956ad4479c86f6f26e388d72993e488da76e99ad4bac01",
+          "area": 0.8249999999999997,
+          "accepted_cells": 330,
+          "final_points": 386,
+          "reference_points": 517
+        },
+        "simul_fullcar": {
+          "source_file": "/workspace/work/simul-lut-audit/simul_fullcar_region_1p5_core.mat",
+          "source_sha256": "8701da6a0d6059743c64b8f3d4a1a7dea3dac10fdd5ed08711fd677fb869b3fb",
+          "area": 0.8775000000000001,
+          "accepted_cells": 351,
+          "final_points": 409,
+          "reference_points": 517
+        },
+        "carsim_fullcar": {
+          "source_file": "/workspace/work/stable-region-computation/results/carsim_fullcar_region_1p5_core.mat",
+          "source_sha256": "ad189ac904c5ae1c31bbe030b60ee34b785ce123305ab9be3cb51433c386477b",
+          "area": 0.8249999999999997,
+          "accepted_cells": 330,
+          "final_points": 386,
+          "reference_points": 517
+        }
+      },
+      "pairwise": [
+        {
+          "models": [
+            "carsim",
+            "carsim_fullcar"
+          ],
+          "accepted_cells": [
+            330,
+            330
+          ],
+          "cell_intersection": 330,
+          "cell_union": 330,
+          "cell_iou": 1.0,
+          "cell_dice": 1.0,
+          "cell_disagreement": 0,
+          "areas": [
+            0.8249999999999997,
+            0.8249999999999997
+          ],
+          "signed_area_difference_b_minus_a": 0.0,
+          "area_difference_pct_of_a": 0.0,
+          "reference_mask_disagreement": 0,
+          "common_reference_points": 517,
+          "point_agreement_on_common_reference": 1.0,
+          "point_iou_on_common_reference": 1.0,
+          "grid_axis_max_difference": {
+            "vc": 0.0,
+            "r": 0.0
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": true,
+          "recovery_test_scope": "same observed-seven-signal comparison criterion"
+        },
+        {
+          "models": [
+            "carsim",
+            "simul_fullcar"
+          ],
+          "accepted_cells": [
+            330,
+            351
+          ],
+          "cell_intersection": 285,
+          "cell_union": 396,
+          "cell_iou": 0.7196969696969697,
+          "cell_dice": 0.8370044052863436,
+          "cell_disagreement": 111,
+          "areas": [
+            0.8249999999999997,
+            0.8775000000000001
+          ],
+          "signed_area_difference_b_minus_a": 0.052500000000000324,
+          "area_difference_pct_of_a": 6.363636363636404,
+          "reference_mask_disagreement": 54,
+          "common_reference_points": 490,
+          "point_agreement_on_common_reference": 0.7959183673469388,
+          "point_iou_on_common_reference": 0.7701149425287356,
+          "grid_axis_max_difference": {
+            "vc": 8.881784197001252e-16,
+            "r": 4.440892098500626e-16
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": false,
+          "recovery_test_scope": "exact recovery-criterion equivalence of the supplied simul_fullcar LUT is not established"
+        },
+        {
+          "models": [
+            "carsim_fullcar",
+            "simul_fullcar"
+          ],
+          "accepted_cells": [
+            330,
+            351
+          ],
+          "cell_intersection": 285,
+          "cell_union": 396,
+          "cell_iou": 0.7196969696969697,
+          "cell_dice": 0.8370044052863436,
+          "cell_disagreement": 111,
+          "areas": [
+            0.8249999999999997,
+            0.8775000000000001
+          ],
+          "signed_area_difference_b_minus_a": 0.052500000000000324,
+          "area_difference_pct_of_a": 6.363636363636404,
+          "reference_mask_disagreement": 54,
+          "common_reference_points": 490,
+          "point_agreement_on_common_reference": 0.7959183673469388,
+          "point_iou_on_common_reference": 0.7701149425287356,
+          "grid_axis_max_difference": {
+            "vc": 8.881784197001252e-16,
+            "r": 4.440892098500626e-16
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": false,
+          "recovery_test_scope": "exact recovery-criterion equivalence of the supplied simul_fullcar LUT is not established"
+        }
+      ]
+    },
+    {
+      "speed_kmh": 70,
+      "mu": 0.6,
+      "wear": [
+        25,
+        25,
+        0,
+        0
+      ],
+      "steer_command_deg": 2.5,
+      "models": {
+        "carsim": {
+          "source_file": "/workspace/work/carsim-region-audit/core/CarSim_region_2p5_core.mat",
+          "source_sha256": "006fa7c366c31b174ace758b61215a72610b38e0d486b744d00e757d6a9f1850",
+          "area": 0.7674999999999997,
+          "accepted_cells": 307,
+          "final_points": 362,
+          "reference_points": 512
+        },
+        "simul_fullcar": {
+          "source_file": "/workspace/work/simul-lut-audit/simul_fullcar_region_2p5_core.mat",
+          "source_sha256": "f365a03ca2031915a2fbdcaf4b2d2e1271534fa55bb3e63917057bfac7ce5c29",
+          "area": 0.7950000000000002,
+          "accepted_cells": 318,
+          "final_points": 373,
+          "reference_points": 515
+        },
+        "carsim_fullcar": {
+          "source_file": "/workspace/work/stable-region-computation/results/carsim_fullcar_region_2p5_core.mat",
+          "source_sha256": "b68f49d8d318e47893431946b2b7be350f5d5adfc5b8c37dcb0860152fe456b4",
+          "area": 0.7674999999999996,
+          "accepted_cells": 307,
+          "final_points": 361,
+          "reference_points": 512
+        }
+      },
+      "pairwise": [
+        {
+          "models": [
+            "carsim",
+            "carsim_fullcar"
+          ],
+          "accepted_cells": [
+            307,
+            307
+          ],
+          "cell_intersection": 306,
+          "cell_union": 308,
+          "cell_iou": 0.9935064935064936,
+          "cell_dice": 0.996742671009772,
+          "cell_disagreement": 2,
+          "areas": [
+            0.7674999999999997,
+            0.7674999999999996
+          ],
+          "signed_area_difference_b_minus_a": -1.1102230246251565e-16,
+          "area_difference_pct_of_a": -1.4465446574920613e-14,
+          "reference_mask_disagreement": 0,
+          "common_reference_points": 512,
+          "point_agreement_on_common_reference": 0.994140625,
+          "point_iou_on_common_reference": 0.9917355371900827,
+          "grid_axis_max_difference": {
+            "vc": 0.0,
+            "r": 0.0
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": true,
+          "recovery_test_scope": "same observed-seven-signal comparison criterion"
+        },
+        {
+          "models": [
+            "carsim",
+            "simul_fullcar"
+          ],
+          "accepted_cells": [
+            307,
+            318
+          ],
+          "cell_intersection": 260,
+          "cell_union": 365,
+          "cell_iou": 0.7123287671232876,
+          "cell_dice": 0.832,
+          "cell_disagreement": 105,
+          "areas": [
+            0.7674999999999997,
+            0.7950000000000002
+          ],
+          "signed_area_difference_b_minus_a": 0.027500000000000413,
+          "area_difference_pct_of_a": 3.583061889250869,
+          "reference_mask_disagreement": 79,
+          "common_reference_points": 474,
+          "point_agreement_on_common_reference": 0.820675105485232,
+          "point_iou_on_common_reference": 0.7837150127226463,
+          "grid_axis_max_difference": {
+            "vc": 8.881784197001252e-16,
+            "r": 4.440892098500626e-16
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": false,
+          "recovery_test_scope": "exact recovery-criterion equivalence of the supplied simul_fullcar LUT is not established"
+        },
+        {
+          "models": [
+            "carsim_fullcar",
+            "simul_fullcar"
+          ],
+          "accepted_cells": [
+            307,
+            318
+          ],
+          "cell_intersection": 261,
+          "cell_union": 364,
+          "cell_iou": 0.717032967032967,
+          "cell_dice": 0.8352,
+          "cell_disagreement": 103,
+          "areas": [
+            0.7674999999999996,
+            0.7950000000000002
+          ],
+          "signed_area_difference_b_minus_a": 0.027500000000000524,
+          "area_difference_pct_of_a": 3.5830618892508843,
+          "reference_mask_disagreement": 79,
+          "common_reference_points": 474,
+          "point_agreement_on_common_reference": 0.8248945147679325,
+          "point_iou_on_common_reference": 0.7882653061224489,
+          "grid_axis_max_difference": {
+            "vc": 8.881784197001252e-16,
+            "r": 4.440892098500626e-16
+          },
+          "comparison_method": "index correspondence on equal nominal grids; no interpolation or alignment",
+          "same_reference_mask": false,
+          "recovery_test_scope": "exact recovery-criterion equivalence of the supplied simul_fullcar LUT is not established"
+        }
+      ]
+    }
+  ],
+  "area_units": "(m/s)*(rad/s)",
+  "cell_boundary_method": "exact exposed cell edges",
+  "point_accuracy_domain": "intersection of evaluated reference masks; outside-H points excluded",
+  "status": "complete_three_model_comparison",
+  "reference_difference": "carsim H uses measured wheel steer; simul_fullcar H uses nominal command steer",
+  "recovery_definition_difference": "carsim/carsim_fullcar use the observed-seven-signal comparison; exact recovery-criterion equivalence of the supplied simul_fullcar LUT is not established",
+  "shared_plot_limits": {
+    "vc": [
+      -1.5,
+      2.0
+    ],
+    "r": [
+      -0.75,
+      0.75
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "scope": "Three-condition comparison; not 1050 fresh stability maps",
+  "files": {
+    ".gitattributes": {
+      "bytes": 99,
+      "sha256": "1e1b8fd51f5c7e62d32e5170f097a54fd2ad4c00801883f9e9b6f1f39da176b1"
+    },
+    "METHODS.md": {
+      "bytes": 7104,
+      "sha256": "5308b31b8cb8d9fa323350b05834799d328b54a77e18db81e352d517ccabc4b4"
+    },
+    "README.md": {
+      "bytes": 4455,
+      "sha256": "16745661d90d1490661bb5bb53fb19517272ae4be10773ff07601043d40e1710"
+    },
+    "code/build_stable_region_mex.m": {
+      "bytes": 3308,
+      "sha256": "5f2fce881692cbdc606c09c91a4741f34e1db8eaad66b4f76fbcd36c04faea99"
+    },
+    "code/compare_regions.py": {
+      "bytes": 16896,
+      "sha256": "0fbdbe5b32de5f815a62deab9af91101f99b90f4da0bad4e02f63c35f43b1f6e"
+    },
+    "code/hmc_region_mex.cpp": {
+      "bytes": 21340,
+      "sha256": "8171ee4b66a8b031e6f1a2f7ff5627435fa6961f31084ae80bbd0fad6b906287"
+    },
+    "code/prepare_three_contexts.m": {
+      "bytes": 5677,
+      "sha256": "b0d54c1d81fea3e5ea601c31cca5740dc4bd1683c488af90ce38c96afa43a480"
+    },
+    "code/reference_handling.m": {
+      "bytes": 1758,
+      "sha256": "88faddf69c816300e65314fc93ed92f1f46c040be00fbd04cfd53bd3982b438f"
+    },
+    "code/requirements.txt": {
+      "bytes": 23,
+      "sha256": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035"
+    },
+    "code/run_carsim_fullcar_region.m": {
+      "bytes": 8830,
+      "sha256": "994ebfc46efb94bb3727e84652d88de3eb2931e714b54ba7c8aa8afe432173c4"
+    },
+    "code/stable_region_sha256.m": {
+      "bytes": 578,
+      "sha256": "bf3b6fc00e1594ff860b8939ee448ae05e004c5f20bbc696b209de726636e11a"
+    },
+    "comparison/audit/REPORT.md": {
+      "bytes": 2282,
+      "sha256": "d71bca0ace19a64ac98b4835eb9350165dca8d6b18c16754f60da0d5a597e087"
+    },
+    "comparison/audit/audit_three_models.py": {
+      "bytes": 7920,
+      "sha256": "d32d2bfe39b9d63a94f05f6cd992cbb2b2ca08ab0dc988037ed97ef4ff7118a5"
+    },
+    "comparison/audit/carsim_policy_source_evidence.json": {
+      "bytes": 1478,
+      "sha256": "30f9fd21468e3cae20bf9733fd5090fe56f45589438fcaade7fb0cf957fec0af"
+    },
+    "comparison/audit/carsim_raw_logic_audit.json": {
+      "bytes": 1896,
+      "sha256": "e035273b79b6f33f525a229c4ad848d60d357e2a0d85ca0c4c88153a293c5ad3"
+    },
+    "comparison/audit/carsim_reference_audit.md": {
+      "bytes": 3763,
+      "sha256": "3bf133c6c5a7cae633bbf6d12a93e3133db6207dd09a612aa9ab24742c77d38a"
+    },
+    "comparison/audit/carsim_reference_manifest.json": {
+      "bytes": 7246,
+      "sha256": "b0416cf07d682394676e47695c79109897511979af59e76a1085e578fe01bcfa"
+    },
+    "comparison/audit/common_H_reconstruction.json": {
+      "bytes": 2347,
+      "sha256": "758218ddbcf3d34ada0eaa07600cbdb7a0ebd62dff6ae221fd8a444c490696c4"
+    },
+    "comparison/audit/independent_audit.json": {
+      "bytes": 282120,
+      "sha256": "f9475243e33f8e536de102734140628f2ff6cf74d8dcc0e586af1f4f69427b41"
+    },
+    "comparison/audit/simul_fullcar_manifest.json": {
+      "bytes": 9689,
+      "sha256": "9529d9796364c154b052df80ae8b78ed2d778b927f4b8bc23e61319f26fe3a1f"
+    },
+    "comparison/audit/simul_reference_h_parameter_check.json": {
+      "bytes": 1118,
+      "sha256": "b890875de97121f656b0dacba7fe514c91838245645801e2d157821dbc3c865b"
+    },
+    "comparison/carsim_fullcar/carsim_fullcar_region_0_core.mat": {
+      "bytes": 288582,
+      "sha256": "5fd4673d9aaddf4421103114dcf69bb2338da8fc6c667783eb85469c69a1fe03"
+    },
+    "comparison/carsim_fullcar/carsim_fullcar_region_1p5_core.mat": {
+      "bytes": 282808,
+      "sha256": "ad189ac904c5ae1c31bbe030b60ee34b785ce123305ab9be3cb51433c386477b"
+    },
+    "comparison/carsim_fullcar/carsim_fullcar_region_2p5_core.mat": {
+      "bytes": 276254,
+      "sha256": "b68f49d8d318e47893431946b2b7be350f5d5adfc5b8c37dcb0860152fe456b4"
+    },
+    "comparison/carsim_fullcar/summary_0.json": {
+      "bytes": 355,
+      "sha256": "391aa94c814ec3dab9325cef71c1f851fb8086f130f9aa1e43c56c961e000041"
+    },
+    "comparison/carsim_fullcar/summary_1p5.json": {
+      "bytes": 360,
+      "sha256": "1867787700d074dd3bc96b89d7f4ce1aa2bd020c3dfa6f1f75a6de24fe5efb1f"
+    },
+    "comparison/carsim_fullcar/summary_2p5.json": {
+      "bytes": 359,
+      "sha256": "1fa86ec58613f818c5e8f94edaadfef26140bf02de6be6dcf01cc8bac1c30c4d"
+    },
+    "comparison/context/context_0.mat": {
+      "bytes": 75320,
+      "sha256": "eae576a5cf18313dbfdcfb8f51a3e1a86fc00f360b402d4328b3646211de5b3a"
+    },
+    "comparison/context/context_1p5.mat": {
+      "bytes": 75348,
+      "sha256": "d026f66a7768cb033cf3c659e81dbc430d3fdd20297cc32361c23c243df9f736"
+    },
+    "comparison/context/context_2p5.mat": {
+      "bytes": 75334,
+      "sha256": "f8a8c138686354778c4981dacc0bbe3b00bfe8ff8888f1223e23fca7f14e61ce"
+    },
+    "comparison/images/three_model_regions.png": {
+      "bytes": 191086,
+      "sha256": "d75bc2ffd875debdc9cba1d1a1ee39378c5c02b91e80e56631d707c92ec3c557"
+    },
+    "comparison/images/three_model_regions.svg": {
+      "bytes": 700313,
+      "sha256": "79a316b91328d05af4bfdf9478196dc43abfd9068d481ad684ba01b588646f3a"
+    },
+    "comparison/images/three_model_regions_0deg.png": {
+      "bytes": 122188,
+      "sha256": "7ed4e0afd4d1763599a27c8ec21ae804ae9f5b91de093db41e0c43ded161cace"
+    },
+    "comparison/images/three_model_regions_0deg.svg": {
+      "bytes": 254755,
+      "sha256": "eff751d19611e2e95e2ab14437346a5ffbef83d4b938fba596686ed6a257a2d1"
+    },
+    "comparison/images/three_model_regions_1p5deg.png": {
+      "bytes": 122295,
+      "sha256": "f76e9c5c6ea35c9d78c3d48c4e865a50b819a488deb89ec803928758fe35e0f0"
+    },
+    "comparison/images/three_model_regions_1p5deg.svg": {
+      "bytes": 249953,
+      "sha256": "039220193f5d2da4aec5b0c56575ce94991001f6052b3ece7c9d26f2b4f348a6"
+    },
+    "comparison/images/three_model_regions_2p5deg.png": {
+      "bytes": 120954,
+      "sha256": "da7419a297f28b56c1de6752eda72aa92e2169e352bdb38a72abbe8aed0d1f67"
+    },
+    "comparison/images/three_model_regions_2p5deg.svg": {
+      "bytes": 236410,
+      "sha256": "2a79ac8b126c3bf62ea1ef63ccb05f5b20d53a2546900c427ecde078f081c474"
+    },
+    "comparison/input_manifest.json": {
+      "bytes": 746,
+      "sha256": "624cc0c5d8ae36f1b874294c154e00f03038b008c3fb6654f0e1798ec17583ea"
+    },
+    "comparison/metrics/comparison_metrics.json": {
+      "bytes": 15267,
+      "sha256": "c6f4387749b0e474d590d4677b575b464d9a352f6e216d31816e63e22b334fa3"
+    },
+    "comparison/metrics/pairwise_metrics.csv": {
+      "bytes": 1297,
+      "sha256": "5e466854c9c7f3d81959dd7f46982f2bc6df381550499157dabbbb2440e4eb05"
+    },
+    "comparison/reference_core/CarSim_region_0_core.mat": {
+      "bytes": 176018,
+      "sha256": "057e978148618cb9a0ec3b4de3a9f8344926569862a371ed68556d3fcddfdbb5"
+    },
+    "comparison/reference_core/CarSim_region_1p5_core.mat": {
+      "bytes": 176192,
+      "sha256": "95050fc8d1e896fdb0956ad4479c86f6f26e388d72993e488da76e99ad4bac01"
+    },
+    "comparison/reference_core/CarSim_region_2p5_core.mat": {
+      "bytes": 176019,
+      "sha256": "006fa7c366c31b174ace758b61215a72610b38e0d486b744d00e757d6a9f1850"
+    },
+    "comparison/reference_core/Qref_0.mat": {
+      "bytes": 173135,
+      "sha256": "908d54a227d03f33ab925aea5fc4378d46843c18760f70e9538c2b9e141e3674"
+    },
+    "comparison/reference_core/Qref_1p5.mat": {
+      "bytes": 173216,
+      "sha256": "9e00d4faaa3ec51ee47240d034b2cca262ab7ba4ee161a7898e0f7c86a47040a"
+    },
+    "comparison/reference_core/Qref_2p5.mat": {
+      "bytes": 173196,
+      "sha256": "90f02feda179cddb5aba1b139fcb0fcf84fdc3fe64cdc76bbd0d1dea47f729d6"
+    },
+    "comparison/reference_core/simul_fullcar_region_0_core.mat": {
+      "bytes": 3808,
+      "sha256": "f807ee02290b7446fa9aef54d70fa6344364a81e142e45946c82e8817c070a6b"
+    },
+    "comparison/reference_core/simul_fullcar_region_1p5_core.mat": {
+      "bytes": 3873,
+      "sha256": "8701da6a0d6059743c64b8f3d4a1a7dea3dac10fdd5ed08711fd677fb869b3fb"
+    },
+    "comparison/reference_core/simul_fullcar_region_2p5_core.mat": {
+      "bytes": 3720,
+      "sha256": "f365a03ca2031915a2fbdcaf4b2d2e1271534fa55bb3e63917057bfac7ce5c29"
+    },
+    "comparison/reference_input/CDC_Stability_LUT_210.mat": {
+      "bytes": 3357404,
+      "sha256": "1ba69c63a67c2f9fe6512cb7b72a85cb564f0b97131ec1982fd0dff3d9abea9f"
+    },
+    "comparison/reference_input/CDC_Stability_LUT_210_QC.csv": {
+      "bytes": 89969,
+      "sha256": "01f27f2beebfc8d7354c797edceb86aa89a50cd574ff91f16c3e060543b22a2c"
+    },
+    "comparison/reference_input/RESEARCH2D_carsim1.5_deg.mat": {
+      "bytes": 4122588,
+      "sha256": "de01043531b60bb1a03ae79baf013682ff49668eb42995bf9480b4448bb02cff"
+    },
+    "comparison/reference_input/RESEARCH2D_carsim_0deg.mat": {
+      "bytes": 4162540,
+      "sha256": "a51a1e8fdfede551b3631c1a48c1370a174b0873bf37f3ec732578d8d97085f9"
+    },
+    "comparison/reference_input/RESEARCH2D_carsim_2.5deg.mat": {
+      "bytes": 4086717,
+      "sha256": "a8f12f8f7c34fccace7596a1f1d99484442eeb7544916a40ab2d76e2a323a262"
+    },
+    "comparison/validation/binary_binding.json": {
+      "bytes": 194,
+      "sha256": "6aa214a56bdec8d401c9a71f31677632f6238caff5382bb726a527b053e3768b"
+    },
+    "comparison/validation/delegated_action_verification.json": {
+      "bytes": 1450,
+      "sha256": "ee8ab48c5cdab3408bf1d13e98c1c86fbb5805ccaf3924e5234f361e95930acf"
+    },
+    "comparison/validation/early_exclusion_verification.json": {
+      "bytes": 463,
+      "sha256": "c843aa919545e2871c61c2f25fb18ee043159147aa734cee0a636d5a211f5550"
+    },
+    "comparison/validation/production_regions.txt": {
+      "bytes": 1666,
+      "sha256": "77388c1e1465bc0d43069deda044ab9bb4dfac8cc590d7090b2eaf9cbcdeeee3"
+    },
+    "comparison/validation/verification_summary.json": {
+      "bytes": 3946,
+      "sha256": "79d14fcfa83070748063aee0312df5cd09d99e7843c5e0e4c600462f7d59b6f1"
+    },
+    "physics_binding.json": {
+      "bytes": 1061,
+      "sha256": "039e6e550926689157fe3d31714ac88239c49fd1b9b59d8fc1392ca094acecc6"
+    },
+    "source/CDC_Research_Final_210_MATLAB_Code.zip": {
+      "bytes": 40438,
+      "sha256": "043e68a486ef74724565a8e21f254c1f0ceb4b0cda2482efe18d3ed1154ea1ca"
+    }
+  }
+}

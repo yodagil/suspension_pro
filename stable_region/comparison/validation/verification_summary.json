@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "runtime": "GNU Octave 10.3.0",
+  "binary_binding": {
+    "mex_sha256": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+    "cpp_sha256": "8171ee4b66a8b031e6f1a2f7ff5627435fa6961f31084ae80bbd0fad6b906287",
+    "new_process": true
+  },
+  "three_condition_bridge_and_upstream_policy": {
+    "scope": "Original HMC module delegated actions and region trace/reference comparison",
+    "runtime": "GNU Octave",
+    "version": "10.3.0",
+    "case_count": 3,
+    "passed": true,
+    "cases": [
+      {
+        "steer_deg": 0,
+        "rhs_scaled_error": 0,
+        "observation_scaled_error": 0,
+        "delegated_trajectory_scaled_error": 0,
+        "delegated_trajectory_bitwise_equal": true,
+        "region_trace_max_scaled_error": 0,
+        "region_final_state_max_scaled_error": 0,
+        "region_trace_rows": 30003,
+        "reference_grid_mask_difference_count": 0,
+        "reference_margin_max_scaled_error": 1.8952579941605943e-15,
+        "upstream_classification_equal": true,
+        "terminal_window_error_max_scaled_error": 0
+      },
+      {
+        "steer_deg": 1.5,
+        "rhs_scaled_error": 0,
+        "observation_scaled_error": 0,
+        "delegated_trajectory_scaled_error": 0,
+        "delegated_trajectory_bitwise_equal": true,
+        "region_trace_max_scaled_error": 0,
+        "region_final_state_max_scaled_error": 0,
+        "region_trace_rows": 30003,
+        "reference_grid_mask_difference_count": 0,
+        "reference_margin_max_scaled_error": 5.193630531905905e-15,
+        "upstream_classification_equal": true,
+        "terminal_window_error_max_scaled_error": 0
+      },
+      {
+        "steer_deg": 2.5,
+        "rhs_scaled_error": 0,
+        "observation_scaled_error": 0,
+        "delegated_trajectory_scaled_error": 0,
+        "delegated_trajectory_bitwise_equal": true,
+        "region_trace_max_scaled_error": 0,
+        "region_final_state_max_scaled_error": 0,
+        "region_trace_rows": 30003,
+        "reference_grid_mask_difference_count": 0,
+        "reference_margin_max_scaled_error": 2.9171043670363368e-15,
+        "upstream_classification_equal": true,
+        "terminal_window_error_max_scaled_error": 0
+      }
+    ]
+  },
+  "exact_early_exclusion_and_boundary": {
+    "passed": true,
+    "runtime": "GNU Octave",
+    "version": "10.3.0",
+    "initial_point_count": 6,
+    "horizons_s": [
+      5,
+      10
+    ],
+    "early_main_masks_equal": true,
+    "early_guarded_masks_equal": true,
+    "early_rejected_horizon_count": 6,
+    "uncomputed_auxiliary_values_are_nan": true,
+    "outside_trim_exclusion_verified": true,
+    "main_and_optional_guard_policy_separation": true,
+    "closed_window_boundary_verified": true,
+    "boundary_start_s": 0.02,
+    "boundary_horizon_s": 0.07,
+    "boundary_yaw_tolerance": 0.21517506195362726
+  },
+  "hmc_result_model_sha256": {
+    "HMC_FullCar_Revised.m": "816f8777ede4e1e7fa754f5bf28635f45f4c2d84a8337ed69b75407ee520d421",
+    "hmc_native.cpp": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062",
+    "hmc_mex.cpp": "7d4925cf6dc6a09a22d47f983e77c5826de71d25834bc208ad393543f7acf6ad",
+    "hmc_native_run.m": "2b2a535f0f057426f251312f9695a5b1772487f63fff834a5229268270519ab4",
+    "data/hmc_data.mat": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a",
+    "calibration_active.json": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913",
+    "tire_fields.inc": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651"
+  },
+  "oracle_sha256": {
+    "hmc_classify.m": "ec95f171bf6d3250f544483f802feede52ad02eb7ca32e29eaf95177fd6a21c5",
+    "hmc_handling_reference.m": "a4f9e95520ca312e4bc2e3b40b16765ea1098e4260a7701c0428cd5b4103a557"
+  },
+  "scope": "The original 34-state HMC result physics was compared with the delegated and streaming-region module. Static H is only a common classification reference. No 32-state CDC dynamics were executed."
+}

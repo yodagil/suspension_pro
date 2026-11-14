@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    {
+      "filename": "RESEARCH2D_carsim_0deg.mat",
+      "sha256": "a51a1e8fdfede551b3631c1a48c1370a174b0873bf37f3ec732578d8d97085f9"
+    },
+    {
+      "filename": "RESEARCH2D_carsim_2.5deg.mat",
+      "sha256": "a8f12f8f7c34fccace7596a1f1d99484442eeb7544916a40ab2d76e2a323a262"
+    },
+    {
+      "filename": "RESEARCH2D_carsim1.5_deg.mat",
+      "sha256": "de01043531b60bb1a03ae79baf013682ff49668eb42995bf9480b4448bb02cff"
+    },
+    {
+      "filename": "CDC_Stability_LUT_210_QC.csv",
+      "sha256": "01f27f2beebfc8d7354c797edceb86aa89a50cd574ff91f16c3e060543b22a2c"
+    },
+    {
+      "filename": "CDC_Stability_LUT_210.mat",
+      "sha256": "1ba69c63a67c2f9fe6512cb7b72a85cb564f0b97131ec1982fd0dff3d9abea9f"
+    }
+  ]
+}
