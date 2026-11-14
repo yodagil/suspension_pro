@@ -3,7 +3,7 @@
     526,
     1050
   ],
-  "completed_snapshot": 10,
+  "completed_snapshot": 11,
   "total_assigned": 525,
   "job_ids": [
     526,
@@ -15,7 +15,8 @@
     532,
     533,
     534,
-    535
+    535,
+    536
   ],
   "verified_results": [
     {
@@ -97,9 +98,17 @@
       "accepted_cells": 566,
       "cell_area": 1.415,
       "completion_kind": "integrated"
+    },
+    {
+      "job_id": 536,
+      "MAT_sha256": "89f349da8faeed21a6f9f3148e566ce11c7dcc1d98ca24e6e02d80cf4e0e4614",
+      "PNG_sha256": "1c8b75596f200b7c7c212ff5e3d8e44233e301daac1b1480d99ea4033f1a5aa3",
+      "accepted_cells": 556,
+      "cell_area": 1.3900000000000001,
+      "completion_kind": "integrated"
     }
   ],
-  "verified_utc": "2026-11-14T18:01:42.831490+00:00",
+  "verified_utc": "2026-11-14T18:04:23.084951+00:00",
   "computation_stopped": false,
   "global_1050_complete_claimed": false
 }
