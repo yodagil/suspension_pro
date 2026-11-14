@@ -5,8 +5,8 @@
   "end_id": 1050,
   "assigned_total": 525,
   "upload_every_completed_case": 1,
-  "computed_cases": 63,
-  "uploaded_cases": 63,
+  "computed_cases": 64,
+  "uploaded_cases": 64,
   "uploaded_job_ids": [
     526,
     527,
@@ -70,10 +70,11 @@
     585,
     586,
     587,
-    588
+    588,
+    589
   ],
-  "latest_uploaded_job_id": 588,
-  "updated_utc": "2026-11-14T20:55:23+00:00",
+  "latest_uploaded_job_id": 589,
+  "updated_utc": "2026-11-14T20:57:08+00:00",
   "numerical_calculation_stopped": false,
   "global_1050_complete_claimed": false
 }
