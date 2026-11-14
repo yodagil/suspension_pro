@@ -84,6 +84,16 @@ for iw=1:numel(wearRows)
         wearRows(iw).progress_label,wearRows(iw).processed_label, ...
         wearRows(iw).failed,wearRows(iw).state); %#ok<AGROW>
 end
+if isfile(fullfile(outputDir,'response_summary.csv'))
+    lines=[lines;{'';'[All-condition response summary CSV](response_summary.csv)'; ...
+        'The summary records final values, maximum absolute values, and RMS of each model response.'}];
+end
+if isfile(fullfile(outputDir,'validation','README.md'))
+    lines=[lines;{'';'[Three CarSim conditions: CSV reproduction and plots](validation/README.md)'}];
+end
+if isfile(fullfile(outputDir,'integrity_audit.json'))
+    lines=[lines;{'';'[1050-file integrity audit](integrity_audit.json) | [SHA256 manifest](file_sha256_manifest.csv)'}];
+end
 lines=[lines;{'';'## All simulation cases';''; ...
     '| Global case | Wear case | Condition within wear | Speed (km/h) | Road mu | Steering (deg) | Wear FL/FR/RL/RR | Status | Result |'; ...
     '| --- | ---: | --- | ---: | ---: | ---: | --- | --- | --- |'}];

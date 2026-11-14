@@ -4,7 +4,9 @@
 
 원본의 바퀴별 횡력 진단값 `Fy`가 차체 합력으로 덮어써지는 오류는 합력 변수 이름만 바꾸어 수정했습니다. 세 표본 상태에서 수정 전후 34개 상태 미분값이 비트 단위로 동일함을 확인했습니다. 변경 이력과 원본 파일 해시는 `source_provenance.json`에 기록합니다.
 
-GNU Octave 10.3.0과 제공된 C++ 가속기로 계산합니다. 전체 및 마모 패턴별 실제 진행 상황은 [`result/README.md`](result/README.md)와 [`result/progress.json`](result/progress.json)에서 확인합니다. 조건별 상태와 오류는 `result/run_status.csv`에 기록됩니다.
+GNU Octave 10.3.0과 제공된 C++ 가속기로 **1,050/1,050개 계산을 완료했으며 실패는 0개**입니다. 마모 5패턴도 각각 210/210개입니다. [전체 결과와 개별 MAT 목록](result/README.md), [전 조건 응답 요약 CSV](result/response_summary.csv), [진행 상태 JSON](result/progress.json)을 제공합니다. 조건별 상태와 오류는 `result/run_status.csv`에 기록됩니다.
+
+각 조건은 10초·1ms 간격의 10,001개 표본을 포함합니다. 1,050개 MAT 파일 전체를 다시 읽어 상태·응답·바퀴별 힘·조건·입력 서명·정상 상태 잔차를 확인했고, [무결성 검사](result/integrity_audit.json)를 모두 통과했습니다. 파일별 [SHA256 목록](result/file_sha256_manifest.csv)과 실제 실행 환경도 보존합니다.
 
 전체 실행 전에 CarSim 3개 조건을 기존·수정 모델로 각각 실행했습니다. **제공 CSV의 18개 신호 행과 162개 수치를 모두 재현**했으며, 전체 구간 RMSE의 최대 차이는 `5.09e-15`입니다. [비교 결과·CSV·그래프](result/validation/README.md)에 실제 계산 결과와 검증 범위를 저장했습니다.
 

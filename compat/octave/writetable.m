@@ -1,12 +1,42 @@
 function writetable(T, destination)
-%WRITETABLE CSV export for the scalar columns used by the HMC manifest.
-% Octave/Tablicious adapter. Add this folder only when using GNU Octave.
-% Model equations and numerical integration do not use this adapter.
+%WRITETABLE CSV export for scalar HMC columns, encoded one column at a time.
+% Octave/Tablicious adapter. Physical model calculations do not use it.
 assert(nargin==2 && istable(T),'HMC:CSVInput', ...
     'Expected a table and a CSV destination.');
 names=T.Properties.VariableNames;
-columns=cell(size(names));
-for j=1:numel(names), columns{j}=T.(names{j}); end
+n=height(T); width=numel(names); cells=cell(n,width);
+for j=1:width
+    column=T.(names{j});
+    if n==0, continue; end
+    if isnumeric(column) && isreal(column) && size(column,2)==1
+        encoded=sprintf('%.17g\n',column);
+        values=strsplit(encoded,'\n','CollapseDelimiters',false);
+        values(end)=[];
+        cells(:,j)=values(:);
+    elseif islogical(column) && size(column,2)==1
+        labels={'false';'true'};
+        cells(:,j)=labels(double(column(:))+1);
+    elseif iscellstr(column)
+        cells(:,j)=strcat({'"'},strrep(column(:),'"','""'),{'"'});
+    elseif isa(column,'string') && size(column,2)==1
+        cells(:,j)=strcat({'"'},strrep(cellstr(column(:)),'"','""'),{'"'});
+    else
+        % Preserve the existing adapter's handling of mixed scalar cells and
+        % character matrices, including padded trailing spaces.
+        for i=1:n
+            if iscell(column), value=column{i}; else, value=column(i,:); end
+            if islogical(value) && isscalar(value)
+                if value, cells{i,j}='true'; else, cells{i,j}='false'; end
+            elseif isnumeric(value) && isscalar(value)
+                cells{i,j}=sprintf('%.17g',value);
+            elseif ischar(value) || isa(value,'string')
+                cells{i,j}=quote_csv(char(value));
+            else
+                error('HMC:CSVType','Unsupported column type: %s.',names{j});
+            end
+        end
+    end
+end
 folder=fileparts(destination);
 if isempty(folder), folder=pwd; end
 temporary=[tempname(folder) '.tmp'];
@@ -15,22 +45,10 @@ cleanup=onCleanup(@()remove_temporary(temporary)); %#ok<NASGU>
 assert(fid>=0,'HMC:CSVWrite','%s',message);
 closeFile=onCleanup(@()fclose(fid));
 fprintf(fid,'%s\n',strjoin(cellfun(@quote_csv,names,'UniformOutput',false),','));
-for i=1:height(T)
-    cells=cell(1,numel(names));
-    for j=1:numel(names)
-        column=columns{j};
-        if iscell(column), value=column{i}; else, value=column(i,:); end
-        if islogical(value) && isscalar(value)
-            if value, cells{j}='true'; else, cells{j}='false'; end
-        elseif isnumeric(value) && isscalar(value)
-            cells{j}=sprintf('%.17g',value);
-        elseif ischar(value) || isa(value,'string')
-            cells{j}=quote_csv(char(value));
-        else
-            error('HMC:CSVType','Unsupported column type: %s.',names{j});
-        end
-    end
-    fprintf(fid,'%s\n',strjoin(cells,','));
+if n>0 && width>0
+    rowFormat=[repmat('%s,',1,width-1) '%s\n'];
+    ordered=cells.';
+    fprintf(fid,rowFormat,ordered{:});
 end
 clear closeFile;
 [ok,message]=movefile(temporary,destination,'f');

@@ -1,0 +1,19 @@
+{
+  "scope": "Model response final/max_abs/RMS only; not reference errors; no smoothing or resampling",
+  "ordered_by": "JobID ascending",
+  "validated_cases": 1050,
+  "expected_cases": 1050,
+  "units": {
+    "vy_mps": "m/s",
+    "rollrate_degps": "deg/s",
+    "r_radps": "rad/s",
+    "vx_mps": "m/s",
+    "pitchrate_degps": "deg/s",
+    "roll_deg": "deg"
+  },
+  "statistic_definitions": {
+    "final": "last saved sample at 10 seconds",
+    "max_abs": "max(abs(y)) over all 10001 original samples",
+    "rms": "sqrt(mean(y^2)) over all 10001 samples, evaluated with max-abs scaling to avoid overflow"
+  }
+}

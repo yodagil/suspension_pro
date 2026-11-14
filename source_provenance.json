@@ -2,7 +2,7 @@
   "archive": "HMC_Model_Only.zip",
   "archive_sha256": "f45dd14bcb6ec3c9defff9fb22dbdb26ab61b5f6844c01c7013a233b0cd6ed85",
   "simulation_executed": true,
-  "reason": "The three CarSim calibration-condition comparisons passed; the full 1050-trajectory batch is running.",
+  "reason": "All 1050 trajectories completed, with no failures, after reproducing the three supplied CarSim/CSV conditions.",
   "files": {
     "HMC_FullCar_Revised.m": {
       "source_sha256": "3c0413d48659fab2e6d3a9171e15706c9c6a4ea30802a096787188f51fb59a02",
@@ -110,5 +110,9 @@
     "numeric_check_count": 162,
     "overall_match": true,
     "max_full_interval_rmse_absolute_difference": 5.093148125467906e-15
-  }
+  },
+  "batch_complete": true,
+  "completed_trajectories": 1050,
+  "failed_trajectories": 0,
+  "integrity_audit_passed": true
 }
