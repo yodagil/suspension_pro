@@ -4,7 +4,9 @@
 
 원본의 바퀴별 횡력 진단값 `Fy`가 차체 합력으로 덮어써지는 오류는 합력 변수 이름만 바꾸어 수정했습니다. 세 표본 상태에서 수정 전후 34개 상태 미분값이 비트 단위로 동일함을 확인했습니다. 변경 이력과 원본 파일 해시는 `source_provenance.json`에 기록합니다.
 
-저장소 준비 시점의 초기 상태는 **0/1050 — 아직 계산 미실행**입니다. 정식 MATLAB은 MathWorks 라이선스 확인 대기이며, 사용자 승인을 받은 GNU Octave 호환 실행 경로는 환경 구성 및 실제 실행 검증 중입니다. 초기 manifest와 진행 상태 파일은 실행 계획이며, 계산 완료 결과가 아닙니다. 이후 실제 진행 상황은 [`result/README.md`](result/README.md)와 [`result/progress.json`](result/progress.json)에서 확인합니다. 조건별 상세 상태는 실행 후 생성되는 `result/run_status.csv`에 기록됩니다.
+GNU Octave 10.3.0과 제공된 C++ 가속기로 계산합니다. 전체 및 마모 패턴별 실제 진행 상황은 [`result/README.md`](result/README.md)와 [`result/progress.json`](result/progress.json)에서 확인합니다. 조건별 상태와 오류는 `result/run_status.csv`에 기록됩니다.
+
+전체 실행 전에 CarSim 3개 조건을 기존·수정 모델로 각각 실행했습니다. **제공 CSV의 18개 신호 행과 162개 수치를 모두 재현**했으며, 전체 구간 RMSE의 최대 차이는 `5.09e-15`입니다. [비교 결과·CSV·그래프](result/validation/README.md)에 실제 계산 결과와 검증 범위를 저장했습니다.
 
 ## 실행 조건
 
@@ -70,9 +72,9 @@ Summary = run_suspension_pro(struct('case_ids',1:3));
 Summary = run_suspension_pro(struct('options',struct('engine','mcode')));
 ```
 
-## GNU Octave 호환 실행 준비
+## GNU Octave 호환 실행
 
-GNU Octave 9 이상에서 원본 `.m` 모델과 C++ 가속기를 사용하는 실행 경로가 승인되었으며, 현재 환경 구성 및 실제 실행 검증 단계입니다. Octave는 정식 MATLAB과 다른 실행 환경입니다. `table` 등에는 Tablicious가 필요하고, CSV 저장 및 진행 상태의 문자열 처리에는 별도 호환 처리가 필요합니다.
+실제 검증 환경은 GNU Octave 10.3.0, Tablicious 0.4.7, GCC 16.2.0입니다. Octave는 정식 MATLAB과 다른 실행 환경입니다. `table`에는 Tablicious를 사용하고, CSV와 진행 상태 저장은 입출력 호환 계층을 사용합니다. 차량 모델의 적분식은 동일합니다.
 
 Octave에서는 통합 실행기가 MATLAB 전용 컴파일러 설정 API를 호출하지 않습니다. `mkoctfile --mex`로 미리 빌드한 `hmc_mex`가 있으면 기존 m-code/native 구현 동등성 검사를 통과한 뒤 사용하며, 없으면 원본 m-code로 실행합니다. 검사를 수행한 실행 환경과 버전은 `runtime_verification.mat`에 기록합니다. 전체 실행 전 짧은 대표 계산, 가속기 동등성, 결과 저장을 실제로 검증해야 합니다.
 

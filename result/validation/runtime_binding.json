@@ -1,0 +1,14 @@
+{
+  "scope": "GNU Octave source/native verification and three supplied CarSim conditions; not a licensed MATLAB execution",
+  "runtime": "GNU Octave",
+  "runtime_version": "10.3.0",
+  "sha256": {
+    "HMC_FullCar_Revised.m": "816f8777ede4e1e7fa754f5bf28635f45f4c2d84a8337ed69b75407ee520d421",
+    "data/hmc_data.mat": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a",
+    "calibration_active.json": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913",
+    "hmc_mex.cpp": "7d4925cf6dc6a09a22d47f983e77c5826de71d25834bc208ad393543f7acf6ad",
+    "hmc_native.cpp": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062",
+    "tire_fields.inc": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651",
+    "hmc_mex.mex": "da8175679e57d47086f23a645806272eb613c9cc3695f8684572deea1b99a955"
+  }
+}

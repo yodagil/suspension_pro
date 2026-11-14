@@ -1,0 +1,140 @@
+{
+  "schema": "HMC_THREE_CONDITION_EXPECTED_METRICS_AUDIT_V1",
+  "overall_match": true,
+  "condition_count": 3,
+  "signal_row_count": 18,
+  "numeric_check_count": 162,
+  "numeric_checks_passed": 162,
+  "signal_rows_passed": 18,
+  "tolerances": {
+    "atol": 1e-09,
+    "rtol": 1e-05
+  },
+  "conditions": [
+    {
+      "condition": {
+        "speed_kmh": 50.0,
+        "mu": 0.5,
+        "steer_command_deg": 0.0
+      },
+      "reference_condition_status": "verified",
+      "numeric_match": true,
+      "overall_match": true
+    },
+    {
+      "condition": {
+        "speed_kmh": 70.0,
+        "mu": 0.6,
+        "steer_command_deg": 2.5
+      },
+      "reference_condition_status": "verified",
+      "numeric_match": true,
+      "overall_match": true
+    },
+    {
+      "condition": {
+        "speed_kmh": 90.0,
+        "mu": 0.6,
+        "steer_command_deg": 2.5
+      },
+      "reference_condition_status": "verified",
+      "numeric_match": true,
+      "overall_match": true
+    }
+  ],
+  "worst_absolute_error_by_metric": {
+    "Baseline_RMSE": {
+      "Speed_kmh": 90,
+      "Signal": "rollrate_degps",
+      "actual": 0.08235003179981719,
+      "expected": 0.08235003179982228,
+      "absolute_error": 5.093148125467906e-15,
+      "relative_error": 6.184755505436121e-14,
+      "tolerance_limit": 8.245003179982228e-07,
+      "passed": true
+    },
+    "Revised_RMSE": {
+      "Speed_kmh": 90,
+      "Signal": "vx_mps",
+      "actual": 0.0004355437229689924,
+      "expected": 0.00043554372297023136,
+      "absolute_error": 1.2389720326078102e-15,
+      "relative_error": 2.844655926065296e-12,
+      "tolerance_limit": 5.355437229702314e-09,
+      "passed": true
+    },
+    "RMSE_Reduction_pct": {
+      "Speed_kmh": 50,
+      "Signal": "vx_mps",
+      "actual": 7.866117937820094,
+      "expected": 7.866117938292616,
+      "absolute_error": 4.725224655999227e-10,
+      "relative_error": 6.007060526001805e-11,
+      "tolerance_limit": 7.866217938292617e-05,
+      "passed": true
+    },
+    "Baseline_MaxAbsError": {
+      "Speed_kmh": 90,
+      "Signal": "rollrate_degps",
+      "actual": 0.635610911170672,
+      "expected": 0.6356109111705965,
+      "absolute_error": 7.549516567451064e-14,
+      "relative_error": 1.187757547073447e-13,
+      "tolerance_limit": 6.357109111705966e-06,
+      "passed": true
+    },
+    "Revised_MaxAbsError": {
+      "Speed_kmh": 90,
+      "Signal": "rollrate_degps",
+      "actual": 0.6926078409310046,
+      "expected": 0.6926078409309335,
+      "absolute_error": 7.105427357601002e-14,
+      "relative_error": 1.0258947325878674e-13,
+      "tolerance_limit": 6.927078409309336e-06,
+      "passed": true
+    },
+    "Baseline_RMSE_0_2": {
+      "Speed_kmh": 90,
+      "Signal": "rollrate_degps",
+      "actual": 0.18278793941332705,
+      "expected": 0.1827879394133379,
+      "absolute_error": 1.0852430065710905e-14,
+      "relative_error": 5.937169651642242e-14,
+      "tolerance_limit": 1.8288793941333793e-06,
+      "passed": true
+    },
+    "Revised_RMSE_0_2": {
+      "Speed_kmh": 90,
+      "Signal": "vx_mps",
+      "actual": 0.0006172129056106148,
+      "expected": 0.00061721290561427,
+      "absolute_error": 3.655170784100381e-15,
+      "relative_error": 5.922058257130314e-12,
+      "tolerance_limit": 7.1721290561427005e-09,
+      "passed": true
+    },
+    "Baseline_RMSE_2_10": {
+      "Speed_kmh": 90,
+      "Signal": "rollrate_degps",
+      "actual": 0.010987412578214516,
+      "expected": 0.010987412578216964,
+      "absolute_error": 2.447694824603275e-15,
+      "relative_error": 2.2277263251731706e-13,
+      "tolerance_limit": 1.1087412578216965e-07,
+      "passed": true
+    },
+    "Revised_RMSE_2_10": {
+      "Speed_kmh": 90,
+      "Signal": "rollrate_degps",
+      "actual": 0.007811124362575417,
+      "expected": 0.0078111243625771576,
+      "absolute_error": 1.740795008142726e-15,
+      "relative_error": 2.2286100276201185e-13,
+      "tolerance_limit": 7.911124362577158e-08,
+      "passed": true
+    }
+  },
+  "failed_checks": [],
+  "assessment_column_note": "Assessment strings in computed_metrics.csv are preserved annotations from the supplied CSV, not recomputed numeric metrics",
+  "method": "Actual Result.response arrays only; EXPORT unit conversion; recorded-start subtraction; linear interpolation; all samples retained"
+}

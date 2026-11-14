@@ -1,0 +1,61 @@
+{
+  "original_verifier_sha256": "525f6beb4b60f355e4356ba6af7f2b26f81bb96e415380114a69e9d4fad0fa22",
+  "unchanged_helper_sha256": "b363725f6da786b21db5839e9c6e3648b33c0ba6df807eab09240d4211306c11",
+  "max_parallel_workers": 4,
+  "cases": [
+    {
+      "index": 1,
+      "variant": "baseline",
+      "speed_kmh": 50,
+      "mu": 0.5,
+      "steer_deg": 0,
+      "function": "verify_hmc_parallel_case_1",
+      "helper_sha256": "b363725f6da786b21db5839e9c6e3648b33c0ba6df807eab09240d4211306c11"
+    },
+    {
+      "index": 2,
+      "variant": "baseline",
+      "speed_kmh": 70,
+      "mu": 0.6,
+      "steer_deg": 2.5,
+      "function": "verify_hmc_parallel_case_2",
+      "helper_sha256": "b363725f6da786b21db5839e9c6e3648b33c0ba6df807eab09240d4211306c11"
+    },
+    {
+      "index": 3,
+      "variant": "baseline",
+      "speed_kmh": 90,
+      "mu": 0.6,
+      "steer_deg": 2.5,
+      "function": "verify_hmc_parallel_case_3",
+      "helper_sha256": "b363725f6da786b21db5839e9c6e3648b33c0ba6df807eab09240d4211306c11"
+    },
+    {
+      "index": 4,
+      "variant": "revised",
+      "speed_kmh": 50,
+      "mu": 0.5,
+      "steer_deg": 0,
+      "function": "verify_hmc_parallel_case_4",
+      "helper_sha256": "b363725f6da786b21db5839e9c6e3648b33c0ba6df807eab09240d4211306c11"
+    },
+    {
+      "index": 5,
+      "variant": "revised",
+      "speed_kmh": 70,
+      "mu": 0.6,
+      "steer_deg": 2.5,
+      "function": "verify_hmc_parallel_case_5",
+      "helper_sha256": "b363725f6da786b21db5839e9c6e3648b33c0ba6df807eab09240d4211306c11"
+    },
+    {
+      "index": 6,
+      "variant": "revised",
+      "speed_kmh": 90,
+      "mu": 0.6,
+      "steer_deg": 2.5,
+      "function": "verify_hmc_parallel_case_6",
+      "helper_sha256": "b363725f6da786b21db5839e9c6e3648b33c0ba6df807eab09240d4211306c11"
+    }
+  ]
+}

@@ -24,6 +24,8 @@ codegen/
 *.tmp
 *.log
 *~
+__pycache__/
+*.py[cod]
 
 # Simulation outputs are intentionally versioned, including the execution log.
 !result/

@@ -1,0 +1,24 @@
+Reference trial 1/6: baseline, 50 km/h, mu=0.5, steer=0 deg
+1/1: 50 km/h, mu=0.5, steer command=0 deg
+Completed 1/1; independent-root residual 7.90444e-11
+Reference trial 1/6 saved in 1.684 seconds.
+Reference trial 2/6: baseline, 70 km/h, mu=0.6, steer=2.5 deg
+1/1: 70 km/h, mu=0.6, steer command=2.5 deg
+Completed 1/1; independent-root residual 2.76442e-13
+Reference trial 2/6 saved in 2.004 seconds.
+Reference trial 3/6: baseline, 90 km/h, mu=0.6, steer=2.5 deg
+1/1: 90 km/h, mu=0.6, steer command=2.5 deg
+Completed 1/1; independent-root residual 3.82926e-13
+Reference trial 3/6 saved in 3.207 seconds.
+Reference trial 4/6: revised, 50 km/h, mu=0.5, steer=0 deg
+1/1: 50 km/h, mu=0.5, steer command=0 deg
+Completed 1/1; independent-root residual 8.6849e-11
+Reference trial 4/6 saved in 1.442 seconds.
+Reference trial 5/6: revised, 70 km/h, mu=0.6, steer=2.5 deg
+1/1: 70 km/h, mu=0.6, steer command=2.5 deg
+Completed 1/1; independent-root residual 3.98243e-13
+Reference trial 5/6 saved in 1.915 seconds.
+Reference trial 6/6: revised, 90 km/h, mu=0.6, steer=2.5 deg
+1/1: 90 km/h, mu=0.6, steer command=2.5 deg
+Completed 1/1; independent-root residual 4.07793e-13
+Reference trial 6/6 saved in 1.987 seconds.

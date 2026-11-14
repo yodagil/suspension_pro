@@ -1,8 +1,8 @@
 {
   "archive": "HMC_Model_Only.zip",
   "archive_sha256": "f45dd14bcb6ec3c9defff9fb22dbdb26ab61b5f6844c01c7013a233b0cd6ed85",
-  "simulation_executed": false,
-  "reason": "GNU Octave compatibility verification pending; licensed MATLAB has not executed.",
+  "simulation_executed": true,
+  "reason": "The three CarSim calibration-condition comparisons passed; the full 1050-trajectory batch is running.",
   "files": {
     "HMC_FullCar_Revised.m": {
       "source_sha256": "3c0413d48659fab2e6d3a9171e15706c9c6a4ea30802a096787188f51fb59a02",
@@ -100,5 +100,15 @@
       "description": "Rename the total lateral-force variable to Fy_total so diagnostics preserve the four wheel forces. Physical arithmetic and evaluation order are unchanged.",
       "verification": "Original and corrected 34-state derivatives were bitwise identical at three sampled baseline states."
     }
-  ]
+  ],
+  "execution_runtime": "GNU Octave 10.3.0 with the supplied C++ MEX evaluator",
+  "original_archive_path": "source/HMC_Model_Only.zip",
+  "reference_comparison": {
+    "condition_count": 3,
+    "signal_rows_passed": 18,
+    "numeric_checks_passed": 162,
+    "numeric_check_count": 162,
+    "overall_match": true,
+    "max_full_interval_rmse_absolute_difference": 5.093148125467906e-15
+  }
 }

@@ -1,0 +1,144 @@
+{
+  "schema": "CARSIM_REFERENCE_EXTRACTION_AUDIT_V1",
+  "references": [
+    {
+      "source_file": "/workspace/attachments/7f21290d-7841-44bb-b162-ad3055c3692b/CarSimOut_trim_50_0.6_2.5.mat",
+      "source_sha256": "da94849413ad712f1b4fdbd8688e17cabd9a42fa150866f2bdd111553be96748",
+      "flat_file": "/workspace/work/reference-audit/flat/CarSim_50.mat",
+      "flat_sha256": "63cefeec9669e382e34e4b8a3acfa1be32a753e777837228505b6754e2eac815",
+      "raw_hdf5_shape": [
+        72,
+        10001
+      ],
+      "raw_flat_shape": [
+        10001,
+        72
+      ],
+      "source_dtype": "float64",
+      "sample_count": 10001,
+      "channel_count": 72,
+      "all_samples_finite": true,
+      "time_start_s": 12.0,
+      "time_stop_s": 22.0,
+      "time_encoding": "recorded_uniform_Start_Increment_Length",
+      "recorded_increment_s": 0.001,
+      "observed_time_step_min_s": 0.0009999999999976694,
+      "observed_time_step_max_s": 0.0010000000000047748,
+      "raw_source_array_sha256": "01c02eb9461baa581df4cfbab132384c64944b92b80934bec3155275fc4f75e0",
+      "normalized_raw_array_sha256": "1d00e8e6f3869b476efadf428015490c3c506ccb05a1560de9a8397c34f7d831",
+      "raw_round_trip_byte_hash_identical": true,
+      "time_round_trip_identical": true,
+      "all_info_fields_preserved": true,
+      "embedded_conditions": {
+        "speed_kmh": 50.0,
+        "mu": 0.5,
+        "steer_command_deg": 0.0
+      },
+      "condition_metadata_status": "embedded_complete"
+    },
+    {
+      "source_file": "/workspace/attachments/86c420eb-d91b-4e2b-8f76-87b4590f10b5/CarSimOut_trim_70_0.6_2,5.mat",
+      "source_sha256": "92bd0f2702613cf41361184dcb4972a9adddf346175bf2e6ed555fbd0953da63",
+      "flat_file": "/workspace/work/reference-audit/flat/CarSim_70.mat",
+      "flat_sha256": "10ee8c67f5d6222be8677912aa42c34ae5763529a5b38286707f195f8258574b",
+      "raw_hdf5_shape": [
+        72,
+        10001
+      ],
+      "raw_flat_shape": [
+        10001,
+        72
+      ],
+      "source_dtype": "float64",
+      "sample_count": 10001,
+      "channel_count": 72,
+      "all_samples_finite": true,
+      "time_start_s": 12.0,
+      "time_stop_s": 22.0,
+      "time_encoding": "recorded_uniform_Start_Increment_Length",
+      "recorded_increment_s": 0.001,
+      "observed_time_step_min_s": 0.0009999999999976694,
+      "observed_time_step_max_s": 0.0010000000000047748,
+      "raw_source_array_sha256": "7feac50d6cc2a6d1f658cc31eca5a8d88de8acfadf4ccea20490cdd727cf04fc",
+      "normalized_raw_array_sha256": "8c40488ae678d231a023ec4249596ab3ee65a0659679fa619d4b625d30e0eee8",
+      "raw_round_trip_byte_hash_identical": true,
+      "time_round_trip_identical": true,
+      "all_info_fields_preserved": true,
+      "embedded_conditions": {
+        "speed_kmh": 70.0,
+        "mu": 0.6,
+        "steer_command_deg": 2.5
+      },
+      "condition_metadata_status": "embedded_complete"
+    },
+    {
+      "source_file": "/workspace/attachments/ec062ea5-bbde-4140-9070-9d4a8870517b/CarSimOut_trim90_0.6_2.5.mat",
+      "source_sha256": "e103a68d45e6c9f2ee0af5536e7ecf959cfcb7853293c2f18dc858713422ad34",
+      "flat_file": "/workspace/work/reference-audit/flat/CarSim_90.mat",
+      "flat_sha256": "badf157fa5bb514ca277dcbcfad388bb6f08a4c4a26628c986e4a2b9da3e9887",
+      "raw_hdf5_shape": [
+        72,
+        10001
+      ],
+      "raw_flat_shape": [
+        10001,
+        72
+      ],
+      "source_dtype": "float64",
+      "sample_count": 10001,
+      "channel_count": 72,
+      "all_samples_finite": true,
+      "time_start_s": 12.0,
+      "time_stop_s": 22.0,
+      "time_encoding": "recorded_uniform_Start_Increment_Length",
+      "recorded_increment_s": 0.001,
+      "observed_time_step_min_s": 0.0009999999999976694,
+      "observed_time_step_max_s": 0.0010000000000047748,
+      "raw_source_array_sha256": "0cc37ee4f5133b6e6a0a107cc5f72c1f1f045df77f73feb7c0e9586934b15934",
+      "normalized_raw_array_sha256": "ae9a913ead895ce7ae999d2c8aaefc66558dbf19a8096f43803b9321cdcf5575",
+      "raw_round_trip_byte_hash_identical": true,
+      "time_round_trip_identical": true,
+      "all_info_fields_preserved": true,
+      "embedded_conditions": {
+        "speed_kmh": 90.0,
+        "mu": 0.6,
+        "steer_command_deg": 2.5
+      },
+      "condition_metadata_status": "embedded_complete"
+    }
+  ],
+  "expected_metrics_csv": {
+    "source_file": "/workspace/attachments/bd0c38c5-7da7-46c2-b1c1-f3e304aaa899/HMC_Comparison_Metrics.csv",
+    "source_sha256": "32edab77ed44230e17b4cd88d0c112b29033feb5b42678f0a3a1b13a441ba0e7",
+    "rows": 18,
+    "conditions": [
+      {
+        "speed_kmh": 50.0,
+        "mu": 0.5,
+        "steer_command_deg": 0.0
+      },
+      {
+        "speed_kmh": 70.0,
+        "mu": 0.6,
+        "steer_command_deg": 2.5
+      },
+      {
+        "speed_kmh": 90.0,
+        "mu": 0.6,
+        "steer_command_deg": 2.5
+      }
+    ],
+    "all_reference_conditions_match_embedded_info": true
+  },
+  "python_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "h5py": "3.16.0"
+  },
+  "extractor": "flatten_carsim_reference.py",
+  "extractor_sha256": "b5beb19b3f79fb52c3e014f68a17bb9ff7ae0caea6d2d8f055679b1b98604090",
+  "time_note": "Original MCOS time is stored as Start_=12, Increment_=0.001, Length=10001. Decode Start_ + Increment_*arange(Length), matching tsdata.timemetadata.getData; no fitted shift or resampling. read_carsim_reference subsequently subtracts the recorded first timestamp only.",
+  "data_note": "All72 originalfloat64 EXPORT channels retained in their existing order. Only HDF5 dimension order transposed72x10001 to10001x72. No amplitude operation, smoothing, sample removal or reordering.",
+  "conditions_note": "Embedded original info is authoritative. The50filename says0.6/2.5 but embeddedinfo says50/0.5/0, matching expectedCSV. No filename condition is inserted into metadata.",
+  "scope": "Reference extraction/format audit and reader verification only; no physical model simulation or metric reproduction performed by this task."
+}

@@ -1,0 +1,162 @@
+{
+  "source_verifier_sha256": "525f6beb4b60f355e4356ba6af7f2b26f81bb96e415380114a69e9d4fad0fa22",
+  "original_prefix_sha256": "2b995a27e1b68fb573887bd7a9c7f8f582bdd29fa7fcbcdc8a6396a5cb5d50bd",
+  "adapted_prefix_sha256": "b7e20eaf5102bbb4884fc689ec48f0c31639d557d75d597a576fcf2b258c9b02",
+  "unchanged_check_equal_sha256": "d9bfcea4fb65d7fe2aae220c35f38d6bdb3a3a90b5f75264d829554ffbf5c431",
+  "adaptations": [
+    "Rename verify_case helper to verify_wear_parameter_path",
+    "Use five samples within a 5 ms native trace: [2 3 4 5 6]",
+    "Stop after original held-force/RHS/diagnostic checks; do not rerun full m-code RK4"
+  ],
+  "scope": "Additional worn-tire parameter-path checks within GNU Octave; original 1e-7 scaled check_equal; no full m-code trajectory rerun",
+  "condition": {
+    "variant": "revised",
+    "speed_kmh": 70,
+    "mu": 0.6,
+    "steer_deg": 2.5
+  },
+  "wear_patterns": [
+    [
+      25,
+      25,
+      0,
+      0
+    ],
+    [
+      50,
+      50,
+      25,
+      25
+    ],
+    [
+      0,
+      0,
+      25,
+      25
+    ],
+    [
+      25,
+      25,
+      50,
+      50
+    ]
+  ],
+  "max_workers": 4,
+  "passed": true,
+  "case_count": 4,
+  "wall_seconds": 31.075907057000222,
+  "case_results": [
+    {
+      "Variant": "revised",
+      "Speed_kmh": 70,
+      "Mu": 0.6,
+      "Steer_deg": 2.5,
+      "Wear_FL_FR_RL_RR": [
+        25,
+        25,
+        0,
+        0
+      ],
+      "Passed": true,
+      "TrimResidual": 5.459732632223505e-13,
+      "TrimStateScaledError": 0,
+      "InitialStateScaledError": 0,
+      "RHSBatchScaledError": 3.3439812846452296e-15,
+      "RHSScalarScaledError": 1.196404828989239e-15,
+      "ForceScaledError": 3.8505896363877454e-16,
+      "HeldDamperScaledError": 8.308456048780089e-16,
+      "NativeTraceDuration_s": 0.005,
+      "NativeTraceSamples": 6,
+      "McodeFullTrajectoryChecked": false,
+      "execution_runtime": "GNU Octave",
+      "execution_version": "10.3.0",
+      "scaled_tolerance": 1e-07,
+      "wall_seconds": 30.523825883865356,
+      "unchanged_check_equal_sha256": "d9bfcea4fb65d7fe2aae220c35f38d6bdb3a3a90b5f75264d829554ffbf5c431"
+    },
+    {
+      "Variant": "revised",
+      "Speed_kmh": 70,
+      "Mu": 0.6,
+      "Steer_deg": 2.5,
+      "Wear_FL_FR_RL_RR": [
+        50,
+        50,
+        25,
+        25
+      ],
+      "Passed": true,
+      "TrimResidual": 4.936222371025696e-13,
+      "TrimStateScaledError": 0,
+      "InitialStateScaledError": 0,
+      "RHSBatchScaledError": 1.3822107929675536e-14,
+      "RHSScalarScaledError": 1.3822107929675536e-14,
+      "ForceScaledError": 9.862526820046767e-16,
+      "HeldDamperScaledError": 1.1842523489621582e-14,
+      "NativeTraceDuration_s": 0.005,
+      "NativeTraceSamples": 6,
+      "McodeFullTrajectoryChecked": false,
+      "execution_runtime": "GNU Octave",
+      "execution_version": "10.3.0",
+      "scaled_tolerance": 1e-07,
+      "wall_seconds": 23.088059902191162,
+      "unchanged_check_equal_sha256": "d9bfcea4fb65d7fe2aae220c35f38d6bdb3a3a90b5f75264d829554ffbf5c431"
+    },
+    {
+      "Variant": "revised",
+      "Speed_kmh": 70,
+      "Mu": 0.6,
+      "Steer_deg": 2.5,
+      "Wear_FL_FR_RL_RR": [
+        0,
+        0,
+        25,
+        25
+      ],
+      "Passed": true,
+      "TrimResidual": 4.2887688453033093e-13,
+      "TrimStateScaledError": 0,
+      "InitialStateScaledError": 0,
+      "RHSBatchScaledError": 4.0609157958430513e-16,
+      "RHSScalarScaledError": 2.1007667651830416e-15,
+      "ForceScaledError": 4.498875151468818e-16,
+      "HeldDamperScaledError": 6.705844984364992e-16,
+      "NativeTraceDuration_s": 0.005,
+      "NativeTraceSamples": 6,
+      "McodeFullTrajectoryChecked": false,
+      "execution_runtime": "GNU Octave",
+      "execution_version": "10.3.0",
+      "scaled_tolerance": 1e-07,
+      "wall_seconds": 28.943549871444702,
+      "unchanged_check_equal_sha256": "d9bfcea4fb65d7fe2aae220c35f38d6bdb3a3a90b5f75264d829554ffbf5c431"
+    },
+    {
+      "Variant": "revised",
+      "Speed_kmh": 70,
+      "Mu": 0.6,
+      "Steer_deg": 2.5,
+      "Wear_FL_FR_RL_RR": [
+        25,
+        25,
+        50,
+        50
+      ],
+      "Passed": true,
+      "TrimResidual": 2.6804805283145685e-13,
+      "TrimStateScaledError": 0,
+      "InitialStateScaledError": 0,
+      "RHSBatchScaledError": 1.3822107929678617e-14,
+      "RHSScalarScaledError": 1.0915894036873252e-15,
+      "ForceScaledError": 4.1177385914417736e-16,
+      "HeldDamperScaledError": 5.36107455490683e-16,
+      "NativeTraceDuration_s": 0.005,
+      "NativeTraceSamples": 6,
+      "McodeFullTrajectoryChecked": false,
+      "execution_runtime": "GNU Octave",
+      "execution_version": "10.3.0",
+      "scaled_tolerance": 1e-07,
+      "wall_seconds": 26.50000500679016,
+      "unchanged_check_equal_sha256": "d9bfcea4fb65d7fe2aae220c35f38d6bdb3a3a90b5f75264d829554ffbf5c431"
+    }
+  ]
+}

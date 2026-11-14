@@ -1,0 +1,8 @@
+Original source: /workspace/work/hmc-source/HMC_Model_Only/HMC_FullCar_Revised.m
+Patched source: /workspace/work/suspension_pro/HMC_FullCar_Revised.m
+PASS: all 34 state derivatives are bitwise identical across 3 sampled states.
+Original diagnostic Fy size: [1 1]
+Patched diagnostic Fy size: [4 1]
+Native diagnostic Fy size: [4 1]
+Original diagnostic versus summed body Fy absolute difference: 0
+Patched versus native wheel Fy max absolute difference: 0
