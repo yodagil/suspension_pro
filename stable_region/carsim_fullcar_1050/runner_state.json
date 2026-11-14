@@ -5,8 +5,8 @@
   "invocation_started_at": "2026-11-14T12:40:18+00:00",
   "status": "running",
   "total": 1050,
-  "active_job_id": 307,
-  "newly_completed": 0,
+  "active_job_id": 39,
+  "newly_completed": 39,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
     "/workspace/work/suspension_pro/stable_region/code/run_region_batch.py",
@@ -26,12 +26,12 @@
   "environment_lifetime_guaranteed": false,
   "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
   "resumed": 3,
-  "last_heartbeat_at": "2026-11-14T12:40:48+00:00",
-  "completed": 3,
-  "progress_text": "3/1050",
+  "last_heartbeat_at": "2026-11-14T16:04:20+00:00",
+  "completed": 42,
+  "progress_text": "42/1050",
   "attempt": 1,
-  "condition_id": 97,
-  "wear_case_id": 2,
+  "condition_id": 39,
+  "wear_case_id": 1,
   "active_command": [
     "/workspace/work/octave-runtime/run-in-env.sh",
     "octave-cli",
@@ -40,8 +40,14 @@
     "--no-site-file",
     "--no-history",
     "--eval",
-    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(307);"
+    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(39);"
   ],
-  "active_log": "logs/case_0307.log",
-  "child_pid": 37655
+  "active_log": "logs/case_0039.log",
+  "child_pid": 47937,
+  "last_completed_job_id": 38,
+  "last_publish_error": {
+    "type": "CalledProcessError",
+    "message": "Git publication failed; local computation continues",
+    "at": "2026-11-14T15:59:35+00:00"
+  }
 }
