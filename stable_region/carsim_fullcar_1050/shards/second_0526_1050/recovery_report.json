@@ -1,0 +1,14 @@
+{
+  "event": "resume_after_process_disappearance",
+  "last_previous_heartbeat_utc": "2026-11-14T21:41:14+00:00",
+  "detected_utc": "2026-11-15T04:49:24.078539+00:00",
+  "exact_platform_cause_confirmed": false,
+  "completed_cases_reused": 75,
+  "resumed_job_id": 601,
+  "matching_checkpoint_chunks": 7,
+  "matching_vertex_points": 896,
+  "upload_every_completed_case": 1,
+  "publisher_mode": "integrated_with_numerical_controller",
+  "physical_model_and_grid_unchanged": true,
+  "global_1050_complete_claimed": false
+}

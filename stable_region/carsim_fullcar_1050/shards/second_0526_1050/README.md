@@ -14,8 +14,8 @@
 
 ## 개별 조건 자동 업로드
 
-사용자 요청에 따라 완료 조건마다 MAT·PNG·이미지 서명을 검사한 후 개별 커밋·push합니다. [업로드 현황](per_case_upload.json)의 `uploaded_cases`와 `uploaded_job_ids`가 원격 반영된 완료분입니다. 계산 현황은 기존 [progress.json](progress.json)을 사용합니다.
+현재 실행기가 `--publish-every 1`로 계산과 게시를 함께 처리합니다. 조건마다 MAT·PNG·이미지 서명 검사를 통과한 뒤 해당 브랜치에 push하고 원격 SHA를 확인합니다. 별도 업로드 감시자는 사용하지 않습니다.
 
-전용 감시자는 수치 계산을 중단·재시작하지 않습니다. 실행 중인 수치 계산 프로세스는 유지하고, Git 커밋은 살아 있는 개별 업로더로 위임합니다. 업로더와 수치 계산의 PID·로그·잠금은 비공개 `logs/` 안에 저장합니다.
+[계산 진행률](progress.json) · [조건별 업로드 현황](per_case_upload.json) · [재개 기록](recovery_report.json)
 
-재개 시 이 파일과 같은 폴더의 `upload_each_case.py --interval 2`를 실행합니다. 저장소 루트가 다르면 `HMC_REPO_ROOT`로 지정합니다.
+프로세스가 종료되면 유효한 완료 결과와 체크포인트를 보존하며 같은 명령으로 재개합니다. 재개 명령에도 반드시 `--publish-every 1`을 사용합니다. [최근 재개 기록](recovery_report.json)은 원인을 추정해 단정하지 않고 실제 확인한 상태만 기록합니다.

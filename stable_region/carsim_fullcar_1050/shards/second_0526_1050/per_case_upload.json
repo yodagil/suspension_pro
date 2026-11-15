@@ -5,6 +5,7 @@
   "end_id": 1050,
   "assigned_total": 525,
   "upload_every_completed_case": 1,
+  "publisher_mode": "integrated_with_numerical_controller",
   "computed_cases": 75,
   "uploaded_cases": 75,
   "uploaded_job_ids": [
@@ -85,7 +86,6 @@
     600
   ],
   "latest_uploaded_job_id": 600,
-  "updated_utc": "2026-11-14T21:38:35+00:00",
-  "numerical_calculation_stopped": false,
+  "updated_utc": "2026-11-15T04:49:31.231995+00:00",
   "global_1050_complete_claimed": false
 }
