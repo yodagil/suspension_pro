@@ -1,0 +1,19 @@
+{
+  "schema": "stability_runtime_restart_diagnosis_v1",
+  "observed_at_kst": "2026-11-15T16:10:33.812246+09:00",
+  "confirmed_interruption_mechanism": "Execution environment restarted; previous supervisor and worker did not survive",
+  "previous_last_heartbeat_utc": "2026-11-15T06:41:09+00:00",
+  "new_kernel_boot_utc": "2026-11-15T06:59:27+00:00",
+  "resume_started_utc": "2026-11-15T07:01:10+00:00",
+  "platform_restart_trigger": "Unknown: provider diagnostic history not found and previous host termination logs unavailable",
+  "previous_OOM_excluded": false,
+  "calculation_error_record_found": false,
+  "complete_maps_preserved": 152,
+  "current_assigned_range": [
+    1,
+    525
+  ],
+  "resume_from_checkpoints": true,
+  "model_or_policy_changed": false,
+  "publication_interval_cases": 1
+}

@@ -1,8 +1,8 @@
 {
   "schema": "carsim_fullcar_1050_shard_runner_v1",
   "model": "carsim_fullcar",
-  "pid": 57745,
-  "invocation_started_at": "2026-11-14T18:59:06+00:00",
+  "pid": 687,
+  "invocation_started_at": "2026-11-15T07:01:07+00:00",
   "status": "running",
   "total": 525,
   "global_total": 1050,
@@ -10,8 +10,8 @@
   "end_id": 525,
   "shard_name": "first_0001_0525",
   "scope": "assigned_inclusive_job_id_range",
-  "active_job_id": 148,
-  "newly_completed": 88,
+  "active_job_id": 149,
+  "newly_completed": 1,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
     "/workspace/work/suspension_pro/stable_region/code/run_region_batch.py",
@@ -39,14 +39,14 @@
   "publish_branch": "main",
   "environment_lifetime_guaranteed": false,
   "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
-  "resumed": 64,
-  "last_heartbeat_at": "2026-11-15T06:38:36+00:00",
-  "completed": 152,
-  "completed_in_range": 152,
-  "progress_text": "152/525",
+  "resumed": 152,
+  "last_heartbeat_at": "2026-11-15T07:13:46+00:00",
+  "completed": 153,
+  "completed_in_range": 153,
+  "progress_text": "153/525",
   "ignored_out_of_range_priority_ids": [],
   "attempt": 1,
-  "condition_id": 148,
+  "condition_id": 149,
   "wear_case_id": 1,
   "active_command": [
     "/workspace/work/octave-runtime/run-in-env.sh",
@@ -56,13 +56,9 @@
     "--no-site-file",
     "--no-history",
     "--eval",
-    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(148);"
+    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(149);"
   ],
-  "active_log": "shards/first_0001_0525/logs/case_0148.log",
+  "active_log": "shards/first_0001_0525/logs/case_0149.log",
   "child_pid": null,
-  "last_completed_job_id": 148,
-  "last_publish_at": "2026-11-15T06:25:39+00:00",
-  "last_publish_commit": "6babf6c9903d6fa123d2d508e697223485b4ff17",
-  "last_publish_error": null,
-  "published_completed": 151
+  "last_completed_job_id": 149
 }
