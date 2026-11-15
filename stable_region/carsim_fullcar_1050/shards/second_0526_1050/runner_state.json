@@ -1,8 +1,8 @@
 {
   "schema": "carsim_fullcar_1050_shard_runner_v1",
   "model": "carsim_fullcar",
-  "pid": 32625,
-  "invocation_started_at": "2026-11-14T17:04:10+00:00",
+  "pid": 21770,
+  "invocation_started_at": "2026-11-15T04:47:45+00:00",
   "status": "running",
   "total": 525,
   "global_total": 1050,
@@ -10,8 +10,8 @@
   "end_id": 1050,
   "shard_name": "second_0526_1050",
   "scope": "assigned_inclusive_job_id_range",
-  "active_job_id": 550,
-  "newly_completed": 25,
+  "active_job_id": 601,
+  "newly_completed": 1,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
     "stable_region/code/run_region_batch.py",
@@ -29,7 +29,7 @@
     "--publish-branch",
     "stable-region-526-1050",
     "--publish-every",
-    "25"
+    "1"
   ],
   "reference_mode": "model_actual_front_trim",
   "threads": 4,
@@ -37,18 +37,18 @@
   "publish_branch": "stable-region-526-1050",
   "environment_lifetime_guaranteed": false,
   "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
-  "resumed": 0,
-  "last_heartbeat_at": "2026-11-14T18:46:25+00:00",
-  "completed": 25,
-  "completed_in_range": 25,
-  "progress_text": "25/525",
+  "resumed": 75,
+  "last_heartbeat_at": "2026-11-15T04:51:12+00:00",
+  "completed": 76,
+  "completed_in_range": 76,
+  "progress_text": "76/525",
   "ignored_out_of_range_priority_ids": [
     302,
     305,
     307
   ],
   "attempt": 1,
-  "condition_id": 130,
+  "condition_id": 181,
   "wear_case_id": 3,
   "active_command": [
     "/workspace/suspension_pro_second/stable_region/handoff/runtime/run_octave.sh",
@@ -58,9 +58,9 @@
     "--no-site-file",
     "--no-history",
     "--eval",
-    "addpath('/workspace/suspension_pro_second'); addpath('/workspace/suspension_pro_second/stable_region/code'); run_region_batch_case(550);"
+    "addpath('/workspace/suspension_pro_second'); addpath('/workspace/suspension_pro_second/stable_region/code'); run_region_batch_case(601);"
   ],
-  "active_log": "shards/second_0526_1050/logs/case_0550.log",
+  "active_log": "shards/second_0526_1050/logs/case_0601.log",
   "child_pid": null,
-  "last_completed_job_id": 550
+  "last_completed_job_id": 601
 }
