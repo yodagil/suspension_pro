@@ -1,10 +1,13 @@
 {
-  "noticed_utc": "2026-11-15T07:01:07.776015+00:00",
-  "reason": "Supervisor and worker absent after environment became unavailable",
-  "previous_pid": 57745,
-  "previous_child_pid": 93452,
-  "last_heartbeat_at": "2026-11-15T06:41:09+00:00",
-  "completed_preserved": 152,
-  "resume_job_id": 149,
-  "physics_or_policy_changed": false
+  "noticed_utc": "2026-11-15T17:15:58.797803+00:00",
+  "previous_heartbeat": "2026-11-15T14:36:57+00:00",
+  "completed_preserved": 191,
+  "resume_job_id": 189,
+  "reason": "Execution environment restarted; prior supervisor and worker absent",
+  "numeric_inputs_changed": false,
+  "publication_interval_conditions": 1,
+  "scope": [
+    1,
+    525
+  ]
 }
