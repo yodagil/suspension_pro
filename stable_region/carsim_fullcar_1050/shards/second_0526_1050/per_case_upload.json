@@ -6,8 +6,8 @@
   "assigned_total": 525,
   "upload_every_completed_case": 1,
   "publisher_mode": "integrated_with_numerical_controller",
-  "computed_cases": 273,
-  "uploaded_cases": 273,
+  "computed_cases": 274,
+  "uploaded_cases": 274,
   "uploaded_job_ids": [
     526,
     527,
@@ -281,9 +281,10 @@
     795,
     796,
     797,
-    798
+    798,
+    799
   ],
-  "latest_uploaded_job_id": 798,
-  "updated_utc": "2026-11-15T20:11:00.163299+00:00",
+  "latest_uploaded_job_id": 799,
+  "updated_utc": "2026-11-15T20:13:46.035964+00:00",
   "global_1050_complete_claimed": false
 }
