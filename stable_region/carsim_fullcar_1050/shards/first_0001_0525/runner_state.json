@@ -10,8 +10,8 @@
   "end_id": 525,
   "shard_name": "first_0001_0525",
   "scope": "assigned_inclusive_job_id_range",
-  "active_job_id": 231,
-  "newly_completed": 43,
+  "active_job_id": 232,
+  "newly_completed": 44,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
     "stable_region/code/run_region_batch.py",
@@ -40,13 +40,13 @@
   "environment_lifetime_guaranteed": false,
   "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
   "resumed": 191,
-  "last_heartbeat_at": "2026-11-15T21:10:52+00:00",
-  "completed": 234,
-  "completed_in_range": 234,
-  "progress_text": "234/525",
+  "last_heartbeat_at": "2026-11-15T21:13:58+00:00",
+  "completed": 235,
+  "completed_in_range": 235,
+  "progress_text": "235/525",
   "ignored_out_of_range_priority_ids": [],
   "attempt": 1,
-  "condition_id": 21,
+  "condition_id": 22,
   "wear_case_id": 2,
   "active_command": [
     "/workspace/work/octave-runtime/run-in-env.sh",
@@ -56,13 +56,13 @@
     "--no-site-file",
     "--no-history",
     "--eval",
-    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(231);"
+    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code'); run_region_batch_case(232);"
   ],
-  "active_log": "shards/first_0001_0525/logs/case_0231.log",
+  "active_log": "shards/first_0001_0525/logs/case_0232.log",
   "child_pid": null,
-  "last_completed_job_id": 231,
-  "last_publish_at": "2026-11-15T21:05:58+00:00",
-  "last_publish_commit": "6279a2f50dfa8453ac12095b4e93464e6afddf2e",
+  "last_completed_job_id": 232,
+  "last_publish_at": "2026-11-15T21:10:57+00:00",
+  "last_publish_commit": "24cbbfda836c6979e523b5e21e695f495b0329ce",
   "last_publish_error": null,
-  "published_completed": 233
+  "published_completed": 234
 }
