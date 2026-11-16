@@ -35,5 +35,13 @@
     "calibration_active.json": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913",
     "data/hmc_data.mat": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a",
     "tire_fields.inc": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651"
-  }
+  },
+  "deferred_by_latest_user_request": true,
+  "deferred_reason": "Take over original cases1039..1050 before starting steering3.5 extension",
+  "deferred_scope": [
+    1039,
+    1050
+  ],
+  "deferred_at_utc": "2026-11-16T22:15:30.492324+00:00",
+  "deferred_scope_done": true
 }

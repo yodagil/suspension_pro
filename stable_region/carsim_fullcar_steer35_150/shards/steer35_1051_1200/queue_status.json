@@ -1,13 +1,15 @@
 {
-  "status": "waiting_for_original450",
-  "prepared_contexts": 150,
-  "completed": 0,
-  "total": 150,
+  "status": "delegated_to_numerical_supervisor",
   "scope": [
     1051,
     1200
   ],
-  "daemon_running_verified_at_utc": "2026-11-16T15:05:55.697888+00:00",
+  "total": 150,
+  "progress_source": "progress.json",
+  "execution_source": "runner_state.json",
+  "predecessor450_verified": true,
+  "predecessor_tail12_verified_and_published": true,
+  "queue_handoff_completed_at_utc": "2026-11-16T23:46:41.299267+00:00",
   "automatic_recovery_enabled": true,
   "global_1200_complete_claimed": false
 }
