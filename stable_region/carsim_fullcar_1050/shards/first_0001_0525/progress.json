@@ -1,17 +1,17 @@
 {
   "schema": "carsim_fullcar_range_progress_v1",
-  "updated_at": "2026-11-16T06:51:06+00:00",
+  "updated_at": "2026-11-16T07:02:26+00:00",
   "scope": "assigned_inclusive_job_id_range",
   "shard_name": "first_0001_0525",
   "start_id": 1,
   "end_id": 525,
   "global_total": 1050,
   "total": 525,
-  "completed": 321,
-  "completed_in_range": 321,
+  "completed": 322,
+  "completed_in_range": 322,
   "failed": 0,
-  "pending": 204,
-  "progress": "321/525",
+  "pending": 203,
+  "progress": "322/525",
   "completed_job_ids": [
     1,
     2,
@@ -333,7 +333,8 @@
     318,
     319,
     320,
-    321
+    321,
+    322
   ],
   "wear_progress": [
     {
@@ -346,10 +347,10 @@
     },
     {
       "wear_case_id": 2,
-      "completed_in_range": 111,
+      "completed_in_range": 112,
       "total_in_range": 210,
       "full_wear_total": 210,
-      "progress": "111/210",
+      "progress": "112/210",
       "failed": 0
     },
     {
