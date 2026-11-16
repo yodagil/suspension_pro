@@ -1,0 +1,73 @@
+{
+  "schema": "carsim_fullcar_1200_work_allocation_v1",
+  "total": 1200,
+  "assignments": [
+    {
+      "owner": "this_conversation",
+      "scope": [
+        1,
+        450
+      ],
+      "count": 450,
+      "branch": "main",
+      "shard": "first_0001_0450"
+    },
+    {
+      "owner": "existing_other_conversation",
+      "scope": [
+        451,
+        525
+      ],
+      "count": 75,
+      "branch": "stable-region-526-1050",
+      "shard": "extra_0451_0525"
+    },
+    {
+      "owner": "existing_other_conversation",
+      "scope": [
+        526,
+        1038
+      ],
+      "count": 513,
+      "branch": "stable-region-526-1050",
+      "shard": "second_0526_1050",
+      "note": "historical shard name covers526..1050; final12 taken over separately"
+    },
+    {
+      "owner": "this_conversation",
+      "scope": [
+        1039,
+        1050
+      ],
+      "count": 12,
+      "branch": "stable-region-526-1050",
+      "shard": "tail_1039_1050"
+    },
+    {
+      "owner": "this_conversation",
+      "scope": [
+        1051,
+        1200
+      ],
+      "count": 150,
+      "branch": "main",
+      "shard": "steer35_1051_1200"
+    }
+  ],
+  "this_conversation_execution_order": [
+    [
+      1,
+      450
+    ],
+    [
+      1039,
+      1050
+    ],
+    [
+      1051,
+      1200
+    ]
+  ],
+  "original_model_and_policy_unchanged": true,
+  "global_complete_claimed": false
+}

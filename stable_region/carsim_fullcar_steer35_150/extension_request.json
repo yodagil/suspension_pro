@@ -16,7 +16,20 @@
   "images_required": true,
   "original_model_required": true,
   "source_result_available": false,
-  "execution_order": "after first_0001_0450 completes and publishes; never touch other 451..1050",
+  "execution_order": [
+    [
+      1,
+      450
+    ],
+    [
+      1039,
+      1050
+    ],
+    [
+      1051,
+      1200
+    ]
+  ],
   "status": "inputs_prepared_waiting_for_original450_completion",
   "root_assigned_job_ids": [
     1051,
@@ -24,5 +37,10 @@
   ],
   "root_shard_name": "steer35_1051_1200",
   "shard_name": "steer35_1051_1200",
-  "extension_split_active": false
+  "extension_split_active": false,
+  "predecessor_tail12_scope": [
+    1039,
+    1050
+  ],
+  "predecessor_tail12_branch": "stable-region-526-1050"
 }
