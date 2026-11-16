@@ -1,13 +1,13 @@
 {
-  "noticed_utc": "2026-11-15T17:15:58.797803+00:00",
-  "previous_heartbeat": "2026-11-15T14:36:57+00:00",
-  "completed_preserved": 191,
-  "resume_job_id": 189,
-  "reason": "Execution environment restarted; prior supervisor and worker absent",
+  "noticed_utc": "2026-11-16T03:35:06.666144+00:00",
+  "previous_heartbeat": "2026-11-16T02:21:40+00:00",
+  "completed_preserved": 291,
+  "resume_job_id": 289,
+  "reason": "Environment restarted; previous supervisor and worker are absent",
   "numeric_inputs_changed": false,
-  "publication_interval_conditions": 1,
   "scope": [
     1,
     525
-  ]
+  ],
+  "publication_interval_conditions": 1
 }
