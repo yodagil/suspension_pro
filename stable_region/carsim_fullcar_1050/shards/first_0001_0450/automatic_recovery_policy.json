@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "range": [
+    1,
+    450
+  ],
+  "shard": "first_0001_0450",
+  "frequency": "hourly",
+  "stop_after_verified_uploaded": 450,
+  "helper_sha256": "bcdd3b6b39722a3b0ae9cf9f82adf48889c833b50a7359110b5cdf73d4c4ec61",
+  "transferred_out_range": [
+    451,
+    525
+  ],
+  "transferred_out_branch": "stable-region-526-1050"
+}

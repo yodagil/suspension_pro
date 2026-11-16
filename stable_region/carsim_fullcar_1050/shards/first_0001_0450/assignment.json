@@ -1,0 +1,22 @@
+{
+  "updated_utc": "2026-11-16T12:33:51.377535+00:00",
+  "root_scope": [
+    1,
+    450
+  ],
+  "root_shard": "first_0001_0450",
+  "root_branch": "main",
+  "transferred_scope": [
+    451,
+    525
+  ],
+  "transferred_shard": "extra_0451_0525",
+  "transferred_branch": "stable-region-526-1050",
+  "existing_other_scope": [
+    526,
+    1050
+  ],
+  "no_overlap": true,
+  "numeric_model_or_policy_changed": false,
+  "completed_preserved": 361
+}
