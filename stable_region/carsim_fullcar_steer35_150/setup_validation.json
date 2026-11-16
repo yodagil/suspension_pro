@@ -1,0 +1,29 @@
+{
+  "schema": "steer35_setup_validation_v1",
+  "checked_at_utc": "2026-11-16T14:58:55.980781+00:00",
+  "status": "pass",
+  "context_count": 150,
+  "context_index_hashes_match": true,
+  "canonical_job_ids": [
+    1051,
+    1200
+  ],
+  "command_steer_deg": 3.5,
+  "frozen_files_matched": 22,
+  "native_RHS_observations_bitwise_smoke_ids": [
+    1051,
+    1090,
+    1200
+  ],
+  "H_nodes_checked_per_smoke": 7381,
+  "isolated_controller_full_scope": 150,
+  "isolated_actual_result_job": 1200,
+  "actual_result_kind": "trim_outside_reference",
+  "MAT_audit_passed": true,
+  "PNG_source_digest_passed": true,
+  "production_extension_completed": 0,
+  "original_physics_changed": false,
+  "controller_sha256": "60b9022d75673da95e7887548e01742745989b97947ceeddb94cdbc1f4bf0ca3",
+  "isolated_validation_directory": "/workspace/work/steer35_validation_60b9022d",
+  "canonical_binding_created_and_verified": true
+}

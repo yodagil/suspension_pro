@@ -1,0 +1,25 @@
+{
+  "schema": "carsim_fullcar_steer35_owner_v1",
+  "updated_at_utc": "2026-11-16T14:56:01.535119+00:00",
+  "latest_user_instruction": "Root executes all150; new half handoff cancelled",
+  "root_original_range": [
+    1,
+    450
+  ],
+  "root_extension_range": [
+    1051,
+    1200
+  ],
+  "root_extension_count": 150,
+  "root_extension_shard": "steer35_1051_1200",
+  "publish_branch": "main",
+  "publish_every": 1,
+  "images_required": true,
+  "existing_other_scope_untouched": [
+    451,
+    1050
+  ],
+  "extension_split_active": false,
+  "combined_total": 1200,
+  "start_after_original450_verified_and_published": true
+}

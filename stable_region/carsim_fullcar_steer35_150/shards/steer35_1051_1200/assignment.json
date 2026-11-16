@@ -1,0 +1,13 @@
+{
+  "scope": [
+    1051,
+    1200
+  ],
+  "total": 150,
+  "shard_name": "steer35_1051_1200",
+  "publish_branch": "main",
+  "publish_every": 1,
+  "images_required": true,
+  "original450_predecessor_required": true,
+  "extension_split_active": false
+}

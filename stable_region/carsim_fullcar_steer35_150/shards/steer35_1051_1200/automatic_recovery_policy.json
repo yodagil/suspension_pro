@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "check_frequency": "hourly",
+  "waiting_queue_interval_seconds": 30,
+  "scope": [
+    1051,
+    1200
+  ],
+  "total": 150,
+  "main_branch_only": true,
+  "respects_intentional_stops": true,
+  "source_and_checkpoint_validation": true,
+  "predecessor_range": [
+    1,
+    450
+  ],
+  "full1200_completion_not_claimed": true
+}

@@ -1,0 +1,9 @@
+context/
+checkpoints/
+logs/
+preparation_errors/
+**/logs/
+**/quarantine/
+*.tmp
+*.lock
+*.pid

@@ -1,0 +1,28 @@
+{
+  "schema": "carsim_fullcar_append_steer35_request_v1",
+  "authorized_at_utc": "2026-11-16T14:41:38.199506+00:00",
+  "assigned_start_id": 1051,
+  "assigned_end_id": 1200,
+  "total": 150,
+  "original_ids_preserved": [
+    1,
+    1050
+  ],
+  "combined_total": 1200,
+  "steering_command_deg": 3.5,
+  "counts_per_wear": 30,
+  "publish_branch": "main",
+  "publish_every": 1,
+  "images_required": true,
+  "original_model_required": true,
+  "source_result_available": false,
+  "execution_order": "after first_0001_0450 completes and publishes; never touch other 451..1050",
+  "status": "inputs_prepared_waiting_for_original450_completion",
+  "root_assigned_job_ids": [
+    1051,
+    1200
+  ],
+  "root_shard_name": "steer35_1051_1200",
+  "shard_name": "steer35_1051_1200",
+  "extension_split_active": false
+}
