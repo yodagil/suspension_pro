@@ -1,0 +1,20 @@
+{
+  "schema": "carsim_fullcar_range_progress_v1",
+  "updated_at": "2026-11-16T22:25:54.125789+00:00",
+  "scope": "assigned_inclusive_job_id_range",
+  "shard_name": "tail_1039_1050",
+  "start_id": 1039,
+  "end_id": 1050,
+  "global_total": 1050,
+  "total": 12,
+  "completed": 0,
+  "completed_in_range": 0,
+  "failed": 0,
+  "pending": 12,
+  "progress": "0/12",
+  "completed_job_ids": [],
+  "status": "queued_after_original450",
+  "images_required": true,
+  "prepared_contexts": 12,
+  "global_1050_complete_claimed": false
+}
