@@ -1,0 +1,114 @@
+{
+  "schema": "carsim_fullcar_range_completion_v1",
+  "status": "range_complete",
+  "shard_name": "tail_1039_1050",
+  "start_id": 1039,
+  "end_id": 1050,
+  "completed_in_range": 12,
+  "total_in_range": 12,
+  "global_total": 1050,
+  "progress": "12/12",
+  "created_at": "2026-11-16T23:29:44+00:00",
+  "reference_mode": "model_actual_front_trim",
+  "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
+  "native_binary_sha256": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+  "files_sha256": {
+    "stable_region/code/prepare_region_batch.m": "bf4480b8c0231f058ade4eb18e5dd4d68358f7289358271e3072663a82f8bdfe",
+    "stable_region/code/run_region_batch_case.m": "f33e5d1a518d052fe915b2ee581a67662e4c6d567a592223dc9ff011bca573cf",
+    "stable_region/code/hmc_region_mex.cpp": "8171ee4b66a8b031e6f1a2f7ff5627435fa6961f31084ae80bbd0fad6b906287",
+    "stable_region/code/reference_handling.m": "88faddf69c816300e65314fc93ed92f1f46c040be00fbd04cfd53bd3982b438f",
+    "stable_region/code/stable_region_sha256.m": "bf3b6fc00e1594ff860b8939ee448ae05e004c5f20bbc696b209de726636e11a",
+    "stable_region/code/batch_region_artifacts.py": "4b7eff64f7be684c5feb5c3207756091d19a2c874d00481da11a360c97b99b2b",
+    "stable_region/code/compare_regions.py": "0fbdbe5b32de5f815a62deab9af91101f99b90f4da0bad4e02f63c35f43b1f6e",
+    "stable_region/code/run_region_batch.py": "123b8b2ab7a65da0877d38f0dee47a39e2926784c55dbece0c7a05167936dd2e",
+    "result/run_configuration.mat": "de7effd11a6fe5072a3c3b7d2826beafadbe3ae887237a6342f3b109f04d5e77",
+    "stable_region/comparison/reference_core/Qref_0.mat": "908d54a227d03f33ab925aea5fc4378d46843c18760f70e9538c2b9e141e3674",
+    "stable_region/comparison/validation/binary_binding.json": "6aa214a56bdec8d401c9a71f31677632f6238caff5382bb726a527b053e3768b",
+    "hmc_mex.mex": "da8175679e57d47086f23a645806272eb613c9cc3695f8684572deea1b99a955",
+    "stable_region/code/hmc_region_mex.mex": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+    "HMC_FullCar_Revised.m": "816f8777ede4e1e7fa754f5bf28635f45f4c2d84a8337ed69b75407ee520d421",
+    "hmc_native.cpp": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062",
+    "hmc_mex.cpp": "7d4925cf6dc6a09a22d47f983e77c5826de71d25834bc208ad393543f7acf6ad",
+    "hmc_native_run.m": "2b2a535f0f057426f251312f9695a5b1772487f63fff834a5229268270519ab4",
+    "hmc_apply_calibration.m": "a4dc652de68dcd5c46347d45f613156a60279b9ee5244c5fffeb2b01c0bf38b1",
+    "calibration_active.json": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913",
+    "data/hmc_data.mat": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a",
+    "tire_fields.inc": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651"
+  },
+  "images_required": true,
+  "global_1050_complete_claimed": false,
+  "verified_cases": [
+    {
+      "job_id": 1039,
+      "source_file": "regions/case_1039.mat",
+      "source_sha256": "91b6cdc52f259a1b6326ae69c2c3958b0bc9d1eff41800548d332ccd28780bae",
+      "context_sha256": "be79ec2c82ca4e319dc1b1f1b449fdf16b1ed690fcb9f49752c4f64ff9867689"
+    },
+    {
+      "job_id": 1040,
+      "source_file": "regions/case_1040.mat",
+      "source_sha256": "f08f6542e7d65cca02c13c5ce41f9fc7561d831169235c233062d455071647cc",
+      "context_sha256": "58283f6eaedd8aa6b5c6d71f17b4c6c47a4160a820b68eef027c3e2586bcdbb3"
+    },
+    {
+      "job_id": 1041,
+      "source_file": "regions/case_1041.mat",
+      "source_sha256": "ac4e0ea9b8169181e315289f96d19a6c06227f7bea6bc66bc7d036745bd46ce1",
+      "context_sha256": "c004f69e83a99f36671d99bf1f6b3bfb572b2b911a0b8bbafdfb4cb200eb2416"
+    },
+    {
+      "job_id": 1042,
+      "source_file": "regions/case_1042.mat",
+      "source_sha256": "4f1ec3082e1276ff9f7e77730eb3c643cd51b705b86cefbe52a93825222f4f81",
+      "context_sha256": "f917185152605ddcf31b6d5d2b06400c064d30161499fced712841c1630fb3d2"
+    },
+    {
+      "job_id": 1043,
+      "source_file": "regions/case_1043.mat",
+      "source_sha256": "b49dbaf47295fd73ccb471840dd1ffb8412b540a5496cf78d94dbfea61f21475",
+      "context_sha256": "a6e470df3812a51f435a891f19617b237f94f644cc83bd994908502e143dc026"
+    },
+    {
+      "job_id": 1044,
+      "source_file": "regions/case_1044.mat",
+      "source_sha256": "032c16f68ccceb451399458148c99027a476e1d908a92cadf526c17e73d10ecf",
+      "context_sha256": "4705b4e218729728db5d269d9b31220f428fdabcdbcb1c0bdae2da1b0d0f4534"
+    },
+    {
+      "job_id": 1045,
+      "source_file": "regions/case_1045.mat",
+      "source_sha256": "b68bb024032683162cc13639c1f1cec8658015b671460a1f416c7740404bea17",
+      "context_sha256": "f936618a2a2a114f0deffefeb8aeb13c9a7337be880ef6f9e8d8ee7a1d7876a7"
+    },
+    {
+      "job_id": 1046,
+      "source_file": "regions/case_1046.mat",
+      "source_sha256": "5f6ebad1b9b43b0eddedc7b59acbea99fba41cbc61ab9afd90c9b34237066ff9",
+      "context_sha256": "f6575b88984113015bb9a5d247d5de59bafcfb9880a2f8eb30570cedcf3ec4d4"
+    },
+    {
+      "job_id": 1047,
+      "source_file": "regions/case_1047.mat",
+      "source_sha256": "6d960d3cbfd88c428a2598cf6247caf654d72e4c904a451b1dad8d4f43567841",
+      "context_sha256": "cc98dfe3873f00b209ad5111216ebd53e0c9c4144c8c21e1b95904d02a3f92e2"
+    },
+    {
+      "job_id": 1048,
+      "source_file": "regions/case_1048.mat",
+      "source_sha256": "cc7a08234bdeb9f9dc0734beb480446c14ca4d7f18d3bb40d95155325d916fa9",
+      "context_sha256": "505861789bd47db8b7a5f10f8bbbf0e1bc473c407d25d5ece7b96b4d7d2452b0"
+    },
+    {
+      "job_id": 1049,
+      "source_file": "regions/case_1049.mat",
+      "source_sha256": "f13529b58e6fc02d4300e3009afc9da06c2ce9c8c981bcf88b29ce13c08d8ea1",
+      "context_sha256": "6a7c91903d0f2a301b7b02e5a3bf9e0a4f8dbdaaef3044184bf553e256fa647b"
+    },
+    {
+      "job_id": 1050,
+      "source_file": "regions/case_1050.mat",
+      "source_sha256": "7087776172b4bedf1a240611c1270bd323d3061d4945746be87743f327f75d8c",
+      "context_sha256": "e7e4d47d9302b3c06db9b203a4c1d03ee72094d94deb560658f053051e6e534d"
+    }
+  ]
+}
