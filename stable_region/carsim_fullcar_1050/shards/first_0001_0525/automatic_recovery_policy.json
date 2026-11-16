@@ -1,0 +1,17 @@
+{
+  "automatic_check_enabled": true,
+  "check_frequency": "hourly",
+  "attached_to_existing_execution_environment": true,
+  "resume_condition": "Abruptly missing process from active state; no duplicate worker and unchanged input/source signatures",
+  "intentional_stops_respected": true,
+  "range": [
+    1,
+    525
+  ],
+  "images_required": true,
+  "publish_every_completed_conditions": 1,
+  "disable_after_verified_and_uploaded_count": 525,
+  "helper_sha256": "94569c036659c1617bca879820a1604e8a2dc458420d95924df6cdd528b1a3e7",
+  "platform_forced_restart_disabled": false,
+  "configured_utc": "2026-11-16T09:12:19.842176+00:00"
+}
