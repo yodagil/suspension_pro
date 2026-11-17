@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "assigned_scope": [
+    526,
+    1050
+  ],
+  "first_actual_job_id": 526,
+  "summary": {
+    "job_id": 526,
+    "condition_id": 106,
+    "wear_case_id": 3,
+    "speed_kmh": 80.0,
+    "mu": 0.9,
+    "steer_target_deg": 0.0,
+    "wear": [
+      50.0,
+      50.0,
+      25.0,
+      25.0
+    ],
+    "source_file": "regions/case_0526.mat",
+    "source_sha256": "d5e9af9eafb83880a7df991c387ed7e54221a324e705080819f8f02247366686",
+    "reference_nodes": 1065,
+    "final_nodes_5s": 820,
+    "final_nodes_10s": 820,
+    "candidate_cells": 736,
+    "accepted_cells": 736,
+    "cell_area": 1.8399999999999999,
+    "trim_in_reference": true,
+    "main_region_known_empty": false,
+    "completion_kind": "integrated",
+    "reference_grid_truncated": false,
+    "grid_truncated": false,
+    "trim_vy_mps": -0.03213307256643096,
+    "trim_r_radps": -0.0027522260840665645,
+    "wall_seconds": 351.71771788597107,
+    "reference_mode": "model_actual_front_trim",
+    "native_binary_sha256": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+    "input_signature": "",
+    "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
+    "context_sha256": "223682cafd91169f59b524f2ad8f94836980bf61c926a23bf718acaac74e590c",
+    "outside_reference_semantics": "untested, not demonstrated unstable"
+  },
+  "image_source_and_image_hashes_verified": true,
+  "png_integrity_verified": true,
+  "original_input_parameter_structs_excluded": true,
+  "global_1050_complete_claimed": false
+}

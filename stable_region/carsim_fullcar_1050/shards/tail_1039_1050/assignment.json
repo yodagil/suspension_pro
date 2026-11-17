@@ -1,0 +1,29 @@
+{
+  "schema": "carsim_fullcar_tail12_assignment_v1",
+  "start_id": 1039,
+  "end_id": 1050,
+  "total": 12,
+  "shard_name": "tail_1039_1050",
+  "publish_branch": "stable-region-526-1050",
+  "publish_every": 1,
+  "images_required": true,
+  "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
+  "operation": "Take over remaining12 original cases after user reported other worker stopped at1038",
+  "previous_range_result_snapshot": {
+    "range": [
+      526,
+      1038
+    ],
+    "completed": 513
+  },
+  "predecessor_main_range": [
+    1,
+    450
+  ],
+  "successor_steer35_range": [
+    1051,
+    1200
+  ],
+  "shared_4CPU_compute_lock_required": true,
+  "original_model_unchanged": true
+}
