@@ -1,0 +1,32 @@
+{
+  "schema": "carsim_fullcar_range_binding_v1",
+  "files_sha256": {
+    "stable_region/code/prepare_region_batch.m": "bf4480b8c0231f058ade4eb18e5dd4d68358f7289358271e3072663a82f8bdfe",
+    "stable_region/code/run_region_batch_case.m": "f33e5d1a518d052fe915b2ee581a67662e4c6d567a592223dc9ff011bca573cf",
+    "stable_region/code/hmc_region_mex.cpp": "8171ee4b66a8b031e6f1a2f7ff5627435fa6961f31084ae80bbd0fad6b906287",
+    "stable_region/code/reference_handling.m": "88faddf69c816300e65314fc93ed92f1f46c040be00fbd04cfd53bd3982b438f",
+    "stable_region/code/stable_region_sha256.m": "bf3b6fc00e1594ff860b8939ee448ae05e004c5f20bbc696b209de726636e11a",
+    "stable_region/code/batch_region_artifacts.py": "4b7eff64f7be684c5feb5c3207756091d19a2c874d00481da11a360c97b99b2b",
+    "stable_region/code/compare_regions.py": "0fbdbe5b32de5f815a62deab9af91101f99b90f4da0bad4e02f63c35f43b1f6e",
+    "stable_region/code/run_region_batch.py": "123b8b2ab7a65da0877d38f0dee47a39e2926784c55dbece0c7a05167936dd2e",
+    "result/run_configuration.mat": "de7effd11a6fe5072a3c3b7d2826beafadbe3ae887237a6342f3b109f04d5e77",
+    "stable_region/comparison/reference_core/Qref_0.mat": "908d54a227d03f33ab925aea5fc4378d46843c18760f70e9538c2b9e141e3674",
+    "stable_region/comparison/validation/binary_binding.json": "6aa214a56bdec8d401c9a71f31677632f6238caff5382bb726a527b053e3768b",
+    "hmc_mex.mex": "da8175679e57d47086f23a645806272eb613c9cc3695f8684572deea1b99a955",
+    "stable_region/code/hmc_region_mex.mex": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+    "HMC_FullCar_Revised.m": "816f8777ede4e1e7fa754f5bf28635f45f4c2d84a8337ed69b75407ee520d421",
+    "hmc_native.cpp": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062",
+    "hmc_mex.cpp": "7d4925cf6dc6a09a22d47f983e77c5826de71d25834bc208ad393543f7acf6ad",
+    "hmc_native_run.m": "2b2a535f0f057426f251312f9695a5b1772487f63fff834a5229268270519ab4",
+    "hmc_apply_calibration.m": "a4dc652de68dcd5c46347d45f613156a60279b9ee5244c5fffeb2b01c0bf38b1",
+    "calibration_active.json": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913",
+    "data/hmc_data.mat": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a",
+    "tire_fields.inc": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651"
+  },
+  "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
+  "reference_mode": "model_actual_front_trim",
+  "start_id": 451,
+  "end_id": 525,
+  "shard_name": "missing_0451_0525",
+  "global_total": 1050
+}
