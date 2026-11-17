@@ -1,0 +1,13 @@
+{
+  "job_id": 1127,
+  "source_sha256": "5a490d1b95ac93dafc6f85117e1ea5d86a38f92e21fc89bcb08411595715ff78",
+  "image_sha256": "f9dc18f29cfd5d4b87ebba4f7262082b4a30fa85a05483d1cf71c64c9d2d61bd",
+  "created_utc": "2026-11-17T05:53:56.120463+00:00",
+  "fixed_axes": [
+    -3,
+    3,
+    -1.5,
+    1.5
+  ],
+  "geometry": "exact accepted-cell union and four-vertex H grid-cell boundary"
+}
