@@ -3,7 +3,7 @@
   "model": "carsim_fullcar",
   "pid": 30044,
   "invocation_started_at": "2026-11-16T23:43:59+00:00",
-  "status": "running",
+  "status": "range_complete",
   "total": 150,
   "global_total": 1200,
   "extension_total": 150,
@@ -11,7 +11,7 @@
   "end_id": 1200,
   "shard_name": "steer35_1051_1200",
   "scope": "assigned_inclusive_job_id_range",
-  "active_job_id": 1200,
+  "active_job_id": null,
   "newly_completed": 150,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
@@ -40,7 +40,7 @@
   "environment_lifetime_guaranteed": false,
   "batch_signature": "2252921c11106ccbfeb57892d1f82396021e2f2b41e788b839d0fa8762cacf00",
   "resumed": 0,
-  "last_heartbeat_at": "2026-11-17T11:09:54+00:00",
+  "last_heartbeat_at": "2026-11-17T11:10:05+00:00",
   "completed": 150,
   "completed_in_range": 150,
   "progress_text": "150/150",
@@ -61,8 +61,12 @@
   "active_log": "shards/steer35_1051_1200/logs/case_1200.log",
   "child_pid": null,
   "last_completed_job_id": 1200,
-  "last_publish_at": "2026-11-17T11:09:54+00:00",
-  "last_publish_commit": "5e99b9d4fb6826c69b3a272ac5a8dbad8956910c",
+  "last_publish_at": "2026-11-17T11:09:57+00:00",
+  "last_publish_commit": "81b1f5546afd4ae4bc2f4e7d93a2233d131fffc6",
   "last_publish_error": null,
-  "published_completed": 149
+  "published_completed": 150,
+  "finished_at": "2026-11-17T11:09:57+00:00",
+  "range_completion": "range_completion_1051_1200.json",
+  "extension_150_complete": true,
+  "aggregate": "carsim_fullcar_steer35_stability_LUT_150.mat"
 }

@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-11-16T14:58:55.982227+00:00",
+  "updated_utc": "2026-11-17T11:10:05.011999+00:00",
   "total": 150,
-  "completed": 0,
+  "completed": 150,
   "failed": 0,
-  "pending": 150,
-  "progress": "0/150",
+  "pending": 0,
+  "progress": "150/150",
   "wear_progress": [
     {
       "wear_case_id": 1,
@@ -14,9 +14,9 @@
         0.0,
         0.0
       ],
-      "completed": 0,
+      "completed": 30,
       "total": 30,
-      "progress": "0/30",
+      "progress": "30/30",
       "failed": 0
     },
     {
@@ -27,9 +27,9 @@
         0.0,
         0.0
       ],
-      "completed": 0,
+      "completed": 30,
       "total": 30,
-      "progress": "0/30",
+      "progress": "30/30",
       "failed": 0
     },
     {
@@ -40,9 +40,9 @@
         25.0,
         25.0
       ],
-      "completed": 0,
+      "completed": 30,
       "total": 30,
-      "progress": "0/30",
+      "progress": "30/30",
       "failed": 0
     },
     {
@@ -53,9 +53,9 @@
         25.0,
         25.0
       ],
-      "completed": 0,
+      "completed": 30,
       "total": 30,
-      "progress": "0/30",
+      "progress": "30/30",
       "failed": 0
     },
     {
@@ -66,9 +66,9 @@
         50.0,
         50.0
       ],
-      "completed": 0,
+      "completed": 30,
       "total": 30,
-      "progress": "0/30",
+      "progress": "30/30",
       "failed": 0
     }
   ],
@@ -77,10 +77,10 @@
   "end_id": 1200,
   "combined_total": 1200,
   "global_1200_complete_claimed": false,
-  "status": "in_progress",
-  "images": 0,
-  "known_empty_by_trim_policy": 0,
+  "status": "complete",
+  "images": 150,
+  "known_empty_by_trim_policy": 20,
   "invalid_results": {},
   "unexpected_result_ids": [],
-  "aggregate_complete": false
+  "aggregate_complete": true
 }
