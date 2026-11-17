@@ -1,6 +1,6 @@
 {
   "schema": "carsim_fullcar_steer35_range_progress_v1",
-  "updated_at": "2026-11-17T04:47:01+00:00",
+  "updated_at": "2026-11-17T04:51:27+00:00",
   "scope": "assigned_inclusive_job_id_range",
   "shard_name": "steer35_1051_1200",
   "start_id": 1051,
@@ -8,11 +8,11 @@
   "global_total": 1200,
   "extension_total": 150,
   "total": 150,
-  "completed": 61,
-  "completed_in_range": 61,
+  "completed": 62,
+  "completed_in_range": 62,
   "failed": 0,
-  "pending": 89,
-  "progress": "61/150",
+  "pending": 88,
+  "progress": "62/150",
   "completed_job_ids": [
     1051,
     1052,
@@ -74,7 +74,8 @@
     1108,
     1109,
     1110,
-    1111
+    1111,
+    1112
   ],
   "wear_progress": [
     {
@@ -95,10 +96,10 @@
     },
     {
       "wear_case_id": 3,
-      "completed_in_range": 1,
+      "completed_in_range": 2,
       "total_in_range": 30,
       "full_wear_total": 30,
-      "progress": "1/30",
+      "progress": "2/30",
       "failed": 0
     },
     {
