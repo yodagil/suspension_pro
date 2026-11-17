@@ -11,8 +11,8 @@
   "end_id": 1200,
   "shard_name": "steer35_1051_1200",
   "scope": "assigned_inclusive_job_id_range",
-  "active_job_id": 1158,
-  "newly_completed": 108,
+  "active_job_id": 1159,
+  "newly_completed": 109,
   "command": [
     "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
     "/workspace/work/suspension_pro/stable_region/code_steer35/run_steer35_batch.py",
@@ -40,13 +40,13 @@
   "environment_lifetime_guaranteed": false,
   "batch_signature": "2252921c11106ccbfeb57892d1f82396021e2f2b41e788b839d0fa8762cacf00",
   "resumed": 0,
-  "last_heartbeat_at": "2026-11-17T08:07:21+00:00",
-  "completed": 108,
-  "completed_in_range": 108,
-  "progress_text": "108/150",
+  "last_heartbeat_at": "2026-11-17T08:09:56+00:00",
+  "completed": 109,
+  "completed_in_range": 109,
+  "progress_text": "109/150",
   "ignored_out_of_range_priority_ids": [],
   "attempt": 1,
-  "condition_id": 18,
+  "condition_id": 19,
   "wear_case_id": 4,
   "active_command": [
     "/workspace/work/octave-runtime/run-in-env.sh",
@@ -56,13 +56,13 @@
     "--no-site-file",
     "--no-history",
     "--eval",
-    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code_steer35'); run_steer35_batch_case(1158);"
+    "addpath('/workspace/work/suspension_pro'); addpath('/workspace/work/suspension_pro/stable_region/code_steer35'); run_steer35_batch_case(1159);"
   ],
-  "active_log": "shards/steer35_1051_1200/logs/case_1158.log",
+  "active_log": "shards/steer35_1051_1200/logs/case_1159.log",
   "child_pid": null,
-  "last_completed_job_id": 1158,
-  "last_publish_at": "2026-11-17T08:00:10+00:00",
-  "last_publish_commit": "ba01297ac5c4cf1e91504e1f5dd73873afe2938c",
+  "last_completed_job_id": 1159,
+  "last_publish_at": "2026-11-17T08:07:24+00:00",
+  "last_publish_commit": "8d9381c359585189c58c9f9107e92bd204280b2a",
   "last_publish_error": null,
-  "published_completed": 107
+  "published_completed": 108
 }
