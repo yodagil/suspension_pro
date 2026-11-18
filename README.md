@@ -3,7 +3,7 @@
 안정영역의 통합 결과는 [`stable_region/carsim_fullcar_1200/`](stable_region/carsim_fullcar_1200/README.md)에서 관리합니다. 원래 조향 0~3°의 1,050조건과 추가 조향 3.5°의 150조건을 합친 **1,200조건(마모별 240조건)**이며, 검증된 완료 수는 [통합 진행 상태](stable_region/carsim_fullcar_1200/progress.json)를 확인하세요. 아래 `result/`의 1,050개 주행 궤적과 안정영역 계산은 별도 결과입니다.
 
 <!-- unify-1200-status:start -->
-통합 검증 진행 중입니다. 누락되었던 451~525번 75조건은 원래 모델·격자·판정으로 계산하며 완료 조건마다 main에 게시합니다. 전체 완료 여부는 통합 progress.json과 finalization.json으로 확인합니다.
+**통합 완료: 1,200/1,200.** MAT·PNG·이미지 바인딩·LUT·QC CSV 검증을 마쳤습니다.
 <!-- unify-1200-status:end -->
 
 사용자가 제공한 `HMC_Model_Only.zip`의 MATLAB 차량 모델을 실행하고, **210개 운전 조건 × 5개 타이어 마모 패턴 = 총 1,050개 궤적**의 결과를 `result/`에 저장하는 프로젝트입니다. 모델 방정식과 기본 수치 조건을 보존하며, 원본에서 설명한 다섯 마모 패턴을 모두 실행하도록 기본 구성을 정리했습니다.

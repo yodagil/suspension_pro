@@ -3,7 +3,7 @@
 안정영역 **1,200조건의 통합 경로**는 [`carsim_fullcar_1200/`](carsim_fullcar_1200/README.md)입니다. 원래 1,050조건과 조향 3.5°의 추가 150조건을 원래 JobID 그대로 한 폴더에 모으며, [통합 진행 상태](carsim_fullcar_1200/progress.json)에 실제 검증 완료 수를 기록합니다. 원본 배치의 입력 서명과 개별 결과는 각 기존 폴더에도 보존합니다.
 
 <!-- unify-1200-status:start -->
-통합 검증 진행 중입니다. 누락되었던 451~525번 75조건은 원래 모델·격자·판정으로 계산하며 완료 조건마다 main에 게시합니다. 전체 완료 여부는 통합 progress.json과 finalization.json으로 확인합니다.
+**통합 완료: 1,200/1,200.** MAT·PNG·이미지 바인딩·LUT·QC CSV 검증을 마쳤습니다.
 <!-- unify-1200-status:end -->
 
 `carsim_fullcar` 전체 **1,050조건 안정영역 배치**의 계산 기준·진행률·결과는 [carsim_fullcar_1050/](carsim_fullcar_1050/README.md)에 정리합니다. 아래 내용은 앞서 완료한 세 모델의 선택 조건 비교입니다.

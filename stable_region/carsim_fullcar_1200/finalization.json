@@ -1,0 +1,40 @@
+{
+  "aggregate_bytes": 1058980,
+  "aggregate_file": "carsim_fullcar_stability_LUT_1200.mat",
+  "aggregate_sha256": "7468228bee0731452b219c065169a1fadc063752055df8d69a2257a304f1a4e0",
+  "all_arrays_reloaded_and_verified": true,
+  "all_cases_freshly_reaudited": true,
+  "all_images_bound_to_source": true,
+  "all_source_batches_preserved": true,
+  "common_physics_and_engine_verified": true,
+  "completed": 1200,
+  "consolidation_signature": "4ee8c54ff451bcaeb899bfb013b4c65fb5a3f70da786fc8188680b9a388618f8",
+  "images": 1200,
+  "images_copied_without_edit": true,
+  "manifest_bytes": 2936341,
+  "manifest_file": "input_manifest.json",
+  "manifest_sha256": "4c5d8fdd7fa89921dd8c6d746157f94635e386a86ee083aa6ee6302e9fcc047a",
+  "numerically_verified_cases": 1200,
+  "physics_recomputed": false,
+  "progress": "1200/1200",
+  "qc_csv": "carsim_fullcar_stability_QC_1200.csv",
+  "qc_csv_bytes": 1351787,
+  "qc_csv_sha256": "8894702e44c5c5e3224eb898b8d9263fd4ba378b3e52d2403dcd370fa72add1d",
+  "source_batch_bindings_verified": true,
+  "source_batches": [
+    {
+      "end": 1050,
+      "name": "original_1050",
+      "signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
+      "start": 1
+    },
+    {
+      "end": 1200,
+      "name": "steer35_150",
+      "signature": "2252921c11106ccbfeb57892d1f82396021e2f2b41e788b839d0fa8762cacf00",
+      "start": 1051
+    }
+  ],
+  "status": "complete",
+  "total": 1200
+}
