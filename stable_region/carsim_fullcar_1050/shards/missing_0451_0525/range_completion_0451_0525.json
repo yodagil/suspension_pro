@@ -1,0 +1,492 @@
+{
+  "schema": "carsim_fullcar_range_completion_v1",
+  "status": "range_complete",
+  "shard_name": "missing_0451_0525",
+  "start_id": 451,
+  "end_id": 525,
+  "completed_in_range": 75,
+  "total_in_range": 75,
+  "global_total": 1050,
+  "progress": "75/75",
+  "created_at": "2026-11-18T05:45:39+00:00",
+  "reference_mode": "model_actual_front_trim",
+  "batch_signature": "5d495d2a27cfd1876356b210b5949dbccfc562ecdf43fc06cf0211c7e652a396",
+  "native_binary_sha256": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+  "files_sha256": {
+    "stable_region/code/prepare_region_batch.m": "bf4480b8c0231f058ade4eb18e5dd4d68358f7289358271e3072663a82f8bdfe",
+    "stable_region/code/run_region_batch_case.m": "f33e5d1a518d052fe915b2ee581a67662e4c6d567a592223dc9ff011bca573cf",
+    "stable_region/code/hmc_region_mex.cpp": "8171ee4b66a8b031e6f1a2f7ff5627435fa6961f31084ae80bbd0fad6b906287",
+    "stable_region/code/reference_handling.m": "88faddf69c816300e65314fc93ed92f1f46c040be00fbd04cfd53bd3982b438f",
+    "stable_region/code/stable_region_sha256.m": "bf3b6fc00e1594ff860b8939ee448ae05e004c5f20bbc696b209de726636e11a",
+    "stable_region/code/batch_region_artifacts.py": "4b7eff64f7be684c5feb5c3207756091d19a2c874d00481da11a360c97b99b2b",
+    "stable_region/code/compare_regions.py": "0fbdbe5b32de5f815a62deab9af91101f99b90f4da0bad4e02f63c35f43b1f6e",
+    "stable_region/code/run_region_batch.py": "123b8b2ab7a65da0877d38f0dee47a39e2926784c55dbece0c7a05167936dd2e",
+    "result/run_configuration.mat": "de7effd11a6fe5072a3c3b7d2826beafadbe3ae887237a6342f3b109f04d5e77",
+    "stable_region/comparison/reference_core/Qref_0.mat": "908d54a227d03f33ab925aea5fc4378d46843c18760f70e9538c2b9e141e3674",
+    "stable_region/comparison/validation/binary_binding.json": "6aa214a56bdec8d401c9a71f31677632f6238caff5382bb726a527b053e3768b",
+    "hmc_mex.mex": "da8175679e57d47086f23a645806272eb613c9cc3695f8684572deea1b99a955",
+    "stable_region/code/hmc_region_mex.mex": "0218babeb33e18b403cbf2113be53d328bc0da58546bea82304b1696bc617194",
+    "HMC_FullCar_Revised.m": "816f8777ede4e1e7fa754f5bf28635f45f4c2d84a8337ed69b75407ee520d421",
+    "hmc_native.cpp": "93edb2109609e829e999b8e2b283aedf1c63ec21bb5f133aa4ce54b605404062",
+    "hmc_mex.cpp": "7d4925cf6dc6a09a22d47f983e77c5826de71d25834bc208ad393543f7acf6ad",
+    "hmc_native_run.m": "2b2a535f0f057426f251312f9695a5b1772487f63fff834a5229268270519ab4",
+    "hmc_apply_calibration.m": "a4dc652de68dcd5c46347d45f613156a60279b9ee5244c5fffeb2b01c0bf38b1",
+    "calibration_active.json": "1e3ac432f56c023f69be9b046bcecf9805212922827dd750026e4984204b6913",
+    "data/hmc_data.mat": "8f6b5cf642d49470d53140cb342528dd33809152347888f7f6b69403db8af65a",
+    "tire_fields.inc": "5369757e197fa34bee547bffa1641cf7157607c73ac21b3892f468ccfa323651"
+  },
+  "images_required": true,
+  "global_1050_complete_claimed": false,
+  "verified_cases": [
+    {
+      "job_id": 451,
+      "source_file": "regions/case_0451.mat",
+      "source_sha256": "64fa2e81363488b843ec2bb7ffc163528a8c4347438098ec96c787a62706b809",
+      "context_sha256": "156d439808edd7c8c5285565c9465f65a64ac4adc88bd5426432205489441ce6"
+    },
+    {
+      "job_id": 452,
+      "source_file": "regions/case_0452.mat",
+      "source_sha256": "102d44d1e46c1c2ff55c5455ac9a9b3665b57b0a15672b7613c56f542b15563d",
+      "context_sha256": "1d68d243ff5b5e051b3c989a191092d12305cab2cf4447cc250af2fdaf1255b8"
+    },
+    {
+      "job_id": 453,
+      "source_file": "regions/case_0453.mat",
+      "source_sha256": "303217576b13bf012a854c5b65839440a8dc22849b88690f404698cd7c36c10d",
+      "context_sha256": "f6a62bd0d49cd997c9c9ba3011a9eb750e032dc11e09e62b2721506309cac9ff"
+    },
+    {
+      "job_id": 454,
+      "source_file": "regions/case_0454.mat",
+      "source_sha256": "6488f3a069f158a494bb98243c3dd01de5fd7dfd4394b9b726f083f54d6eb536",
+      "context_sha256": "60fe98d09a699e3207044f44d7d344d64a1704a742f68f7d5b06ab11c39d9893"
+    },
+    {
+      "job_id": 455,
+      "source_file": "regions/case_0455.mat",
+      "source_sha256": "14fc559680deebbc82b938196d62dc7e0b054dc0573125570f403d79339ace50",
+      "context_sha256": "94c235b393aa78ec2f4ba444aedaaf2d3d8b115ec257d21dccb1f3f8d312da31"
+    },
+    {
+      "job_id": 456,
+      "source_file": "regions/case_0456.mat",
+      "source_sha256": "04391c749495327630b4378d0443e639208690ed1a512066ba37b46aee30392c",
+      "context_sha256": "a7006fe5360aa0b68df16121d6391f56d7643d1e836da98827cd09ce3828902b"
+    },
+    {
+      "job_id": 457,
+      "source_file": "regions/case_0457.mat",
+      "source_sha256": "c6d83634feb5190cc704e27108e1df935284cc5d769f72defabc3c40775b97a1",
+      "context_sha256": "49fa6e8f5665ee4a302b7361bb058464f5cd90e8218dcd5150a1dd7c07a0f2df"
+    },
+    {
+      "job_id": 458,
+      "source_file": "regions/case_0458.mat",
+      "source_sha256": "a22b655b9f500651daf1c2add856c31f8c989db2e0e6867abca10d32b79546a0",
+      "context_sha256": "6e30f3f31bf242b76cbed62d0d9667c0f12e658a8c2b8afe2a1153d69f3c368a"
+    },
+    {
+      "job_id": 459,
+      "source_file": "regions/case_0459.mat",
+      "source_sha256": "347a1a87ee74d8b83bb5fe8dee900961870402654436a15e8ca7c21428a9b4de",
+      "context_sha256": "1319840a39caac2ed94eee7c5523828ee1dee192a352318083b84d46707a05d5"
+    },
+    {
+      "job_id": 460,
+      "source_file": "regions/case_0460.mat",
+      "source_sha256": "a52d74bcb5711e6b49c225af854ca7c93b73623cf398e9633a17e4199c4b45c6",
+      "context_sha256": "5d4037b0adc5771837c5bb17e1e534406d273fef94f18c975b2d805b650214b5"
+    },
+    {
+      "job_id": 461,
+      "source_file": "regions/case_0461.mat",
+      "source_sha256": "0d5d3cdfccaeb96ec33729797c1f026d0c6c27d867eeb7ca55dff5bc2bf5d39f",
+      "context_sha256": "52f566ef9fea6ed60c137c120df7499f38b80e3b9e16ba8b93a58a74cc661812"
+    },
+    {
+      "job_id": 462,
+      "source_file": "regions/case_0462.mat",
+      "source_sha256": "7a5093d5b90531c3d8d5e270acb06a9a14ff0771c4568412d671535c2e1793d9",
+      "context_sha256": "b4a196d7d4fc4f77d6e3b8d37729af0cfa1b1217992d9ef2042b38ba9f605704"
+    },
+    {
+      "job_id": 463,
+      "source_file": "regions/case_0463.mat",
+      "source_sha256": "88a0877022d13b2e44cd8d432f6e205e87526bc3604142666b667de6c9492e22",
+      "context_sha256": "537bca87ea1f7834da8bea96b216732c5ad2d9fe0a8f2fbdcbf30bf34a4d2910"
+    },
+    {
+      "job_id": 464,
+      "source_file": "regions/case_0464.mat",
+      "source_sha256": "5e9dcbc593543fa658f58345d9c5fff2914aeaaaee234aef721ef1e578990c55",
+      "context_sha256": "75b5656773de8085a2480dd8566ab067e9706e2f656c24d61f9ab065c8c527fa"
+    },
+    {
+      "job_id": 465,
+      "source_file": "regions/case_0465.mat",
+      "source_sha256": "29601ca90b8ab4fb3fda44f160f5dbe42dd453a4f0566d48d8c129c9ab0b5eba",
+      "context_sha256": "b4556e592247d47d19d5e929b1e4b5e972fe55608e5f207a4d220514f8231f32"
+    },
+    {
+      "job_id": 466,
+      "source_file": "regions/case_0466.mat",
+      "source_sha256": "7327225e516738f83e45a1c75a1d686dae91e491b386c1370fc416f28dcabe05",
+      "context_sha256": "c11f01b928a749d5df3c9e35f5361ca3e9f1608e108e6786a3cd640646a5deab"
+    },
+    {
+      "job_id": 467,
+      "source_file": "regions/case_0467.mat",
+      "source_sha256": "c2344dbd19084ef6964db662ee71210cc3cea55c420d8049ddba177e18ac488b",
+      "context_sha256": "f6993441f48d4de3eee3852a325ac42a7d8d9c14ef6c477f379c0948d7604eec"
+    },
+    {
+      "job_id": 468,
+      "source_file": "regions/case_0468.mat",
+      "source_sha256": "f8206c948543608018f16acf39de6488a00014ea7e5f73fcbe30d923a9a5907c",
+      "context_sha256": "68a209d627919667772515f02a6765056f753552dc81edee663c6011165d0f0c"
+    },
+    {
+      "job_id": 469,
+      "source_file": "regions/case_0469.mat",
+      "source_sha256": "646f2f606ce8df99c1e2ba526a728b10e87db5cef578e3f691ef668a146ef2ad",
+      "context_sha256": "8452fb46424832832eb0937246a6ced5ef1cfe6b968e152b74419104135dc8a7"
+    },
+    {
+      "job_id": 470,
+      "source_file": "regions/case_0470.mat",
+      "source_sha256": "0e32e32e41d3d2943be7eac7d267de4dce778f9b6392c29105284ee107d8cbb2",
+      "context_sha256": "892a30359ab9cc5d1111cb943439ec67df01870b3a8024be279fe0f0b943d32e"
+    },
+    {
+      "job_id": 471,
+      "source_file": "regions/case_0471.mat",
+      "source_sha256": "b10813b3818b8c182c3bd05af7ddfcf8261fd4b93f4d0ede1e7bb0d1e4c5a7bf",
+      "context_sha256": "3db163270c1e81dbacacf7f55849b5374ff6672ab54a36a85fb9dcb0becb722a"
+    },
+    {
+      "job_id": 472,
+      "source_file": "regions/case_0472.mat",
+      "source_sha256": "0249f04f88bb3dcbb317e54545f2d0121e81c4d201b9e39cfd45f3d7a1ba9524",
+      "context_sha256": "738a1377d48169dc4fef8beb0582911ef9aaad6b46fed9b14b9db5b527a7eb72"
+    },
+    {
+      "job_id": 473,
+      "source_file": "regions/case_0473.mat",
+      "source_sha256": "cae58a9bde8f036a8cd15759c29c8bf294c800e0f5472703b2cbeafbd3e99c8b",
+      "context_sha256": "1473da9d0eace6a9f5711bce5a231c39b80a028925d6fa0ca85b0ebbc532170c"
+    },
+    {
+      "job_id": 474,
+      "source_file": "regions/case_0474.mat",
+      "source_sha256": "184db5881ab29251449db72459d0add1df982ee6c99c14cab8ccc04941f3beaf",
+      "context_sha256": "4917f392a52d65b02f5820f222472ff981aefdfe239e0fa520fbd46d8455f500"
+    },
+    {
+      "job_id": 475,
+      "source_file": "regions/case_0475.mat",
+      "source_sha256": "22f7022f7c1c2adb7ce30f312708de4afa5f5673a684682cc52fe5799ca9e3e2",
+      "context_sha256": "58aae9e33854c05b2d06ff2c45804fb19e0874e82210495c66ee97c91e7dfcdf"
+    },
+    {
+      "job_id": 476,
+      "source_file": "regions/case_0476.mat",
+      "source_sha256": "fecc4d12e73ac79269fdbd885f625bd802b33515ca3eedeea4c8aa7d838a337e",
+      "context_sha256": "ebfa4db9dd26c1b7ce1c146d6ca27dc66f34523e100695aebf65e3bfd1f66b0b"
+    },
+    {
+      "job_id": 477,
+      "source_file": "regions/case_0477.mat",
+      "source_sha256": "b537a349658faa271ae83b8305f68e9692eb32aa582c50aa90006266e4c34165",
+      "context_sha256": "0a93a532e52c63e93f577ee609a17e69ef3cb6fa88b95d906382d50ce48829c5"
+    },
+    {
+      "job_id": 478,
+      "source_file": "regions/case_0478.mat",
+      "source_sha256": "7b231576c75c008d103fab03daf53fcb7f3d0b62fb6c54adfae70635212389e1",
+      "context_sha256": "15c7a66cff3b7ccce4f18bf18a899a8205fa149a9fcd36cf0912ea176a47706f"
+    },
+    {
+      "job_id": 479,
+      "source_file": "regions/case_0479.mat",
+      "source_sha256": "80538be5924f797a168d068b7b16d3f5f44f99b4053f880fcc8ac7722a74c375",
+      "context_sha256": "e9110893eeab1fca8a283c33da9dc06cab6e148ff0c6ef7954f923dd5c019193"
+    },
+    {
+      "job_id": 480,
+      "source_file": "regions/case_0480.mat",
+      "source_sha256": "09b626566a1f2b8a49447919c15a3cad26ba7be462bb86fa894edba271ca02a3",
+      "context_sha256": "ace197790785a49f9ac51b870bb3e589b9c62513d2f05c6d0778f265c69b3c71"
+    },
+    {
+      "job_id": 481,
+      "source_file": "regions/case_0481.mat",
+      "source_sha256": "48372ca4cdf9a8d067ce44fadc166dad8e912e66ab8fd9383aa2bb8855aafcf6",
+      "context_sha256": "add0608c99accc14f6206a9101997b68e52160ce85fced289b56c85c89a27f41"
+    },
+    {
+      "job_id": 482,
+      "source_file": "regions/case_0482.mat",
+      "source_sha256": "9033cbb2ffe4eb65225f0e67f18700e1a3f7e930b221d90bb57f32818261ae9a",
+      "context_sha256": "02c91feb92556b580db0022b0b82533e67a29685e0794b02db8135aab79d8cbd"
+    },
+    {
+      "job_id": 483,
+      "source_file": "regions/case_0483.mat",
+      "source_sha256": "09c568b9f5f71bf2995411b0ea4b8e0edf70ee9d9c8d6dbc176fbc4d1179f43c",
+      "context_sha256": "887a2abd23bf50e05aa5554a4345d1dfececdc76e6d40bcd8cd885e87444a1e0"
+    },
+    {
+      "job_id": 484,
+      "source_file": "regions/case_0484.mat",
+      "source_sha256": "0b55d054c6783d08d89ee46c5731a7e53d1515afef02bc548d5abcad699c5a67",
+      "context_sha256": "ae9e355daa72549d49a20b2faa61b92cae16d92a6655f547e510cf21aae73be1"
+    },
+    {
+      "job_id": 485,
+      "source_file": "regions/case_0485.mat",
+      "source_sha256": "f285277a14f3927b83ed1c2d3d863a409f5070c671bd7993922faf8620384066",
+      "context_sha256": "6de538beb4b0415965a4b7233bd49f77cab69d7d704d5692ab336f5e72e6d6d5"
+    },
+    {
+      "job_id": 486,
+      "source_file": "regions/case_0486.mat",
+      "source_sha256": "588ddb42c934107a4565d7a3d9983328b9044b42493b1149256c8bf60fb42ffa",
+      "context_sha256": "4f37a6459605135cfce77cce7227b323ed61d0ea40a159d34f84f38fc2cd20cf"
+    },
+    {
+      "job_id": 487,
+      "source_file": "regions/case_0487.mat",
+      "source_sha256": "d08f280b896276198c493cd9ee2158277ebd83f627796a1f551c1b34a95dbd28",
+      "context_sha256": "b562238f84a6fe13b72075ce69d45d1b342322d6ddd2bef5cd8df3d3a48fb5d4"
+    },
+    {
+      "job_id": 488,
+      "source_file": "regions/case_0488.mat",
+      "source_sha256": "9cc58a58b79eccd49a88c42dfadb2264c77fcb9de6ab2162faa545924e0e30b7",
+      "context_sha256": "e962cad0c121f13b7bd13c84495329b8e015db8a9c706bc6891d4584d6b63e9d"
+    },
+    {
+      "job_id": 489,
+      "source_file": "regions/case_0489.mat",
+      "source_sha256": "43a0602b65aea05a3c87d2311b49644d29d827a6bdf99610720feb5230f2a652",
+      "context_sha256": "e2bdeb57354af8d9a73f29ec93a3a958aac0e7b2ff56ff26ce6a4daecc0013dd"
+    },
+    {
+      "job_id": 490,
+      "source_file": "regions/case_0490.mat",
+      "source_sha256": "dbb53273400c7b55a5a8a9af2d5674d34e591cb0b586bacafb8da9f1c589496c",
+      "context_sha256": "d1f5a1d134202c09b7f479ec8726a44d7aa4f85d8e863437a5ad240117657e90"
+    },
+    {
+      "job_id": 491,
+      "source_file": "regions/case_0491.mat",
+      "source_sha256": "54ff1d91014774dc559ae1da593ab1a73c6302be9a771eaaa03aabaf17ea64a4",
+      "context_sha256": "35b45b03812c408adc51c63b53ff96c4b6df97cca3c4752302ef7ef8d67218af"
+    },
+    {
+      "job_id": 492,
+      "source_file": "regions/case_0492.mat",
+      "source_sha256": "a17631d2b13df9daacb57edd0436d0e27cd36702697649a7bf72f83a6b87c974",
+      "context_sha256": "4be792f2c245c87578d95561822a80f5718ab1e7d761e15024df87bba544e9d5"
+    },
+    {
+      "job_id": 493,
+      "source_file": "regions/case_0493.mat",
+      "source_sha256": "ccd9eab2158a5b0c900d33ad6792a271871f4ef0814e51d1ec06807d7c57fe90",
+      "context_sha256": "8996726754e34f4554c69c589127bd9a6069b66e8e818e584fb07e85ba0e4e6a"
+    },
+    {
+      "job_id": 494,
+      "source_file": "regions/case_0494.mat",
+      "source_sha256": "7e24c68fefd40df80188f3a4bc8122032ce07ed4f8ebc2a84ae39399536d4938",
+      "context_sha256": "88a8c30294ad43883d8d47a862dcaa42469f92a2627d0255d70d2469caddaec9"
+    },
+    {
+      "job_id": 495,
+      "source_file": "regions/case_0495.mat",
+      "source_sha256": "c34daeabb5ab65b0a61173daf7c89a93bf226bbe7a8b9854a037767dad530686",
+      "context_sha256": "4e3937b8e6eca324da16284170d3c2a01f7d21fae8819f3be7631b639dee027d"
+    },
+    {
+      "job_id": 496,
+      "source_file": "regions/case_0496.mat",
+      "source_sha256": "375a4d8449cd8cbe63c88b96f3ca390247511e332f4135a2bd84d01cf8f70d68",
+      "context_sha256": "2cb88dda572402ac586432a4cfed4af2564ccf595a541c3982d8e6dd178180e3"
+    },
+    {
+      "job_id": 497,
+      "source_file": "regions/case_0497.mat",
+      "source_sha256": "8819be8a236b80b7ac74a90f2bea0019b2fcc421bb824ddfb2bc29b6d4e77efd",
+      "context_sha256": "b98b2b42989ffcdeb9964cc43cf23b712874b44e8a8d80760c0d6691773d2b81"
+    },
+    {
+      "job_id": 498,
+      "source_file": "regions/case_0498.mat",
+      "source_sha256": "eb3cde340054c9a0ebfe149333142b95c60ca1d0c0c4c609924e928c23cfdbea",
+      "context_sha256": "1817d5ade9be302c491c15085b82ffce2ff63714ef13f2d9e926c78c788e626a"
+    },
+    {
+      "job_id": 499,
+      "source_file": "regions/case_0499.mat",
+      "source_sha256": "86b0fe883f83af0ebc63a22430084828a6160c8546f473955838dd6eaeca0ae8",
+      "context_sha256": "965959f8f9af192c12eb4b01ad1734f07c3a1e820b3cbabd70bff5e510223004"
+    },
+    {
+      "job_id": 500,
+      "source_file": "regions/case_0500.mat",
+      "source_sha256": "161036e479cc5fe31d309e4b5e1fff9d6e3114304d49d2eaac549a44becbd24e",
+      "context_sha256": "fce317bf883b564a4324e20f7286aea81194f21de20e30336a3e5e26593c9964"
+    },
+    {
+      "job_id": 501,
+      "source_file": "regions/case_0501.mat",
+      "source_sha256": "7f63fa4244974969bbd835acd30abbf810fb95c0bea7916e1653d9df7bddacd3",
+      "context_sha256": "ba774972d027292972bfb1c9e58df45647401ac612fd1a5b98fd72db4720faeb"
+    },
+    {
+      "job_id": 502,
+      "source_file": "regions/case_0502.mat",
+      "source_sha256": "1ec3c589a4f03cb2858eb00e9357ca663a71f31a6a1abf9d89077ce86b4933a4",
+      "context_sha256": "7888ac7754b476c3c6f809e96696befb11d530684c54e463d34a54fae182912e"
+    },
+    {
+      "job_id": 503,
+      "source_file": "regions/case_0503.mat",
+      "source_sha256": "71510456b295e59463977ce341992eae82e402c783978f99469b17c0b425410e",
+      "context_sha256": "5c93bacd7a7189900282154fa82a6f56cf05c9cea868a4618b44f804dd077b8c"
+    },
+    {
+      "job_id": 504,
+      "source_file": "regions/case_0504.mat",
+      "source_sha256": "3a19fcb0136e2a2df79f8f2b22a755df6d9ef34bffcaf14ca8540730053da053",
+      "context_sha256": "a0f85d65d1d032d186f07b5504edcacfde85c3615cc455d03d3c70bc3b989803"
+    },
+    {
+      "job_id": 505,
+      "source_file": "regions/case_0505.mat",
+      "source_sha256": "b47a15cbdbd78c9e099034bcedb3ebb6d9cf134f03a0d4b46503436c5ac1a398",
+      "context_sha256": "a436711de9afe851e201be2a0593300c0c7795320242ecf9f220190da1d70e12"
+    },
+    {
+      "job_id": 506,
+      "source_file": "regions/case_0506.mat",
+      "source_sha256": "7ba92bed60f29dc903275ac04de3e36b46147c2d6f0add862ead4baada000563",
+      "context_sha256": "4e9e0ce45de299a79394d6f4d2b4830443604249d832e937f993766252390a4c"
+    },
+    {
+      "job_id": 507,
+      "source_file": "regions/case_0507.mat",
+      "source_sha256": "3fb2e774ce548431686f1382d21d8687b75e4f14b6c3dfa6148834d86955fdb8",
+      "context_sha256": "17c0c71843eb80f769ca47cd916d2f46fd1b6b4a2e8a1688c97ab28144e110ca"
+    },
+    {
+      "job_id": 508,
+      "source_file": "regions/case_0508.mat",
+      "source_sha256": "7fc2c81d3fe4c5876fc28600312953dc77497c234868e9430a66c1946a42485b",
+      "context_sha256": "081058caeb52843f244380d98e424b8ca0bf6a012ecd17de0738951692bca9fc"
+    },
+    {
+      "job_id": 509,
+      "source_file": "regions/case_0509.mat",
+      "source_sha256": "50a08b6fc79ddb2ee2cafd3a81b0a391ad99eb04d5ca41d2b33eb9e040d58bba",
+      "context_sha256": "0d6242e52935b552951ddced571de8398c7539970501e06f714fb03637b40fcd"
+    },
+    {
+      "job_id": 510,
+      "source_file": "regions/case_0510.mat",
+      "source_sha256": "61cabcab46e9eeb29337222138a8c482bca943e94804d507b4ee071b9906f89a",
+      "context_sha256": "322ea855fefe1033472795e87494b9136e0d0ea2c11d189e004e9258c54f87c7"
+    },
+    {
+      "job_id": 511,
+      "source_file": "regions/case_0511.mat",
+      "source_sha256": "512654c629beb75be32f24907bae610052e2c496f957ab92bfefd9b8ddc35f6e",
+      "context_sha256": "bfbd1e96c389b7875c6b045b06cc0de3cba7a18c8add5718a136ce9026f750e1"
+    },
+    {
+      "job_id": 512,
+      "source_file": "regions/case_0512.mat",
+      "source_sha256": "735faa77f4d544fd485794bbea202c746a35fd6aaff4b6253c4c1550980b96dd",
+      "context_sha256": "d681a794df5283d0f292f551dc713ca429e85cdae62af47283146012c5f41641"
+    },
+    {
+      "job_id": 513,
+      "source_file": "regions/case_0513.mat",
+      "source_sha256": "1ef91bd1cd6daa006edb24ed148090aa1724cfa0357bc21dedc798c1fdee7e60",
+      "context_sha256": "da8f25ba96db2557c0b7119796fed81ae9d67a8999e1de35ed130309a860d640"
+    },
+    {
+      "job_id": 514,
+      "source_file": "regions/case_0514.mat",
+      "source_sha256": "cd9162ba4685bbbef5f3c7909442ad670b7ee43262c4c7f92aefdb2b7aad5fd3",
+      "context_sha256": "4482bc03e606f9a7f9d1a600568ac52cc1a9986d21a2176cf141758e074bbd6d"
+    },
+    {
+      "job_id": 515,
+      "source_file": "regions/case_0515.mat",
+      "source_sha256": "40f2d0054325b1596f25552ea6f1dbf64d791cfb158122f98a0aad839c401434",
+      "context_sha256": "535c224fadb5fc511ef597be0fb7f11601aae5c8e91488017ba866c5b636eb6b"
+    },
+    {
+      "job_id": 516,
+      "source_file": "regions/case_0516.mat",
+      "source_sha256": "e1e6c9cd938abcfa73474f0680abdc05500c991558c6112621dcda7a222204e5",
+      "context_sha256": "5c8ac5e82d106c90880806148be0dad4c1a03fbdf6c2c0e197c7a81743a90917"
+    },
+    {
+      "job_id": 517,
+      "source_file": "regions/case_0517.mat",
+      "source_sha256": "1e17c566b32c196a4ede6fac54ccdd1133b8c9402016f7ce2c22ff8c7ad451a8",
+      "context_sha256": "20b2608ec80e7ba94ba49b7ec81df04dc36d2b5e1a4ccfa458e23f732e1c9d02"
+    },
+    {
+      "job_id": 518,
+      "source_file": "regions/case_0518.mat",
+      "source_sha256": "85f38bd70ca7ed458f80e84c629d1c7447d05fa46ccfa8e2fae9107b330aceb6",
+      "context_sha256": "5112cedb321ba8e9c43199a1a8ebea784639851cf493d4529b4251d7358c7c8f"
+    },
+    {
+      "job_id": 519,
+      "source_file": "regions/case_0519.mat",
+      "source_sha256": "8e539e9c5df17f46d30aaefa8830aec25aea2c6f8a4e9ffecd1c3186d9d68046",
+      "context_sha256": "a57a68341a9f1d0e02636cd8604fdad804a4a8be61e3a2a3ee76081f320bb5c3"
+    },
+    {
+      "job_id": 520,
+      "source_file": "regions/case_0520.mat",
+      "source_sha256": "aa5b0910a4d817a317b04b0ca27cf2724886cc22b6503e5885d692682342972a",
+      "context_sha256": "00769414f6ff8eee7a22bc2980aa3b59cd604dcb196ef3cae19a302dc2700017"
+    },
+    {
+      "job_id": 521,
+      "source_file": "regions/case_0521.mat",
+      "source_sha256": "6f6e856a5baae129346e5fa193244665bd2cc847101be5280e56ff161ad81c05",
+      "context_sha256": "a28244d09b346c47f10fabb930e652fce2c9de660d53d332aef925ac7af443ba"
+    },
+    {
+      "job_id": 522,
+      "source_file": "regions/case_0522.mat",
+      "source_sha256": "d0f8a8fcfe1f27a3aa1a8ea3d74ccfcbac853ab06963a2c1ddf9aa210b8afe41",
+      "context_sha256": "9f69388603d96e0afdb429511f7fba6e00fbbfad1cbbe5c8469cc2a995d83761"
+    },
+    {
+      "job_id": 523,
+      "source_file": "regions/case_0523.mat",
+      "source_sha256": "b347cbfa4bc1c099b1347f4e7850c0480b3e325d74cef55cc26ee31c2a244659",
+      "context_sha256": "4a4d4679279005b9857bf002a02492eaba32ca474637be113721ae3a4af41ed1"
+    },
+    {
+      "job_id": 524,
+      "source_file": "regions/case_0524.mat",
+      "source_sha256": "799409c682f4704eb5bee58c4964c8735f0610f5a06b17bbaac2552454295d01",
+      "context_sha256": "3f7c2ddb3b481740e5d29fef3705ad61ab84f0cd59626d8561226fa0f901f26b"
+    },
+    {
+      "job_id": 525,
+      "source_file": "regions/case_0525.mat",
+      "source_sha256": "af83d9189ce25f2a076d48ec24c3590e350961486d5f1c757e7e83c7ccca9dfd",
+      "context_sha256": "017e14371737edca04643b26d9c6f12af4abf62dd44114d17fddd94d8c91b9d6"
+    }
+  ]
+}
